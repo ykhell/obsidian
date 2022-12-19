@@ -1,0 +1,79 @@
+{
+  "main": {
+    "id": "ceffdcda424043e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d8f0937c8270001",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Homer.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe1c18a5fa12398f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "65d9e715388d7bc6",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "e6807ca5fa5cb67f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "ebf1c23db001e950",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7c821e0294959e17",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Homer.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "1d8f0937c8270001",
+  "lastOpenFiles": [
+    "Homer.md"
+  ]
+}

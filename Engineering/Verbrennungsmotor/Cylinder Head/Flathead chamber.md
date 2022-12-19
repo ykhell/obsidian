@@ -1,0 +1,1 @@
+A combustion chamber with a flat roof

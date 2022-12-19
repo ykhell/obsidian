@@ -1,0 +1,2 @@
+Dual Overhead Camshaft
+A DOHC is a camshaft configuration found in 4 Valve/Cylinder engines, where there are two camshafts on top of each cylinder head, one for intake valves and the other for exhaust valves.

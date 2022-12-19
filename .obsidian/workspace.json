@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "e1efbd3c927d2db2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d81971f7a7dd11c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dc1079e4ddf242e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0add447483da598a",
+    "type": "split",
+    "children": [
+      {
+        "id": "167fce72e06d92f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2afdbd746c40d736",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "47171c3e4c081b2d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#19th_Century",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215.5124969482422
+  },
+  "right": {
+    "id": "83ae1a22de9efd24",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f2a36044259cde0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7940de4bfe9e4a3c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 205.5,
+    "collapsed": true
+  },
+  "active": "2afdbd746c40d736",
+  "lastOpenFiles": [
+    "Musik/Counterpoint.md",
+    "Musik/Palestrina.md",
+    "Musik/species1.org",
+    "Musik/Cantus Firmus.org",
+    "Musik/First Species.md",
+    "Mathematics/Analysis/Stetigkeit.md",
+    "Mathematics/Analysis/Exponentialfunktion.md",
+    "Mathematics/Analysis/Grenzwert.md",
+    "Mathematics/Lineare Algebra/Allgemeine Lineare Gruppe.md",
+    "Mathematics/Analysis/Grenzwertkriterium.md"
+  ]
+}

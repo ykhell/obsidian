@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "85075981b23ece15",
+    "type": "split",
+    "children": [
+      {
+        "id": "63887953ffd83046",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8019160b519f48d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Verbrennungsmotor/Notable Engines/Toyota 2JZ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e9c7d4f8829b103",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "872cf1eeb6826558",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d56b540459a4da68",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "058cb122110e7f7e",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "9184a556dd0043bd",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ]
+  },
+  "right": {
+    "id": "9f6fa43cdcdd32e1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d7eee9e59c8ec317",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Verbrennungsmotor/Notable Engines/Toyota 2JZ.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e65bd1b91d4f6353",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Verbrennungsmotor/Notable Engines/Toyota 2JZ.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6b1f5b544b7bce18",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Verbrennungsmotor/Notable Engines/Toyota 2JZ.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "872cf1eeb6826558",
+  "lastOpenFiles": [
+    "Verbrennungsmotor/Notable Engines/Chevy LS.md",
+    "Verbrennungsmotor/Notable Engines/BMW S14.md",
+    "Direct Injection.md",
+    "Port Injection.md",
+    "Carburator.md",
+    "Motoren/Notable Engines/BMW Engine Naming Convention.md",
+    "Motoren/Hubkolbenmotor.md",
+    "Motoren/Individual Throttle Bodies.md",
+    "Motoren/Ignition timing.md",
+    "Motoren/AMG M297.md"
+  ]
+}

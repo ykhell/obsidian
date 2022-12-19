@@ -1,0 +1,1 @@
+Eine Kurbelwelle (Crankshaft) ist eine Welle, die eine Kurbel

@@ -1,0 +1,2 @@
+Single Overhead Camshaft
+A SOHC is when an engine has one camshaft per cylinder head, for example in a 2 valve/cylinder engine, one camshaft on top of the cylinder head opens and closes both intake and exhaust valves.
