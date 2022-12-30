@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "5d81971f7a7dd11c",
+        "id": "53adfe63e4b692c8",
         "type": "tabs",
         "children": [
           {
-            "id": "6dc1079e4ddf242e",
+            "id": "d1e5dccf9a5cbd66",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Abstrakte Algebra/Annihilator.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f5153e1a6a7225f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Lineare Algebra/Multilineare Abbildung.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mathematics/Lineare Algebra/Multilineare Abbildung.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -90,17 +108,27 @@
     "width": 205.5,
     "collapsed": true
   },
-  "active": "2afdbd746c40d736",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obisidian-note-linker:Note Linker": false
+    }
+  },
+  "active": "2f5153e1a6a7225f",
   "lastOpenFiles": [
-    "Musik/Counterpoint.md",
-    "Musik/Palestrina.md",
-    "Musik/species1.org",
-    "Musik/Cantus Firmus.org",
-    "Musik/First Species.md",
-    "Mathematics/Analysis/Stetigkeit.md",
-    "Mathematics/Analysis/Exponentialfunktion.md",
-    "Mathematics/Analysis/Grenzwert.md",
-    "Mathematics/Lineare Algebra/Allgemeine Lineare Gruppe.md",
-    "Mathematics/Analysis/Grenzwertkriterium.md"
+    "Mathematics/Abstrakte Algebra/Annihilator.md",
+    "Mathematics/Lineare Algebra/Dualraum.md",
+    "Mathematics/Lineare Algebra/Annihilator eines Untervektorraums.md",
+    "Mathematics/Lineare Algebra/Lineare Hülle.md",
+    "Mathematics/Analysis/Cauchy-Schwarz Ungleichung.md",
+    "Mathematics/Analysis/AM-GM-Ungleichung.md",
+    "Mathematics/Analysis/Cauchy-Verdichtungskriterium.md",
+    "Mathematics/Analysis/Bernoulli-Ungleichung.md",
+    "Mathematics/Lineare Algebra/Elementarmatrix.md",
+    "README.org"
   ]
 }
