@@ -4,62 +4,19 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:\"Mathematics/Abstrakte Algebra\"",
-      "color": {
-        "a": 1,
-        "rgb": 16738125
-      }
-    },
-    {
-      "query": "path:Mathematics/Analysis",
-      "color": {
-        "a": 1,
-        "rgb": 3669760
-      }
-    },
-    {
-      "query": "path:Mathematics/Aussagenlogik",
-      "color": {
-        "a": 1,
-        "rgb": 14048448
-      }
-    },
-    {
-      "query": "path:\"Mathematics/Lineare Algebra\"",
-      "color": {
-        "a": 1,
-        "rgb": 6055935
-      }
-    },
-    {
-      "query": "path:Mathematics/Mengenlehre",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
-      "query": "path:Mathematics/Kategorientheorie",
-      "color": {
-        "a": 1,
-        "rgb": 16514816
-      }
-    }
-  ],
-  "collapse-display": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 0.625479452054795,
-  "lineSizeMultiplier": 0.953904109589041,
-  "collapse-forces": false,
-  "centerStrength": 0.15146771037182,
-  "repelStrength": 20,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 500,
-  "scale": 0.07246488624030152,
+  "linkDistance": 250,
+  "scale": 0.571919847295991,
   "close": true
 }

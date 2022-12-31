@@ -1,11 +1,1 @@
-{
-  "promptDelete": false,
-  "alwaysUpdateLinks": true,
-  "showLineNumber": true,
-  "vimMode": true,
-  "fileSortOrder": "byModifiedTime",
-  "spellcheck": false,
-  "readableLineLength": false,
-  "strictLineBreaks": false,
-  "showInlineTitle": true
-}
+{}

@@ -4,35 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "53adfe63e4b692c8",
+        "id": "41f714c00ddeb84d",
         "type": "tabs",
         "children": [
           {
-            "id": "d1e5dccf9a5cbd66",
+            "id": "1b584b81677cfae9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Abstrakte Algebra/Annihilator.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "2f5153e1a6a7225f",
+            "id": "f7ba8942d78eb0f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Lineare Algebra/Multilineare Abbildung.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Lineare Algebra/Multilineare Abbildung.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,8 +108,9 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "2f5153e1a6a7225f",
+  "active": "1b584b81677cfae9",
   "lastOpenFiles": [
+    "Mathematics/Lineare Algebra/Multilineare Abbildung.md",
     "Mathematics/Abstrakte Algebra/Annihilator.md",
     "Mathematics/Lineare Algebra/Dualraum.md",
     "Mathematics/Lineare Algebra/Annihilator eines Untervektorraums.md",
@@ -128,7 +119,6 @@
     "Mathematics/Analysis/AM-GM-Ungleichung.md",
     "Mathematics/Analysis/Cauchy-Verdichtungskriterium.md",
     "Mathematics/Analysis/Bernoulli-Ungleichung.md",
-    "Mathematics/Lineare Algebra/Elementarmatrix.md",
-    "README.org"
+    "Mathematics/Lineare Algebra/Elementarmatrix.md"
   ]
 }

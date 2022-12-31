@@ -1,103 +1,72 @@
 {
   "main": {
-    "id": "e1efbd3c927d2db2",
+    "id": "2553796d8634042a",
     "type": "split",
     "children": [
       {
-        "id": "4534e4913d39c433",
+        "id": "36834e1a534c9173",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Engineering/Verbrennungsmotor/Exhaust System/Backpressure.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "0add447483da598a",
-    "type": "split",
+    "id": "ca244def6a7488a0",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "167fce72e06d92f7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2afdbd746c40d736",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "47171c3e4c081b2d",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#19th_Century",
-                "matchingCase": true,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "a2be40de5dd8033d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "f3cf175f069239d6",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 293
+    "currentTab": 0
   },
   "right": {
-    "id": "83ae1a22de9efd24",
-    "type": "split",
+    "id": "687d4e5e652fea72",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "7f2a36044259cde0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7940de4bfe9e4a3c",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Engineering/Verbrennungsmotor/Exhaust System/Backpressure.md",
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
+        "id": "b1e11762a4672cfa",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 199,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "4534e4913d39c433",
-  "lastOpenFiles": [
-    "Engineering/Verbrennungsmotor/Exhaust System/Scavenging.md",
-    "Engineering/Verbrennungsmotor/Forced Induction/Turbocharger/Wastegate and Actuator.md",
-    "Engineering/Verbrennungsmotor/Forced Induction/Turbocharger/Boost Control.md",
-    "Engineering/Verbrennungsmotor/Forced Induction/Turbocharger/4 Port Control Solenoid.md",
-    "Engineering/Verbrennungsmotor/Forced Induction/Turbocharger/Turbocharger.md",
-    "Engineering/Verbrennungsmotor/Forced Induction/Turbocharger/3 Port Control Solenoid.md",
-    "Engineering/Verbrennungsmotor/Forced Induction/Turbocharger/2 Port Control Solenoid.md",
-    "Engineering/Verbrennungsmotor/Forced Induction/Turbocharger/Manual Boost Controller.md",
-    "Engineering/Verbrennungsmotor/Forced Induction/Turbocharger/Wastegate Actuator.md",
-    "Engineering/Verbrennungsmotor/Forced Induction/Turbocharger/Geschichte des Turbos.md"
-  ]
+  "active": "36834e1a534c9173",
+  "lastOpenFiles": []
 }

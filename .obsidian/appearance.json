@@ -1,11 +1,6 @@
 {
-  "baseFontSize": 18,
-  "theme": "obsidian",
-  "translucency": false,
-  "cssTheme": "",
-  "enabledCssSnippets": [],
+  "baseFontSize": 16,
   "accentColor": "",
-  "textFontFamily": "",
-  "monospaceFontFamily": "Fira Code",
-  "showViewHeader": false
+  "cssTheme": "Minimal",
+  "theme": "system"
 }
