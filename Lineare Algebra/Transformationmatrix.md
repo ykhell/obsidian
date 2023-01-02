@@ -1,5 +1,5 @@
 # Definition
-Eine Abbildungs- Oder Darstellungsmatrix ist eine Matrix, die in der linearen Algebra verwwendet wird, um eine lineare Abbildung zwischen zwei endlichdimensionalen Vektorräumen zu beschreiben.
+Eine Abbildungs- Oder Darstellungsmatrix ist eine [[Matrix]], die verwendet wird, um eine [[Vektorraum-Homomorphismus|lineare Abbildung]] zwischen zwei endlichdimensionalen [[Vektorraum|Vektorräumen]] zu beschreiben.
 
 Die aus diesen abgeleiteten affinen Abbildungen, Affinitäten und Projektivitäten können ebenfalls durch Abbildungsmatrizen dargestellt werden.
 

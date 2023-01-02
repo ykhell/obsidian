@@ -4,26 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "41f714c00ddeb84d",
+        "id": "d8ac195298cc6d22",
         "type": "tabs",
         "children": [
           {
-            "id": "1b584b81677cfae9",
+            "id": "d39e0e53bf2876f0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Ähnlichkeit von Matrizen.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "f7ba8942d78eb0f5",
+            "id": "1947c0932fcfd194",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Pivotspalte.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5124969482422
+    "width": 307.5110321044922
   },
   "right": {
     "id": "83ae1a22de9efd24",
@@ -81,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Lineare Algebra/Pivotspalte.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,17 +118,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "1b584b81677cfae9",
+  "active": "1947c0932fcfd194",
   "lastOpenFiles": [
-    "Mathematics/Lineare Algebra/Multilineare Abbildung.md",
-    "Mathematics/Abstrakte Algebra/Annihilator.md",
-    "Mathematics/Lineare Algebra/Dualraum.md",
-    "Mathematics/Lineare Algebra/Annihilator eines Untervektorraums.md",
-    "Mathematics/Lineare Algebra/Lineare Hülle.md",
-    "Mathematics/Analysis/Cauchy-Schwarz Ungleichung.md",
-    "Mathematics/Analysis/AM-GM-Ungleichung.md",
-    "Mathematics/Analysis/Cauchy-Verdichtungskriterium.md",
-    "Mathematics/Analysis/Bernoulli-Ungleichung.md",
-    "Mathematics/Lineare Algebra/Elementarmatrix.md"
+    "Lineare Algebra/Ähnlichkeit von Matrizen.md",
+    "Lineare Algebra/Äquivalenz von Matrizen.md",
+    "Lineare Algebra/Kreuzprodukt.md",
+    "Lineare Algebra/Addition von Matrizen.md",
+    "Lineare Algebra/Dreiecksmatrix.md",
+    "Lineare Algebra/Multilinearform.md",
+    "Lineare Algebra/Skalarprodukt.md",
+    "Lineare Algebra/Orthogonaliät.md",
+    "Lineare Algebra/Bivektor.md",
+    "Lineare Algebra/Transformationmatrix.md"
   ]
 }
