@@ -18,12 +18,12 @@ $$ T_{ij}^{-1} = T_{ij} $$
 1. Sie gilt für Elementarmatrizen
 2. Gilt sie für Matrizen $A, B$, so gilt sie für die Produkt $AB$
 # Multiplikation mit Elementarmatrizen
-Multiplikation von links ergibt Zeilenumformungen:
+Multiplikation von links ergibt die [[elementare Zeilenumformungen]]:
 - Typ 1 multipliziert die $i$-te Zeile mit $\gamma$ (EZU I)
 - Typ 2 addiert das $\alpha$ fache der $j$-ten Zeile zur $i$-ten Zeile. (EZU II)
 - Type 3 vertauscht die $i$-te Zeile mit der $j$-ten Zeile. (EZU III)
 
-Multiplikation von rechts ergibt Spaltenumformungen:
+Multiplikation von rechts ergibt die [[elementare Spaltenumformungen]]:
 - Typ 1 multipliziert die $i$-te Spalte mit $\gamma$ (ESU I)
 - Typ 2 addiert das $\alpha$ fache der $j$-ten Spalte zur $i$-ten Spalte. (ESU II)
 - Type 3 vertauscht die $i$-te Spalte mit der $j$-ten Spalte. (ESU III)
