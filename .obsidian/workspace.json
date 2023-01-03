@@ -13,32 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstrakte Algebra/Anordnungsaxiome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17ee0c2c2b50b62a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abstrakte Algebra/Totalordnung.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7941998a3ee3010",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Abstrakte Algebra/Halbordnung.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89e8845a2e1268f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Vollständigkeitsaxiom.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ceb8ee2e56951f0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Bolzano-Weierstraß-Satz.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abstrakte Algebra/Halbordnung.md",
+                "file": "Analysis/Bolzano-Weierstraß-Satz.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,17 +130,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "d7941998a3ee3010",
+  "active": "ceb8ee2e56951f0d",
   "lastOpenFiles": [
-    "Abstrakte Algebra/Totalordnung.md",
+    "Analysis/Vollständigkeitsaxiom.md",
     "Abstrakte Algebra/Halbordnung.md",
-    "Abstrakte Algebra/Anordnungsaxiome.md",
     "Abstrakte Algebra/Körperaxiome.md",
+    "Abstrakte Algebra/Anordnungsaxiome.md",
+    "Abstrakte Algebra/Totalordnung.md",
     "Abstrakte Algebra/Angeordneter Körper.md",
     "Abstrakte Algebra/Körper.md",
     "Analysis/Minkowski-Ungleichung.md",
     "Lineare Algebra/Gauß-Algorithmus.md",
-    "Lineare Algebra/Dimensionsformel.md",
-    "Lineare Algebra/Dimensionsformel für lineare Abbildungen.md"
+    "Lineare Algebra/Dimensionsformel.md"
   ]
 }
