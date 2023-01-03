@@ -11,7 +11,7 @@
       "query": "path:\"Abstrakte Algebra\"",
       "color": {
         "a": 1,
-        "rgb": 16738125
+        "rgb": 5071359
       }
     },
     {
@@ -32,7 +32,7 @@
       "query": "path:\"Lineare Algebra\"",
       "color": {
         "a": 1,
-        "rgb": 6055935
+        "rgb": 57855
       }
     },
     {
@@ -60,6 +60,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.08013963180367098,
-  "close": true
+  "scale": 0.06699983039941582,
+  "close": false
 }

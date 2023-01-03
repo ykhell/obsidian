@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "6b89cf7ab2703562",
+        "id": "14b1ae43b4440ae3",
         "type": "tabs",
         "children": [
           {
-            "id": "62c1ebe4f530767f",
+            "id": "ad28ef1bf9214aea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Gauß-Algorithmus.md",
+                "file": "Abstrakte Algebra/Anordnungsaxiome.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "614509d4108236a5",
+            "id": "17ee0c2c2b50b62a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Dimensionsformel.md",
-                "mode": "source",
+                "file": "Abstrakte Algebra/Totalordnung.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "70ae42d50e9a7f90",
+            "id": "d7941998a3ee3010",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Dimensionsformel für lineare Abbildungen.md",
+                "file": "Abstrakte Algebra/Halbordnung.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Dimensionsformel für lineare Abbildungen.md",
+                "file": "Abstrakte Algebra/Halbordnung.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,17 +130,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "70ae42d50e9a7f90",
+  "active": "d7941998a3ee3010",
   "lastOpenFiles": [
-    "Lineare Algebra/Dimensionsformel.md",
-    "Lineare Algebra/Dimensionsformel für lineare Abbildungen.md",
+    "Abstrakte Algebra/Totalordnung.md",
+    "Abstrakte Algebra/Halbordnung.md",
+    "Abstrakte Algebra/Anordnungsaxiome.md",
+    "Abstrakte Algebra/Körperaxiome.md",
+    "Abstrakte Algebra/Angeordneter Körper.md",
+    "Abstrakte Algebra/Körper.md",
+    "Analysis/Minkowski-Ungleichung.md",
     "Lineare Algebra/Gauß-Algorithmus.md",
-    "Lineare Algebra/Lineares Gleichungssystem.md",
-    "Abstrakte Algebra/Charakteristik.md",
-    "Lineare Algebra/Lösungsmenge.md",
-    "Abstrakte Algebra/C.md",
-    "Lineare Algebra/Alternierende Multilineare Abbildung.md",
-    "Lineare Algebra/Ähnlichkeit von Matrizen.md",
-    "Lineare Algebra/Elementare Spaltenumformungen.md"
+    "Lineare Algebra/Dimensionsformel.md",
+    "Lineare Algebra/Dimensionsformel für lineare Abbildungen.md"
   ]
 }
