@@ -1,6 +1,6 @@
 Das Lösungsmengensystem einer Gleichungssysteme ist die [[Menge]] von Werten für die Variablen, die alle Gleichungen im System gleichzeitig wahr machen.
 
-Zum Beispiel betrachte das [[Lineares Gleichungssystem]]:
+Zum Beispiel betrachte das [[LGS]]:
 
 $$x + 2y = 4$$ $$3x + y = 7$$
 
