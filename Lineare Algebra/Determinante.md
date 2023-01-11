@@ -8,3 +8,6 @@ Die Determinante ist eine Zahl (ein Skalar), die einer quadratischen [[Matrix]] 
 # Formel für $2\times2$ Matrizen
 $$ A:= \begin{pmatrix}a&c\\b&d\end{pmatrix} $$
 $$ \det A = \begin{vmatrix}a&c\\b&d\end{vmatrix} = ad - bc$$
+# Berechnung
+- [[Leibniz Formel (Determinanten)|Leibniz Formel]]
+- [[Laplace-Entwicklungssatz]]
