@@ -1,0 +1,1 @@
+Ist eine [[Basis]] eines [[Vektorraum|Vektorraums]], aber mit einer bestimmte Anordnung order Reihenfolge.

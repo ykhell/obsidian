@@ -11,8 +11,12 @@
             "id": "0e560333331ce4a3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Beweistechnik/Misc.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -57,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922
+    "width": 307.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "83ae1a22de9efd24",
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Beweistechnik/Misc.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,6 +108,8 @@
   },
   "active": "0e560333331ce4a3",
   "lastOpenFiles": [
+    "Kategorientheorie/Endomorphismus.md",
+    "Lineare Algebra/Geordnete Basis.md",
     "Beweistechnik/Unterraum Beweisen.md",
     "Lineare Algebra/Determinante.md",
     "Beweistechnik/Misc.md",
@@ -109,8 +117,6 @@
     "Lineare Algebra/Leibniz Formel (Determinanten).md",
     "Lineare Algebra/Laplace-Entwicklungssatz.md",
     "Lineare Algebra/Lösungsmenge.md",
-    "Lineare Algebra/Zeilenruam.md",
-    "Beweistechnik/LGS lösen.md",
-    "README.org"
+    "Lineare Algebra/Zeilenruam.md"
   ]
 }
