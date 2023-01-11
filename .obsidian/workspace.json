@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b72abb6cc411bbd9",
+        "id": "221f14dee82e7c83",
         "type": "tabs",
         "children": [
           {
-            "id": "433699f194b3897e",
+            "id": "0e560333331ce4a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lineare Algebra/Determinante.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0ac3d2f1bb227b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Beweistechnik/Misc.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Beweistechnik/Misc.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,11 +100,11 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "b0ac3d2f1bb227b0",
+  "active": "0e560333331ce4a3",
   "lastOpenFiles": [
+    "Beweistechnik/Unterraum Beweisen.md",
     "Lineare Algebra/Determinante.md",
     "Beweistechnik/Misc.md",
-    "Beweistechnik/Unterraum Beweisen.md",
     "Lineare Algebra/Regel von Sarrus.md",
     "Lineare Algebra/Leibniz Formel (Determinanten).md",
     "Lineare Algebra/Laplace-Entwicklungssatz.md",

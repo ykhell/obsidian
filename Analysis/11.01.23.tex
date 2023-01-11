@@ -1,0 +1,95 @@
+\documentclass[a4paper]{article}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{ {./graphics/} }
+\usepackage{listings}
+\usepackage{color}
+%\title{\vspace{-2cm}Übungen Analysis 1 - Blatt 3}
+\author{Yousef Khell}
+\date{09.12.2022}
+\begin{document}
+\section{Letztes Mal}
+\subsection*{Ableitung}
+\subsection*{Mittelwertsatz für Differenzialrechnung}
+\subsection*{Satz zur Monotonie}
+\subsection*{Zurück zu lokalen Extrema}
+Wir haben gesehen, dass für differenzierbare Funktionen auf offennen Intervallen gilt:
+$$ \{\text{Stellen lokaler Extrema von} f\} \subset \{\text{kritische Punkte von }f\} $$
+Wir benötigen noch eine hinreichende Bedingung für die Existenz lokaler Extrema.
+
+Sei $x_0$ ein kritischer Punkt von $f$ und sei $f$ in $x_0$ 2 mal differenzierbar. Dann gilt:
+$$ f''(x_0) > 0 \implies f \text{ hat in } x_0 \text{ ein lok. Min. }$$
+$$ f''(x_0) < 0 \implies f \text{ hat in } x_0 \text{ ein lok. Max. }$$
+\subsubsection{Beweis}
+$$f''(x_0) = \lim_{x \to x_0} \frac{f'(x) - f'(x_0)}{x-x_0} = \lim_{x \to x_0} \frac{f'(x)}{x-x_0}$$
+Sei $f''(x_0) > 0 \implies \lim_{x \to x_0} \frac{f'(x)}{x-x_0} > 0$
+$$\implies \exists \varepsilon > 0 : \frac{f'(x)}{x-x_0} > 0, \forall x \in (x-\varepsilon, x+\varepsilon) - \{x_0\} $$
+für $x_0 < x: \implies x - x_0 > 0$
+$$\implies f'(x) > 0 \forall x \in (x_0, x_0 + \varepsilon)$$
+Satz zur Monotonie $\implies f $ ist streng monoton wachsend auf $[x_0, x_0 + \varepsilon]$
+für $x_0 > x \implies x - x_0 < 0.$
+$$ \implies f'(x) < 0 \forall x \in (x_0 - \varepsilon, x_0) $$
+Satz zur Monotonie $\implies f$ ist streng monoton fallend auf $[x_0 - \varepsilon, x_0]$
+$\implies f$ besitzt ein lokales Min. in $x_0$.
+
+Vorzeichenbedingungen an die 2. Ableitung haben die geometrische Interpretation von Konvexitätsbedingungen.
+\subsection*{Konvexität}
+Def. Sei $f: I \to \Bbb R$ eine Funktion auf einem Intervall $I$,
+$f$ heißt konvex auf $I$, wenn
+$$\forall x, x' \in I, x < x', \forall t \in [0, 1]: (*) f(tx + (1-t)x') \leq tf(x) + (1-t)f(x')$$
+$f$ heißt konkav auf $I$, wenn ein $(*) \geq$  gefordert wird,
+Gemoetrich:
+\begin{itemize}
+\item Der Graph befindet sich immer unterhalb der Sekante (konvex).
+\item Der Graph befindet sich immer oberhalf der Sekante (konkav).
+\end{itemize}
+
+\subsection*{Satz zur Konvexität}
+Sei $f: (a, b) \to \Bbb R$ zweimal differenzierbar.
+$$f''(x) \geq 0 \forall x \in (a, b) \implies f \text{ ist konvex auf } (a, b)$$
+$$f''(x) \leq 0 \forall x \in (a, b) \implies f \text{ ist konkav auf } (a, b)$$
+Beweis: Sei $x< x', x, x' \in (a, b)$, es gelte $f'' \geq 0$
+Zu zeigen ist die Ungleichung (*).
+$$t \in [0, 1], x_0 := tx + (1-t)x'$$
+Mittelwertsatz
+$$\implies \exists \xi \in (x, x_0) : f'(\xi) = \frac{f(x_0) - f(x)}{x_0 - x}$$
+$$\exists \xi' \in (x_0, x') \implies f'(\xi') = \frac{f(x') - f(x_0)}{x' - x_0}$$
+$$f'' \geq 0 \implies f'$$ ist monoton wachsend.
+$$\xi < \xi' \implies f'(\xi) \leq f'(\xi')$$
+$$ \implies \frac{f(x_0) - f(x)}{x_0 - x} \leq \frac{f(x') - f(x_0)}{x' - x_0}$$
+$$ x_0 - x = tx + (1-t)x' - x = (1-t)(x'-x)$$
+$$x' - x_0 = x' - tx - (1-t)x' = x' - tx + tx' = t(x' - x).$$
+$$\frac{f(x_0)-f(x)}{(1-t)(x'-x)} \leq \frac{f(x') - f(x_0)}{t(x'-x)}$$
+$$\implies \frac{f(x_0)-f(x)}{(1-t)} \leq \frac{f(x') - f(x_0)}{t}$$
+$$\implies tf(x_0) - tf(x) \leq (1-t)f(x') - (1-t)f(x_0)$$
+Analog unter der Voraussetzung $f'' \leq 0$
+Beispiel:
+$$ f(x) = \log x. f'(x) = \frac 1x. f''(x) = -\frac{1}{x2} \leq 0$$
+$\implies f$ ist konkav.
+
+$$\implies \log (\frac{x_1 + x_2}{2}) \geq \frac 12(\log(x_1) + \log(x_2)) = \log ((x_1 x_2)^{\frac 12})$$
+
+$\exp$ monoton wachsend $\implies \frac{x_1 + x_2}{2} \geq (x_1, x_2)^{\frac 12}$
+
+Auch die allgemeninen Form der Ungleichung zwischen aritmetischen und geometrischen Mittel lässt sich mit Hilfe der Konkavität von $\log$ herleiten.
+
+\subsection{Die Regel von de l'Høpital}
+Seien $f, g: I \to \Bbb R$ stetige Funktionen und $\xi \in I$, $I$ ein Invervall.
+$$g(\xi \neq 0) \implies \lim_{x \to \xi} \frac{f(x)}{g(x)} = \frac{f(\xi)}{g(\xi)}$$
+$$g(\xi) = 0 \wedge f(\xi) \neq 0 \implies \nexists \lim_{x \to \xi} \frac{f(x)}{g(x)} \in \Bbb R$$
+Es gelte nun $f(\xi) = 0$ und $g(\xi) = 0$
+Regel von de l'Høpital: Ist
+\begin{itemize}
+\item $g'(x) \neq 0 \forall x \in I - \{\xi\}$
+  \item $f, g$ differenzierbar auf $I - \{\xi\}$
+    \item es existiere $\displaystyle \lim_{x \to \xi} \frac{f'(x)}{g'(x)}$
+\end{itemize}
+Gelten diese Bedingungen, dann gilt
+$$ \lim_{x \to \xi}  \frac{f(x)}{g(x)} = \lim_{x \to \xi}  \frac{f'(x)}{g'(x)}$$
+
+Beispiel:
+$$\lim_{x \to 0} \frac{\sin x}x = \lim_{x \to 0} \frac{\cos x}1 = \cos 0 = 1$$
+Beweisen
+\end{document}
