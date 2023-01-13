@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Determinante.md",
+                "file": "Analysis/Stetigkeit.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Determinante.md",
+                "file": "Analysis/Stetigkeit.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,9 +107,9 @@
   },
   "active": "0e560333331ce4a3",
   "lastOpenFiles": [
+    "Lineare Algebra/Determinante.md",
     "Lineare Algebra/Leibniz Formel (Determinanten).md",
     "Lineare Algebra/Laplace-Entwicklungssatz.md",
-    "Lineare Algebra/Determinante.md",
     "Lineare Algebra/Regel von Sarrus.md",
     "Lineare Algebra/Homogenes LGS.md",
     "Beweistechnik/Misc.md",
