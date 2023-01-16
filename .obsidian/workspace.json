@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "221f14dee82e7c83",
+        "id": "610c520eebd790b9",
         "type": "tabs",
         "children": [
           {
-            "id": "0e560333331ce4a3",
+            "id": "4804745959e772a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Stetigkeit.md",
+                "file": "Lineare Algebra/Elementarmatrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Stetigkeit.md",
+                "file": "Lineare Algebra/Elementarmatrix.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,17 +105,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "0e560333331ce4a3",
+  "active": "4804745959e772a1",
   "lastOpenFiles": [
+    "Lineare Algebra/Laplace-Entwicklungssatz.md",
+    "Analysis/Stetigkeit.md",
     "Lineare Algebra/Determinante.md",
     "Lineare Algebra/Leibniz Formel (Determinanten).md",
-    "Lineare Algebra/Laplace-Entwicklungssatz.md",
     "Lineare Algebra/Regel von Sarrus.md",
     "Lineare Algebra/Homogenes LGS.md",
     "Beweistechnik/Misc.md",
     "Kategorientheorie/Endomorphismus.md",
     "Lineare Algebra/Geordnete Basis.md",
-    "Beweistechnik/Unterraum Beweisen.md",
-    "Lineare Algebra/Lösungsmenge.md"
+    "Beweistechnik/Unterraum Beweisen.md"
   ]
 }
