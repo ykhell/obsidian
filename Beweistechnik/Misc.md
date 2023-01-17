@@ -29,3 +29,20 @@ It's easy to check that this function satisfies the properties of an endomorphis
 As a summary, we have showed the existence of a linear map (endomorphism) $\phi:V \to V$, such that $\phi(e_0)= e_0+e_2, \phi(e_1)=e_2, \phi(e_2) = e_0+e_1+e_2$ and also the matrix representation Mat^B_B (\phi) = $\begin{pmatrix} 1 & 0 & 1 \ 0 & 0 & 1 \ 1 & 1 & 1 \end{pmatrix}$
 
 $\phi(e_0) = e_0 + e_2 = 1 e_0 + 0 e_1 + 1 e_2$ $\phi(e_1) = e_2 = 0 e_0 + 0 e_1 + 1 e_2$ $\phi(e_2) = e_0 + e_1 + e_2 = 1 e_0 + 1 e_1 + 1 e_2$
+
+# Elementarmatrizen 
+An elementary matrix is a matrix that can be obtained by performing a single elementary row operation on the identity matrix.
+
+To show that $B^{+}$ is an elementary matrix if $B$ is an elementary matrix, we can show that it can be obtained by performing a single elementary row operation on the identity matrix $I_{n+1}$.
+
+Since $B$ is an elementary matrix, it can be obtained by performing a single elementary row operation on $I_n$. This operation can be represented as $I_n + c_ir_i$, where $c_i$ is a scalar and $r_i$ is a row vector.
+
+Now, let's consider the matrix $I_{n+1}$. We can represent it as: $$I_{n+1} = \begin{pmatrix} I_n & 0 \\ 0 & 1 \end{pmatrix}$$
+
+Let's apply the same elementary row operation that we used to obtain $B$ on the matrix $I_{n+1}$. This operation can be represented as: $$I_{n+1} + c_ir_i = \begin{pmatrix} I_n + c_ir_i & 0 \\ 0 & 1 \end{pmatrix}$$
+
+As $I_n + c_ir_i = B$ then $$I_{n+1} + c_ir_i = \begin{pmatrix} B & 0 \\ 0 & 1 \end{pmatrix} = B^+$$
+
+Hence we have shown that $B^{+}$ can be obtained by performing a single elementary row operation on $I_{n+1}$, so it is an elementary matrix.
+
+$$ {\begin{pmatrix}1&&&&\\&1&&&\\&&\ddots &&\\&&&1&\\&&&&1\\\end{pmatrix}}+(\gamma -1)\cdot {\begin{pmatrix}&&&&&\\&1_{(i,i)}&&&&\\&&&&&\\&&&&&\\&&&&&\\\end{pmatrix}}={\begin{pmatrix}1&&&&\\&\gamma _{(i,i)}&&&\\&&\ddots &&\\&&&1\\&&&&1\\\end{pmatrix}}$$

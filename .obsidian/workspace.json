@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Laplace-Entwicklungssatz.md",
+                "file": "Beweistechnik/Misc.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Laplace-Entwicklungssatz.md",
+                "file": "Beweistechnik/Misc.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,15 +107,15 @@
   },
   "active": "c67de909ecf01974",
   "lastOpenFiles": [
+    "Lineare Algebra/Elementarmatrix.md",
+    "Beweistechnik/Misc.md",
+    "Lineare Algebra/Laplace-Entwicklungssatz.md",
     "Kategorientheorie/Endomorphismus.md",
     "Lineare Algebra/Determinante.md",
     "Gruppenhomomorphismus.md",
     "Abstrakte Algebra/Vorzeichen (Permutation).md",
     "Lineare Algebra/Leibniz Formel (Determinanten).md",
     "Lineare Algebra/Geordnete Basis.md",
-    "Lineare Algebra/Regel von Sarrus.md",
-    "Lineare Algebra/Basiswechsel.md",
-    "Lineare Algebra/Faktorraum.md",
-    "Lineare Algebra/Affiner Unterraum.md"
+    "Lineare Algebra/Regel von Sarrus.md"
   ]
 }
