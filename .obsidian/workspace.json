@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "d71de0e5730764a0",
+            "id": "5a1966e74d70b036",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Regel von L'Hôpital.md",
+                "file": "Analysis/Mittelwertsatz der Differentialrechnung.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Regel von L'Hôpital.md",
+                "file": "Analysis/Mittelwertsatz der Differentialrechnung.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,17 +118,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "d71de0e5730764a0",
+  "active": "5a1966e74d70b036",
   "lastOpenFiles": [
     "Beweistechnik/Misc.md",
+    "Analysis/Mittelwertsatz der Differentialrechnung.md",
+    "Analysis/Literatur/Königsberger Analysis 1.pdf",
+    "Analysis/Regel von L'Hôpital.md",
     "Lineare Algebra/Elementarmatrix.md",
     "Lineare Algebra/Laplace-Entwicklungssatz.md",
     "Kategorientheorie/Endomorphismus.md",
     "Lineare Algebra/Determinante.md",
     "Gruppenhomomorphismus.md",
-    "Abstrakte Algebra/Vorzeichen (Permutation).md",
-    "Lineare Algebra/Leibniz Formel (Determinanten).md",
-    "Lineare Algebra/Geordnete Basis.md",
-    "Lineare Algebra/Regel von Sarrus.md"
+    "Abstrakte Algebra/Vorzeichen (Permutation).md"
   ]
 }
