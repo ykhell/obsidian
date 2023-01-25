@@ -1,0 +1,5 @@
+# Definition
+Ein Eigenvektor einer [[Matrix]] ist ein [[Vektor]], der bei der [[Matrixmultiplikation|Multiplikation]] mit der Matrix nur [[Skalarmultiplikation|skaliert]] wird, anstatt transformiert zu werden. Mathematisch, wenn $\mathbf{A}$ eine Matrix und $\mathbf{x}$ ein Vektor ist, dann ist $\mathbf{x}$ ein Eigenvektor von $\mathbf{A}$, wenn $\mathbf{A}\mathbf{x} = \lambda\mathbf{x}$ gilt für eine bestimmte Skalarkonstante $\lambda$, die als [[Eigenwert]] der Matrix bezeichnet wird.
+
+# Beispiel
+Betrachten wir die Matrix $\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$. Der Vektor $\mathbf{x} = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$ ist ein Eigenvektor von $\mathbf{A}$, da $\mathbf{A}\mathbf{x} = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}\begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \end{bmatrix} = 3\begin{bmatrix} 1 \\ 1 \end{bmatrix}$ gilt. Der Skalarwert 3 ist der Eigenwert von $\mathbf{A}$ für den Eigenvektor $\mathbf{x}$.

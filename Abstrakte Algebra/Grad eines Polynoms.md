@@ -1,0 +1,1 @@
+Die Grad eines Polynoms ist die höchste Potenz des [[Polynom|Polynoms]].

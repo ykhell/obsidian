@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "63a46fdb62bb79a7",
+        "id": "a3f443a3af2450c0",
         "type": "tabs",
         "children": [
           {
-            "id": "c67de909ecf01974",
+            "id": "2e969470677f03e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beweistechnik/Misc.md",
+                "file": "Lineare Algebra/Diagonalmatrix.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5a1966e74d70b036",
+            "id": "42dc909b20f73810",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Mittelwertsatz der Differentialrechnung.md",
+                "file": "Analysis/Ableitung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05190e4b56517de2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Riemann-Integral.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Mittelwertsatz der Differentialrechnung.md",
+                "file": "Riemann-Integral.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,17 +130,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "5a1966e74d70b036",
+  "active": "05190e4b56517de2",
   "lastOpenFiles": [
     "Beweistechnik/Misc.md",
-    "Analysis/Mittelwertsatz der Differentialrechnung.md",
-    "Analysis/Literatur/Königsberger Analysis 1.pdf",
-    "Analysis/Regel von L'Hôpital.md",
-    "Lineare Algebra/Elementarmatrix.md",
-    "Lineare Algebra/Laplace-Entwicklungssatz.md",
-    "Kategorientheorie/Endomorphismus.md",
-    "Lineare Algebra/Determinante.md",
-    "Gruppenhomomorphismus.md",
-    "Abstrakte Algebra/Vorzeichen (Permutation).md"
+    "Analysis/Partialbruchzerlegung.md",
+    "Riemann-Integral.md",
+    "Analysis/Integral.md",
+    "Analysis/Ableitung.md",
+    "Lineare Algebra/Diagonalmatrix.md",
+    "Lineare Algebra/Diagonalisierung.md",
+    "Lineare Algebra/Matrix-Vektor-Produkt.md",
+    "Abstrakte Algebra/Kern.md",
+    "Lineare Algebra/Cramersche Regel.md"
   ]
 }
