@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Riemann-Integral.md",
+                "file": "Beweistechnik/Misc.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Riemann-Integral.md",
+                "file": "Beweistechnik/Misc.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -132,15 +132,15 @@
   },
   "active": "05190e4b56517de2",
   "lastOpenFiles": [
+    "Analysis/Stetigkeit.md",
+    "Riemann-Integral.md",
     "Beweistechnik/Misc.md",
     "Analysis/Partialbruchzerlegung.md",
-    "Riemann-Integral.md",
     "Analysis/Integral.md",
     "Analysis/Ableitung.md",
     "Lineare Algebra/Diagonalmatrix.md",
     "Lineare Algebra/Diagonalisierung.md",
     "Lineare Algebra/Matrix-Vektor-Produkt.md",
-    "Abstrakte Algebra/Kern.md",
-    "Lineare Algebra/Cramersche Regel.md"
+    "Abstrakte Algebra/Kern.md"
   ]
 }

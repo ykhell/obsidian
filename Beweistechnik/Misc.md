@@ -36,3 +36,12 @@ gilt, können wir den folgenden Ansatz verwenden:
 4.  Wir setzen den Rest der Division gleich $\tilde f(x)$
 
 Da $f(x)$ und $g(x)$ Polynome sind, können wir den Rest der Division von $f(x)$ durch $(x-a)^n \cdot h(x)$ berechnen. Dieser Rest ist ein Polynom $\tilde f(x)$ und der Quotient ist $\frac{b}{(x-a)^n}$, wo $b=\frac{f(a)}{h(a)}$. Daher haben wir gezeigt, dass für jede gegebene Funktion $f(x)$ und $g(x)$ mit $g(x) = (x-a)^n \cdot h(x),\ h(a) \neq 0$, es ein Polynom $\tilde f$ gibt, sodass die angegebene Gleichung gilt.
+
+
+
+Um zu beweisen, dass es ein solches Polynom $\tilde f$ gibt, können wir den Bruch $\frac{f(x)}{g(x)}$ mit Long-Division zerlegen. Da $g(x) = (x-a)^n \cdot h(x)$, können wir $(x-a)$ aus $f(x)$ heraus dividieren, bis der Rest-Polynom einen Grad von mindestens $n-1$ hat. Das erste Glied in der Division ist dann $\frac{b}{x-a}^{n}$, während der Rest-Polynom $\tilde f(x)$ ist. Um zu zeigen, dass $\tilde f(x)$ tatsächlich ein Polynom ist, müssen wir zeigen, dass der Grad von $\tilde f(x)$ kleiner als $n-1$ ist. Dies folgt aus der Tatsache, dass der Grad von $f(x)$ kleiner als der Grad von $g(x)$ ist und dass der Rest-Polynom nach jeder Division um einen Grad reduziert wird.
+
+Als zusätzliche Äquivalenzen:
+
+-   $f$ hat einen Nullpunkt bei $a$ genau dann, wenn $\frac{f(x)}{g(x)}$ eine Pole bei $x=a$ hat
+-   $f$ hat einen Nullpunkt bei $a$ genau dann, wenn die Koeffizienten von $\tilde f(x)$ Null sind.
