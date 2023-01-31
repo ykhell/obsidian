@@ -6,4 +6,3 @@ Eine Linearform ist eine lineare Abbildung von einem Vektorraum in den zugrundel
 1. $f(x+y) = f(x) + f(y)$ (Additivität)
 2. $f(\lambda x) = \lambda f(x)$ (Homogenität)
 Die Menge aller Linearformen über einem gegebenen Vektorraum $V$ bilded dessen [[Dualraum]] $V^*$ und damit selbst wieder in natürlicher Weise ein $K$-Vektorraum.
-

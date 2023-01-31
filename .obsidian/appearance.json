@@ -1,10 +1,10 @@
 {
-  "baseFontSize": 30,
-  "theme": "moonstone",
+  "baseFontSize": 23,
+  "theme": "obsidian",
   "translucency": false,
-  "cssTheme": "Atom",
+  "cssTheme": "",
   "enabledCssSnippets": [],
-  "accentColor": "",
+  "accentColor": "#ff8957",
   "textFontFamily": "",
   "monospaceFontFamily": "Fira Code",
   "showViewHeader": false

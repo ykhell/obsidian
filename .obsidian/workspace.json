@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a3f443a3af2450c0",
+        "id": "2eb97c2ff8a5228b",
         "type": "tabs",
         "children": [
           {
-            "id": "2e969470677f03e9",
+            "id": "aa2f69b3c7d0b990",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Diagonalmatrix.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42dc909b20f73810",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Ableitung.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05190e4b56517de2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Beweistechnik/Misc.md",
+                "file": "Lineare Algebra/Vektorraum-Homomorphismus.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922
+    "width": 242.5
   },
   "right": {
     "id": "83ae1a22de9efd24",
@@ -102,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Beweistechnik/Misc.md",
+                "file": "Lineare Algebra/Vektorraum-Homomorphismus.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,17 +105,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "05190e4b56517de2",
+  "active": "aa2f69b3c7d0b990",
   "lastOpenFiles": [
-    "Analysis/Stetigkeit.md",
-    "Riemann-Integral.md",
-    "Beweistechnik/Misc.md",
-    "Analysis/Partialbruchzerlegung.md",
-    "Analysis/Integral.md",
-    "Analysis/Ableitung.md",
-    "Lineare Algebra/Diagonalmatrix.md",
-    "Lineare Algebra/Diagonalisierung.md",
-    "Lineare Algebra/Matrix-Vektor-Produkt.md",
-    "Abstrakte Algebra/Kern.md"
+    "Lineare Algebra/Bivektor.md",
+    "Informatik/Turing Äquivalenz.md",
+    "Logik/Algorithmus.md",
+    "Informatik/Turingmaschine.md",
+    "Lineare Algebra/Linearform.md",
+    "Lineare Algebra/Symmetrische Bilinearform.md",
+    "Graphentheorie/Binärbaum.md",
+    "Graphentheorie/Baum.md",
+    "Graphentheorie/Graph.md",
+    "Logik/Formales System.md"
   ]
 }

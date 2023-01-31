@@ -1,0 +1,1 @@
+Ist ein Spezieller form eines [[Graph]]

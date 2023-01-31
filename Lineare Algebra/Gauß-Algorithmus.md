@@ -1,14 +1,9 @@
 # Definition
-Der Gauß-Algorithmus ist eine Methode zur Lösung von linearen Gleichungssystemen. Er wurde von dem deutschen Mathematiker Carl Friedrich Gauß im 18. Jahrhundert entwickelt und ist auch unter dem Namen Gauß-Jordan-Algorithmus bekannt.
+Der Gauß-Algorithmus ist ein [[Algortihmus]] (eine Methode) zur Lösung von [[LGS]]. Der Gauß-Algorithmus besteht aus folgenden Schritten:
 
-Der Gauß-Algorithmus besteht aus folgenden Schritten:
-
-1.  Bringen Sie das Gleichungssystem in eine Matrixform, indem Sie die Koeffizienten der Variablen und die Konstanten in separate Spalten schreiben.
-    
+1.  Bringen Sie das Gleichungssystem in eine [[Matrix|Matrixform]], indem Sie die Koeffizienten der Variablen und die Konstanten in separate Spalten schreiben.
 2.  Erstellen Sie eine Einheitsmatrix, indem Sie aus der Gleichungsmatrix eine Diagonale von Einsen erstellen.
-    
 3.  Verwenden Sie Elementarsubstitutionen, um die Einheitsmatrix in der Gleichungsmatrix zu erstellen.
-    
 4.  Lösen Sie das Gleichungssystem, indem Sie die Gleichungen der Einheitsmatrix nach unten durchlaufen und die Variablen zurückrechnen.
     
 Der Gauß-Algorithmus ist eine effektive Methode zur Lösung von linearen Gleichungssystemen, aber er kann nur bei Gleichungssystemen mit vollständiger Lösung angewendet werden.

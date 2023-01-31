@@ -1,5 +1,5 @@
 # Definition
-Eine Gruppe ist eine [[Menge]] von [[Mathematics/Mengenlehre/Element|Elementen]] zusammen mit einer [[Zweistellige Verknüpfung|zweistelligen Verknüpfung]], die je zwei [[Mathematics/Mengenlehre/Element|Elementen]] der [[Menge]] ein drittes [[Mathematics/Mengenlehre/Element|Element]] derselben [[Menge]] zuordnet und dabei drei Bedingungen, die Gruppenaxiome, erfüllt:
+Eine Gruppe ist eine [[Menge]] von [[Element|Elementen]] zusammen mit einer [[Zweistellige Verknüpfung|zweistelligen Verknüpfung]], die je zwei [[Mathematics/Mengenlehre/Element|Elementen]] der [[Menge]] ein drittes [[Mathematics/Mengenlehre/Element|Element]] derselben [[Menge]] zuordnet und dabei drei Bedingungen, die Gruppenaxiome, erfüllt:
 - [[Assoziativität]]: $\forall a, b, c \in G$ gilt:
     $(a * b) * c = a * (b * c).$
 - Die Existenz von einem [[Neutrales Element|neutralen Element]]: $\exists! e \in G$, mit dem für alle $a \in G$ gilt:

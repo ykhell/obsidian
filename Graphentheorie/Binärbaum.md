@@ -1,0 +1,1 @@
+Ein [[Baum]] heißr Binärbaum, wenn jeder innere Knoten höchstens zwei Kinder hat.

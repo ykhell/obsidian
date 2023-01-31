@@ -1,5 +1,5 @@
 # Definition
-Der Kreuzprodukt (auch als Vektorprodukt bekannt) ist eine binäre Operation, die zwei Vektoren eingibt und einen dritten [[Vektor]] zurückgibt, der [[Orthogonaliät|orthogonal]] (senkrecht) zu den ersten beiden ist. Es ist definiert als:
+Der Kreuzprodukt (auch als Vektorprodukt bekannt) ist eine binäre Operation, die zwei Vektoren eingibt und einen dritten [[Vektor]] zurückgibt, der [[Orthogonalität|orthogonal]] (senkrecht) zu den ersten beiden ist. Es ist definiert als:
 
 $${a} \times {b} = |{a}||{b}|\sin(\theta){n}$$
 
