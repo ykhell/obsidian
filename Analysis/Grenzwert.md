@@ -1,6 +1,6 @@
 ---
 aliases: [Limes, Grenzwerte, Limit]
-
+---
 # Grenzwert einer [[Abbildung | Funktion]]
 ## Definition
 $$ \lim_{x \to x_0} f(x) = L \iff \forall \varepsilon > 0 \exists \delta > 0 : 0 < |x - x_0| < \delta \implies |f(x) - L| < \varepsilon $$

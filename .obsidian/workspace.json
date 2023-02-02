@@ -4,22 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "2eb97c2ff8a5228b",
+        "id": "dd63b43a1d376b5c",
         "type": "tabs",
         "children": [
           {
-            "id": "aa2f69b3c7d0b990",
+            "id": "614240183fd2bfc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Vektorraum-Homomorphismus.md",
+                "file": "Lineare Algebra/Quotientenraum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29eebd7683fe0dcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Abstrakte Algebra/Metrischer Raum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "372376dc4f576ca7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Abstrakte Algebra/Metrik.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "126585bba2fd1613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Affiner Raum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d79bbbc10d6d2015",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Archimedisches Axiom.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -77,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Vektorraum-Homomorphismus.md",
+                "file": "Analysis/Archimedisches Axiom.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,17 +154,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "aa2f69b3c7d0b990",
+  "active": "d79bbbc10d6d2015",
   "lastOpenFiles": [
-    "Lineare Algebra/Bivektor.md",
-    "Informatik/Turing Äquivalenz.md",
-    "Logik/Algorithmus.md",
-    "Informatik/Turingmaschine.md",
-    "Lineare Algebra/Linearform.md",
-    "Lineare Algebra/Symmetrische Bilinearform.md",
-    "Graphentheorie/Binärbaum.md",
-    "Graphentheorie/Baum.md",
-    "Graphentheorie/Graph.md",
-    "Logik/Formales System.md"
+    "Analysis/Quotientenkriterium.md",
+    "Analysis/Majorantenkriterium.md",
+    "Analysis/Leibniz-Kriterium.md",
+    "Analysis/Monotone Folge.md",
+    "Lineare Algebra/Dimensionsformel für Untervektorräume.md",
+    "Lineare Algebra/Euklidischer Vektorraum.md",
+    "Lineare Algebra/Affiner Raum.md",
+    "Abstrakte Algebra/Metrik.md",
+    "Abstrakte Algebra/Metrischer Raum.md",
+    "Lineare Algebra/Norm.md"
   ]
 }

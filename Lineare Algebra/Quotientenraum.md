@@ -10,3 +10,9 @@ Die Vektoren $v_1$ und $v_2$ sind also äquivalent, wenn sie sich um einen Vekto
 
 Die Äquivalenzklasse eines Vektors $v$ ist
 $$ [v] := v+U:= \{v + u | u \in U\} $$
+Der Quotientenvektorraum von $V$ nach $U$ ist die [[Menge]] aller [[Äquivalenzklasse|Äquivalenzklassen]] und wird mid $V/U$ bezeichnet:
+$$V/U := \{[v] \mid v \in V\}$$
+# Beispiel
+Gegeben sei der Vektorraum $V = \Bbb R^2$ und der eindimensionale Unterraum $U = \{\binom xx \mid x \in \Bbb R\}$, dann ist zum Beispiel
+$$\binom {42}{12}+U:=\left\{\binom{42}{12} + u \mid u \in U\right\}$$
+![[Pasted image 20230201162640.png]]
