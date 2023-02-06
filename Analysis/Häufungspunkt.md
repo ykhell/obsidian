@@ -1,0 +1,1 @@
+Der Häufungspunkt einer [[Menge]] ist ein Punkt, der unendlich viele Punkte der Menge in seiner Nähe hat, anders gesagt: Ein Häufungspunkt einer [[Folge]] ist ein Punkt, der Grenzwert einer unendlichen [[Teilfolge]] ist.

@@ -1,0 +1,1 @@
+Eine [[Teilmenge - Obermenge|Teilmenge]] der [[Menge]] $\Bbb R$ der [[Reelle Zahlen|reellen Zahlen]] ist genau dann kompakt. wenn sie beschänkt und abgeschlossen ist.

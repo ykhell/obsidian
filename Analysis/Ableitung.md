@@ -14,4 +14,3 @@ wobei der Ausdruck auf der rechten Seite als Differenzenquotient bezeichnet wird
 * Exponentialsregel: Für eine Funktion $f(x) = e^{g(x)}$ gilt: $f'(x) = e^{g(x)}g'(x)$
 * Logarithmusregel: Für eine Funktion $f(x) = \ln(g(x))$ mit $g(x) > 0$ gilt: $f'(x) = \frac{1}{g(x)}g'(x)$
 * Trigonometrische Regeln: Für eine Funktion $f(x) = \sin(g(x))$ oder $f(x) = \cos(g(x))$ gilt: $f'(x) = \cos(g(x))g'(x)$ und $f(x) = -\sin(g(x))g'(x)$
-* 

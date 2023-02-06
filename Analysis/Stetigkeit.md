@@ -1,3 +1,7 @@
+---
+aliases: [stetige Funktion]
+---
+
 # Definition
 Eine stetige [[Abbildung]] oder [[Abbildung | Funktion]] ist eine Funktion, bei der hinreichend kleine Änderungen des Arguments nur beliebig kleine Änderungen des Funktionswerts nach sich ziehen. Formal mit dem [[Epsilon-Delta-Kriterium]].
 

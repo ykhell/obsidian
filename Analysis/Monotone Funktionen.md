@@ -1,0 +1,3 @@
+Sei $f:[a,b] \to \Bbb R$ eine [[Stetigkeit|stetige Funktion]] und in $(a,b)$ [[Differenzierbarkeit|differenzierbar]]. 
+- Wenn $\forall x \in (a,b), f'(x) \geq 0$, bzw. $f'(x) > 0, f'(x) \leq 0, f'(x) < 0$, so ist $f$ in $(a,b)$ monoton wachsend, bzw. streng monoton wachsend, monoton fallend, streng monoton fallend.
+- Ist $f$ monoton wachsend bzw. monoton fallend, so folgt $f'(x) \geq 0$, bzw. $f'(x) \leq 0 \forall x \in (a,b)$

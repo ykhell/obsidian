@@ -1,0 +1,2 @@
+Das Konvergenzradius einer [[Potenzreihe]] ist das [[Supremum und Infimum|Supremum]] aller Zahlen $\rho \geq 0$, für welche die Potenzreihe für mindestens ein $x$ mit $|x-x_0| = \rho$ [[Konvergenz|konvergiert]], 
+$$r:=\sup \left\{|x-x_{{0}}|\ \left|\ \sum _{{n=0}}^{{\infty }}a_{{n}}(x-x_{{0}})^{{n}}\ {\text{konvergiert}}\right.\right\}$$
