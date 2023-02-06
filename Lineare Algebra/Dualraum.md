@@ -1,5 +1,5 @@
 # Definition
-Der Dualraum eines [[Vektorraum | Vektorraums]] $V$ über einem [[Körper]] $K$ der [[Vektorraum]] aller [[Vektorraum-Homomorphismus | linearen Abbildungen]] von $V$ nach $K$. Diese linearen Abbildungen werden manchmal auch [[Linearform | Kovektoren]] genannt.
+Der Dualraum eines [[Vektorraum | Vektorraums]] $V$ über einem [[Körper]] $K$ der [[Vektorraum]] aller [[Lineare Abbildung | linearen Abbildungen]] von $V$ nach $K$. Diese linearen Abbildungen werden manchmal auch [[Linearform | Kovektoren]] genannt.
 
 Ist der Vektorraum $V$ endlichdimensional, so hat er dieselbe Dimension wie sein Dualraum. Die beiden Vektorräume sind somit [[Isomorphismus | isomorph]]. 
 

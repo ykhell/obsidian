@@ -1,5 +1,5 @@
 # Definition
-Der Gauß-Algorithmus ist ein [[Algortihmus]] (eine Methode) zur Lösung von [[LGS]]. Der Gauß-Algorithmus besteht aus folgenden Schritten:
+Der Gauß-Algorithmus ist ein [[Algorithmus]] (eine Methode) zur Lösung von [[LGS]]. Der Gauß-Algorithmus besteht aus folgenden Schritten:
 
 1.  Bringen Sie das Gleichungssystem in eine [[Matrix|Matrixform]], indem Sie die Koeffizienten der Variablen und die Konstanten in separate Spalten schreiben.
 2.  Erstellen Sie eine Einheitsmatrix, indem Sie aus der Gleichungsmatrix eine Diagonale von Einsen erstellen.

@@ -1,6 +1,6 @@
 # Definition
 
-Der Quotientenvektorraum, auch kurz Quotientenraum oder Faktorraum genannt, ist derjenige [[Vektorraum]], der als [[Bild]] einer Parallelprojektion entlang eines Untervektorraums entsteht. Die Elemente des Quotientenvektorraumes sind Äquivalenzklassen.
+Der Quotientenvektorraum, auch kurz Quotientenraum oder Faktorraum genannt, ist derjenige [[Vektorraum]], der als [[Bild]] einer Parallelprojektion entlang eines Untervektorraums entsteht. Die Elemente des Quotientenvektorraumes sind [[Äquivalenzklasse|Äquivalenzklassen]].
 
 Es sei $V$ ein [[Vektorraum]] über einem [[Körper]] $K$ und $U$ ein [[Untervektorraum]] von $V$. Durch die Festsetzung
 $$ v_1 \sim v_2 :\iff v_1 - v_2 \in U \text{ für } v_1, v_2 \in V$$

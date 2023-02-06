@@ -4,95 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6ef9e794fae0224c",
+        "id": "1b83650f513f2090",
         "type": "tabs",
         "children": [
           {
-            "id": "f534d0b80f3c4c0c",
+            "id": "2d4f68e1c21c07bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Cauchy-Kriterium.md",
+                "file": "Lineare Algebra/Semilineare Abbildung.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "131ca852e2c41416",
+            "id": "8b830c29ead7fd81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Konvergenzradius.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "996a0ea6f63edee2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Häufungspunkt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5063707f87ae4a3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Konvergenz von Teilfolgen.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f9a57b8c6728bc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Potenzreihe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b71b7b5bd1d3391b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Konvexität.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2528c4d417049c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc.md",
+                "file": "Lineare Algebra/Hermitesche Sesquilinearform.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misc.md",
+                "file": "Lineare Algebra/Hermitesche Sesquilinearform.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -178,17 +118,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "a2528c4d417049c8",
+  "active": "8b830c29ead7fd81",
   "lastOpenFiles": [
-    "Analysis/Konvexität.md",
-    "Analysis/Mittelwertsatz der Differentialrechnung.md",
-    "Mengenlehre/Menge.md",
-    "Lineare Algebra/Gauß-Algorithmus.md",
-    "Lineare Algebra/Konjugierte Matrix.md",
-    "Lineare Algebra/Orthogonalität.md",
-    "Lineare Algebra/Symmetrische Bilinearform.md",
-    "Lineare Algebra/Gram-Schmidt Verfahren.md",
-    "Lineare Algebra/Affiner Raum.md",
-    "Lineare Algebra/Euklidischer Vektorraum.md"
+    "Lineare Algebra/Hermitesche Sesquilinearform.md",
+    "Standardskalarprodukt.md",
+    "Lineare Algebra/Norm.md",
+    "Lineare Algebra/Skalarproduktnorm.md",
+    "Lineare Algebra/Semilineare Abbildung.md",
+    "Lineare Algebra/Dualraum.md",
+    "Lineare Algebra/Sesquilinearform.md",
+    "Analysis/Häufungspunkt.md",
+    "Analysis/Konvergenzradius.md",
+    "Abstrakte Algebra/Metrik.md"
   ]
 }

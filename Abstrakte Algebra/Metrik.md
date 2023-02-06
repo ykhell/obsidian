@@ -5,4 +5,4 @@ Sei $X$ eine beliebige Menge, eine [[Abbildung]] $d: X\times X \to \Bbb R$ heiß
 # Beispiele
 Jede [[Norm]] auf einem [[Vektorraum]] $V$ induziert durch die Festlegung
 $$d(x,y):=\|x-y\|$$
-eine Metrik somit ist jeder [[Normierter Raum|normierte Vektorraum]] (jeder [[Prähilbertraum]], [[Banachraum]] oder [[Hilbertraum]]) und jede Teilmenge davon ein [[Metrischer Raum]].
+eine Metrik somit ist jeder [[Normierter Raum|normierte Vektorraum]] (jeder [[Skalarproduktraum]], [[Banachraum]] oder [[Hilbertraum]]) und jede Teilmenge davon ein [[Metrischer Raum]].

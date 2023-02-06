@@ -1,0 +1,2 @@
+Ist $V$ ein [[Vektorraum]] über den [[Körper]] $K$ der [[Reelle Zahlen|reellen Zahlen]] oder [[Komplexe Zahlen]] und $\langle \cdot, \cdot \rangle$ ein [[Skalarprodukt]] auf $V \times V$, dann ist $(V, \langle \cdot, \cdot \rangle)$ ein [[Skalarproduktraum]]. Die von diesem Skalarprodukt induzierte [[Norm]] ist für einen [[Vektor]] $v \in V$ dann definiert als
+$$\|v\|:=\sqrt{\langle v,v\rangle}$$
