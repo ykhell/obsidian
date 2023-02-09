@@ -1,0 +1,1 @@
+Eine Liste ist ein Datenstruktur, der aus verketteten [[Elementen]] besteht, dies kann als [[EVL]] (Einfach verkettete Liste) oder [[DVL]] (Doppelt verkettete Liste) implementiert werden.

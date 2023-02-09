@@ -4,35 +4,123 @@
     "type": "split",
     "children": [
       {
-        "id": "1b83650f513f2090",
+        "id": "edc35b030256fca4",
         "type": "tabs",
         "children": [
           {
-            "id": "2d4f68e1c21c07bd",
+            "id": "3c8997e0e40620c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Semilineare Abbildung.md",
+                "file": "Informatik/Algorithmen/Binäre Suche.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8b830c29ead7fd81",
+            "id": "1b959cf0588a4061",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Hermitesche Sesquilinearform.md",
+                "file": "Informatik/Datenstrukturen/Klasse.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a2f7d880d9326b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Informatik/Datenstrukturen/Typedef.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0eb18bf413ef2e4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Informatik/Datenstrukturen/Struct.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47ad1f76ceb2d5c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Informatik/Datenstrukturen/Array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe704f488bd16dc4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6cedefb1adac9d85",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "59fce438b44bed98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Informatik/OOP/Information Hiding Prinzip.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a2007e2d4472c37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Informatik/Datenstrukturen/Stack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6fb05ea1091061a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Informatik/Datenstrukturen/Liste.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -90,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Hermitesche Sesquilinearform.md",
+                "file": "Informatik/Datenstrukturen/Stack.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,17 +206,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "8b830c29ead7fd81",
+  "active": "7a2007e2d4472c37",
   "lastOpenFiles": [
-    "Lineare Algebra/Hermitesche Sesquilinearform.md",
-    "Standardskalarprodukt.md",
-    "Lineare Algebra/Norm.md",
-    "Lineare Algebra/Skalarproduktnorm.md",
-    "Lineare Algebra/Semilineare Abbildung.md",
-    "Lineare Algebra/Dualraum.md",
-    "Lineare Algebra/Sesquilinearform.md",
-    "Analysis/Häufungspunkt.md",
-    "Analysis/Konvergenzradius.md",
-    "Abstrakte Algebra/Metrik.md"
+    "Informatik/Datenstrukturen/Liste.md",
+    "Informatik/Datenstrukturen/Stack.md",
+    "Informatik/Datenstrukturen/LIFO-Prinzip.md",
+    "Informatik/OOP/Information Hiding Prinzip.md",
+    "Informatik/Datenstrukturen/Baum.md",
+    "Informatik/Datenstrukturen/Enum.md",
+    "Informatik/Datenstrukturen/Typedef.md",
+    "Informatik/Datenstrukturen/Klasse.md",
+    "Informatik/Datenstrukturen/Struct.md",
+    "Informatik/Datenstrukturen/Binärbaum.md"
   ]
 }
