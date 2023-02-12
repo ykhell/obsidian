@@ -4,123 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "edc35b030256fca4",
+        "id": "3b069dc3b9273dd1",
         "type": "tabs",
         "children": [
           {
-            "id": "3c8997e0e40620c5",
+            "id": "f8ad1b842e102d28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Informatik/Algorithmen/Binäre Suche.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b959cf0588a4061",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Informatik/Datenstrukturen/Klasse.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a2f7d880d9326b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Informatik/Datenstrukturen/Typedef.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0eb18bf413ef2e4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Informatik/Datenstrukturen/Struct.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47ad1f76ceb2d5c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Informatik/Datenstrukturen/Array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe704f488bd16dc4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "6cedefb1adac9d85",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "59fce438b44bed98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Informatik/OOP/Information Hiding Prinzip.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a2007e2d4472c37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Informatik/Datenstrukturen/Stack.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6fb05ea1091061a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Informatik/Datenstrukturen/Liste.md",
+                "file": "Abstrakte Algebra/Gruppe.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Informatik/Datenstrukturen/Stack.md",
+                "file": "Abstrakte Algebra/Gruppe.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -206,17 +105,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "7a2007e2d4472c37",
+  "active": "f8ad1b842e102d28",
   "lastOpenFiles": [
-    "Informatik/Datenstrukturen/Liste.md",
-    "Informatik/Datenstrukturen/Stack.md",
-    "Informatik/Datenstrukturen/LIFO-Prinzip.md",
-    "Informatik/OOP/Information Hiding Prinzip.md",
-    "Informatik/Datenstrukturen/Baum.md",
-    "Informatik/Datenstrukturen/Enum.md",
-    "Informatik/Datenstrukturen/Typedef.md",
-    "Informatik/Datenstrukturen/Klasse.md",
-    "Informatik/Datenstrukturen/Struct.md",
-    "Informatik/Datenstrukturen/Binärbaum.md"
+    "Analysis/Taylorreihe.md",
+    "Analysis/Differentationsregeln.md",
+    "Lineare Algebra/Satz von Cayley-Hamilton.md",
+    "Lineare Algebra/Hermitesche Matrix.md",
+    "Hilbertraum.md",
+    "Lineare Algebra/Gram-Schmidt Orthogonalisierungsverfahren.md",
+    "Lineare Algebra/Orthogonale Untervektorräume.md",
+    "Lineare Algebra/Skalarproduktraum.md",
+    "Lineare Algebra/Darstellungsmatrix eines Skalarprodukts.md",
+    "Lineare Algebra/Adjungierte Matrix.md"
   ]
 }
