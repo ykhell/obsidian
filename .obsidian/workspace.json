@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstrakte Algebra/Gruppe.md",
+                "file": "Analysis/Konvexität.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abstrakte Algebra/Gruppe.md",
+                "file": "Analysis/Konvexität.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,15 +107,15 @@
   },
   "active": "f8ad1b842e102d28",
   "lastOpenFiles": [
+    "Analysis/Zwischenwertsatz.md",
+    "Analysis/Leibniz-Kriterium.md",
+    "Analysis/Stetigkeit.md",
+    "Analysis/Majorantenkriterium.md",
+    "Analysis/Cauchy-Folge.md",
+    "Abstrakte Algebra/Gruppe.md",
     "Analysis/Taylorreihe.md",
     "Analysis/Differentationsregeln.md",
     "Lineare Algebra/Satz von Cayley-Hamilton.md",
-    "Lineare Algebra/Hermitesche Matrix.md",
-    "Hilbertraum.md",
-    "Lineare Algebra/Gram-Schmidt Orthogonalisierungsverfahren.md",
-    "Lineare Algebra/Orthogonale Untervektorräume.md",
-    "Lineare Algebra/Skalarproduktraum.md",
-    "Lineare Algebra/Darstellungsmatrix eines Skalarprodukts.md",
-    "Lineare Algebra/Adjungierte Matrix.md"
+    "Lineare Algebra/Hermitesche Matrix.md"
   ]
 }
