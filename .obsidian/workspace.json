@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3b069dc3b9273dd1",
+        "id": "784995e2e1fd26c0",
         "type": "tabs",
         "children": [
           {
-            "id": "f8ad1b842e102d28",
+            "id": "6806710b03820832",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Konvexität.md",
+                "file": "Lineare Algebra/Äquivalenz von Matrizen.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Konvexität.md",
+                "file": "Lineare Algebra/Äquivalenz von Matrizen.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,17 +105,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f8ad1b842e102d28",
+  "active": "6806710b03820832",
   "lastOpenFiles": [
-    "Analysis/Zwischenwertsatz.md",
-    "Analysis/Leibniz-Kriterium.md",
-    "Analysis/Stetigkeit.md",
-    "Analysis/Majorantenkriterium.md",
-    "Analysis/Cauchy-Folge.md",
-    "Abstrakte Algebra/Gruppe.md",
-    "Analysis/Taylorreihe.md",
-    "Analysis/Differentationsregeln.md",
-    "Lineare Algebra/Satz von Cayley-Hamilton.md",
-    "Lineare Algebra/Hermitesche Matrix.md"
+    "Kategorientheorie/Kategorie.md",
+    "Kategorientheorie/Automorphismus.md",
+    "Kategorientheorie/Endomorphismus.md",
+    "Kategorientheorie/Morphismus.md",
+    "Analysis/Abgeschlossene Menge.md",
+    "Topologie/Topologischer Raum.md",
+    "Analysis/Offene Menge.md",
+    "Pasted image 20230206051337.png",
+    "Pasted image 20230119165025.png",
+    "Pasted image 20230201162640.png"
   ]
 }
