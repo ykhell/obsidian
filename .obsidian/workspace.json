@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Äquivalenz von Matrizen.md",
+                "file": "Analysis/Stetigkeit.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f9dc179f8ca28fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Konvergenzradius.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Äquivalenz von Matrizen.md",
+                "file": "Analysis/Konvergenzradius.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,17 +118,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "6806710b03820832",
+  "active": "3f9dc179f8ca28fe",
   "lastOpenFiles": [
+    "Analysis/Konvergenzkriterien/Integralkriterium.md",
+    "Analysis/Stetigkeit.md",
+    "Lineare Algebra/Basisergänzungssatz.md",
+    "Lineare Algebra/Äquivalenz von Matrizen.md",
     "Kategorientheorie/Kategorie.md",
     "Kategorientheorie/Automorphismus.md",
     "Kategorientheorie/Endomorphismus.md",
     "Kategorientheorie/Morphismus.md",
     "Analysis/Abgeschlossene Menge.md",
-    "Topologie/Topologischer Raum.md",
-    "Analysis/Offene Menge.md",
-    "Pasted image 20230206051337.png",
-    "Pasted image 20230119165025.png",
-    "Pasted image 20230201162640.png"
+    "Topologie/Topologischer Raum.md"
   ]
 }
