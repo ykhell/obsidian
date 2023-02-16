@@ -1,0 +1,2 @@
+Die Umkehrregel (Inversenregel) ist eine Regel der [[Differentationsregeln]]. Sie besagt, dass für eine [[Bijektivität|bijektive]] [[Abbildung|Funktion]] $f$,
+$$(f^{-1})'(y) = \frac{1}{f'(f^{-1}(y))} = \frac{1}{f'(x)}$$

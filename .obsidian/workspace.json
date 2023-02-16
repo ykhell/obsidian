@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Stetigkeit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f9dc179f8ca28fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Konvergenzradius.md",
+                "file": "Analysis/Abgeschlossene Menge.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Konvergenzradius.md",
+                "file": "Analysis/Abgeschlossene Menge.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,17 +105,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "3f9dc179f8ca28fe",
+  "active": "6806710b03820832",
   "lastOpenFiles": [
-    "Analysis/Konvergenzkriterien/Integralkriterium.md",
-    "Analysis/Stetigkeit.md",
-    "Lineare Algebra/Basisergänzungssatz.md",
-    "Lineare Algebra/Äquivalenz von Matrizen.md",
-    "Kategorientheorie/Kategorie.md",
-    "Kategorientheorie/Automorphismus.md",
-    "Kategorientheorie/Endomorphismus.md",
-    "Kategorientheorie/Morphismus.md",
+    "Analysis/Umkehrregel.md",
     "Analysis/Abgeschlossene Menge.md",
-    "Topologie/Topologischer Raum.md"
+    "Analysis/Kompaktheit.md",
+    "Misc.md",
+    "Analysis/Absolute Konvergenz.md",
+    "Analysis/Konvergenzkriterien/Weierstraßsches Majorantenkriterium.md",
+    "Analysis/Zwischenwertsatz.md",
+    "Analysis/Satz von Rolle.md",
+    "Analysis/Stetigkeit.md",
+    "Analysis/Ableitung.md"
   ]
 }
