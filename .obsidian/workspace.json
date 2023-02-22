@@ -4,22 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "784995e2e1fd26c0",
+        "id": "c60ea5c2acfaa3e4",
         "type": "tabs",
         "children": [
           {
-            "id": "6806710b03820832",
+            "id": "1395f6cd5b93f6e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Abgeschlossene Menge.md",
+                "file": "Lineare Algebra/Unitäre Matrix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c182aca4137d8e65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Orthogonale Abbildung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "413307e64e08a87d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Selbstadjungierter Endomorphismus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b42d34476993545d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Jordannormalform.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e33aad78c066f436",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Jordan-Normalform.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -77,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Abgeschlossene Menge.md",
+                "file": "Lineare Algebra/Jordan-Normalform.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,17 +154,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "6806710b03820832",
+  "active": "e33aad78c066f436",
   "lastOpenFiles": [
-    "Analysis/Umkehrregel.md",
-    "Analysis/Abgeschlossene Menge.md",
-    "Analysis/Kompaktheit.md",
-    "Misc.md",
-    "Analysis/Absolute Konvergenz.md",
-    "Analysis/Konvergenzkriterien/Weierstraßsches Majorantenkriterium.md",
-    "Analysis/Zwischenwertsatz.md",
-    "Analysis/Satz von Rolle.md",
-    "Analysis/Stetigkeit.md",
-    "Analysis/Ableitung.md"
+    "Lineare Algebra/Adjungierter Endomorphismus.md",
+    "Lineare Algebra/Unitärer Raum.md",
+    "Lineare Algebra/Direkte Summe von Matrizen.md",
+    "Lineare Algebra/Matrixpotenz.md",
+    "Lineare Algebra/Direkte Summe.md",
+    "Lineare Algebra/Orthogonale Gruppe.md",
+    "Lineare Algebra/Unitäre Abbildung.md",
+    "Lineare Algebra/Orthogonale Abbildung.md",
+    "Lineare Algebra/Normaler Endomorphismus.md",
+    "Lineare Algebra/Orthogonales Komplement.md"
   ]
 }

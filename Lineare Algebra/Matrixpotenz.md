@@ -1,0 +1,1 @@
+Die Potenz einer quadratischen [[Matrix]] ist als wiederholte [[Matrixmultiplikation]] definiert, es gelten die [[Potenzgesetze]]

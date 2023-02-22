@@ -1,0 +1,1 @@
+Eine Drehmatrix oder Rotationsmatrix ist eine reelle, [[orthogonale Matrix]] mit [[Determinante]] +1.

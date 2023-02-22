@@ -21,3 +21,6 @@ $$n = n_1n_2 \implies n\cdot 1_k = (n_1\cdot 1_k)(n_2 \cdot 1_k)$$
 $$\implies (n_1\cdot 1_k)(n_2 \cdot 1_k) = 0 \implies n_1 = \mathrm{char}(K) \vee n_2 = \mathrm{char}(K)$$
 $$ \implies n \neq \mathrm{char}(K)$$
 Widerspruch.
+
+
+$2 - 1 \equiv 1 \pmod 3$
