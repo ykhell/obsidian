@@ -11,8 +11,12 @@
             "id": "8335edbdc0fd699a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Abstrakte Algebra/Modulo.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Abstrakte Algebra/Modulo.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,15 +107,35 @@
   },
   "active": "8335edbdc0fd699a",
   "lastOpenFiles": [
+    "Abstrakte Algebra/Modul.md",
+    "Abstrakte Algebra/Modulo.md",
+    "Abstrakte Algebra/Anordnungsaxiome.md",
+    "Abstrakte Algebra/Totalordnung.md",
+    "Abstrakte Algebra/Halbordnung.md",
+    "Abstrakte Algebra/Ringe/Polynomring.md",
+    "Abstrakte Algebra/Permutation.md",
+    "Abstrakte Algebra/Äquivalenzrelation.md",
+    "Abstrakte Algebra/Äquivalenzklasse.md",
+    "Abstrakte Algebra/Zweistellige Verknüpfung.md",
+    "Abstrakte Algebra/Peano-Axiome.md",
+    "Abstrakte Algebra/Ringe",
+    "Abstrakte Algebra/Körper/Charakteristik.md",
+    "Abstrakte Algebra/Körper",
+    "Abstrakte Algebra/Inverses Element.md",
+    "Abstrakte Algebra/Identitätsabbildung.md",
+    "Analysis/Gaußklammer.md",
+    "Abstrakte Algebra/Gruppen",
+    "Analysis/Vollständiger Raum.md",
+    "Analysis/Cauchy-Vollständigkeit.md",
+    "Analysis/Intervalle und Mengen/Kompaktheit.md",
+    "Analysis/Binomialkoeffizient.md",
+    "Analysis/Intervalle und Mengen/Offene Menge.md",
+    "Analysis/Intervalle und Mengen",
     "Lineare Algebra/Matrizen/Unitäre Matrix.md",
     "Lineare Algebra/Orthogonale Abbildung.md",
     "Lineare Algebra/Selbstadjungierter Endomorphismus.md",
     "Lineare Algebra/Matrizen/Jordannormalform.md",
     "Analysis/Konvergenz/Grenzwertkriterium.md",
-    "Analysis/Differentiation/Umkehrregel.md",
-    "Analysis/Differentiation/Differentationsregeln.md",
-    "Lineare Algebra/Addition von Matrizen.md",
-    "Lineare Algebra/Räume/Affiner Unterraum.md",
-    "Lineare Algebra/Untervektorraum.md"
+    "Analysis/Differentiation/Umkehrregel.md"
   ]
 }

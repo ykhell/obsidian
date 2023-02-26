@@ -3,7 +3,7 @@ aliases: [Signum, Signatur, Parität]
 ---
 
 # Definition
-Sei $S_n$ die [[symmetrische Gruppe]] aller [[Permutationen]] der [[Menge]] $\{1, \dots, n\}$, dann wird das Vorzeichen einer [[Permutation]] $\pi = (\pi(1), \pi(2), \dots, \pi(n)) \in S_n$ durch
+Sei $S_n$ die [[Symmetrische Gruppe]] aller [[Permutationen]] der [[Menge]] $\{1, \dots, n\}$, dann wird das Vorzeichen einer [[Permutation]] $\pi = (\pi(1), \pi(2), \dots, \pi(n)) \in S_n$ durch
 $$ \text{sgn}(\pi) = (-1)^{\#\text{inv}(\pi)} $$
 
 Das Signum einer Permutation kann die Werte $\pm 1$ annehmen, wobei man im ersten Fall von einer geraden und im zweiten Fall von einer ungeraden Permutation spricht.
