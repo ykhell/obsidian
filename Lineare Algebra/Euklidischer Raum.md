@@ -1,1 +1,0 @@
-Ein [[Skalarproduktraum]] heißt [[Euklidischer Raum]], falls $K = \Bbb R$

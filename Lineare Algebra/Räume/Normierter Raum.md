@@ -1,0 +1,1 @@
+Ein normierter Raum ist ein [[Vektorraum]], mit einer definierten [[Norm]].

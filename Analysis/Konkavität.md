@@ -1,3 +1,0 @@
----
-aliases: [konkav, konkave Funktion]
----

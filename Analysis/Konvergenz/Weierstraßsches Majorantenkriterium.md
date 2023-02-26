@@ -1,0 +1,1 @@
+Sei $(f_n)_{n \in \Bbb N}$ eine [[Folge]] von [[Abbildung|Funktionen]]

@@ -1,0 +1,2 @@
+Sei $a < b, f : (a,b) \to \Bbb R$ eine [[Stetigkeit|stetige Funktion]] mit $f(a) = f(b)$. Die Funktion $f$ sei in $(a, b)$ [[Differenzierbarkeit|differenzierbar]], 
+$$\implies \exists \xi \in (a,b) : f'(\xi)=0$$

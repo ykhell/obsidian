@@ -1,0 +1,1 @@
+Jede [[Teilfolge]] einer [[Konvergenz|konvergenten]] [[Folge]] ist konvergent, und zwar gegen dem gleichen [[Grenzwert]].

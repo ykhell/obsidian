@@ -3,5 +3,5 @@ Sei $A$ ein $n$-dimensionale [[Matrix]]. Die folgenden Bedingungen werden genau 
 - Das [[Charakteristische Polynom]] $p_A(\lambda)$ zerfällt vollständig in Linearfaktoren und die [[Geometrische Vielfachheit eines Eigenwerts|geometrische Vielfachheit]] entspricht der [[Algebraische Vielfachheit eines Eigenwerts|algebraischen Vielfachheit]] für jeden [[Eigenwert]] $\lambda_i \in K$.
 - Es gibt eine [[Basis]] für $K^n$, die aus [[Eigenvektor|Eigenvektoren]] für $A$ besteht.
 - Die Summe der [[Dimension|Dimensionen]] der jeweiligen [[Eigenraum|Eigenräume]] ist gleich $$n: \sum_{\lambda \in \sigma(A)} \dim (E_\lambda(A)) = n$$ wobei $\sigma(A)$ das Spektrum bezeichnet.
-- $K^n$ ist die [[direkte Summe]] der jeweiligen [[Eigenraum|Eigenräume]]: $$K^n = \bigoplus_{\lambda \in \sigma(A)}E_\lambda(A)$$
+- $K^n$ ist die [[Direkte Summe]] der jeweiligen [[Eigenraum|Eigenräume]]: $$K^n = \bigoplus_{\lambda \in \sigma(A)}E_\lambda(A)$$
 - Alle Jordanblöcke der Jordanschen Normalform $J_A$ haben die Dimension 1.
