@@ -2,7 +2,7 @@
 aliases: [Menge, Mengen]
 ---
 # Definition
-Als Menge wird ein abstraktes Objekt bezeichnet, das aus der Zusammenfassung einer Anzahl einzelner Objekte hervorgeht. Diese werden dann als die [[Mathematics/Mengenlehre/Element|Elemente]] der Menge bezeichnet. Die Menge ist eines der wichtigsten und grundlegenden Konzepte der Mathematik.
+Als [[Menge]] wird ein abstraktes Objekt bezeichnet, das aus der Zusammenfassung einer Anzahl einzelner Objekte hervorgeht. Diese werden dann als die [[Mathematics/Mengenlehre/Element|Elemente]] der Menge bezeichnet. Die Menge ist eines der wichtigsten und grundlegenden Konzepte der Mathematik.
 
 # Beispiele:
 Eine Menge $M$ kann durch die Aufzählung ihrer [[Mathematics/Mengenlehre/Element|Elemente]] definiert werden:

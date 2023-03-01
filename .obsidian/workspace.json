@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "afd19a1db4a22c8d",
+        "id": "c60ea5c2acfaa3e4",
         "type": "tabs",
         "children": [
           {
-            "id": "8335edbdc0fd699a",
+            "id": "c182aca4137d8e65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstrakte Algebra/Modulo.md",
+                "file": "Mengenlehre/Menge.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.0110321044922
+    "width": 242.5
   },
   "right": {
     "id": "83ae1a22de9efd24",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abstrakte Algebra/Modulo.md",
+                "file": "Mengenlehre/Menge.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5,
-    "collapsed": true
+    "width": 205.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -105,37 +104,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "8335edbdc0fd699a",
+  "active": "c182aca4137d8e65",
   "lastOpenFiles": [
-    "Abstrakte Algebra/Modul.md",
-    "Abstrakte Algebra/Modulo.md",
-    "Abstrakte Algebra/Anordnungsaxiome.md",
-    "Abstrakte Algebra/Totalordnung.md",
-    "Abstrakte Algebra/Halbordnung.md",
-    "Abstrakte Algebra/Ringe/Polynomring.md",
-    "Abstrakte Algebra/Permutation.md",
-    "Abstrakte Algebra/Äquivalenzrelation.md",
-    "Abstrakte Algebra/Äquivalenzklasse.md",
-    "Abstrakte Algebra/Zweistellige Verknüpfung.md",
-    "Abstrakte Algebra/Peano-Axiome.md",
-    "Abstrakte Algebra/Ringe",
-    "Abstrakte Algebra/Körper/Charakteristik.md",
-    "Abstrakte Algebra/Körper",
-    "Abstrakte Algebra/Inverses Element.md",
-    "Abstrakte Algebra/Identitätsabbildung.md",
-    "Analysis/Gaußklammer.md",
-    "Abstrakte Algebra/Gruppen",
-    "Analysis/Vollständiger Raum.md",
-    "Analysis/Cauchy-Vollständigkeit.md",
-    "Analysis/Intervalle und Mengen/Kompaktheit.md",
-    "Analysis/Binomialkoeffizient.md",
-    "Analysis/Intervalle und Mengen/Offene Menge.md",
-    "Analysis/Intervalle und Mengen",
-    "Lineare Algebra/Matrizen/Unitäre Matrix.md",
+    "Abstrakte Algebra/Annihilator.md",
+    "Mengenlehre/Menge.md",
+    "Logik/Logische Verknüpfung.md",
+    "Logik/Implikation (wenn dann).md",
+    "Logik/Konjunktion (und).md",
+    "Logik/Disjunktion (oder).md",
+    "Abstrakte Algebra/Kommutativität.md",
     "Lineare Algebra/Orthogonale Abbildung.md",
     "Lineare Algebra/Selbstadjungierter Endomorphismus.md",
-    "Lineare Algebra/Matrizen/Jordannormalform.md",
-    "Analysis/Konvergenz/Grenzwertkriterium.md",
-    "Analysis/Differentiation/Umkehrregel.md"
+    "Abstrakte Algebra/Distributivität.md"
   ]
 }
