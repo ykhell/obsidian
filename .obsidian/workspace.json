@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "afd19a1db4a22c8d",
+        "id": "4207430d47c424c2",
         "type": "tabs",
         "children": [
           {
-            "id": "8335edbdc0fd699a",
+            "id": "1b4f56c6214d4041",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstrakte Algebra/Modulo.md",
+                "file": "Analysis/Integration/Riemann-Integral.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abstrakte Algebra/Modulo.md",
+                "file": "Analysis/Integration/Riemann-Integral.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,37 +105,40 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "8335edbdc0fd699a",
+  "active": "2afdbd746c40d736",
   "lastOpenFiles": [
-    "Abstrakte Algebra/Modul.md",
+    "Mengenlehre/Menge.md",
+    "Lineare Algebra/Orthogonale Abbildung.md",
+    "Lineare Algebra/Orthogonale Gruppe.md",
+    "Physik/Kinetic Energy.md",
+    "Physik/Work.md",
+    "Physik/Newton's Second Law of Motion.md",
+    "Lineare Algebra/Kreuzprodukt.md",
+    "Physik/Kronecker Delta.md",
+    "Physik/Torque.md",
+    "Physik/Conservation of Linear Momentum.md",
+    "Physik/Angular Momentum.md",
+    "Physik/Linear Momentum.md",
+    "Logik/Algorithmus.md",
+    "Analysis/Integration/Partialbruchzerlegung.md",
+    "Analysis/Vollständigkeitsaxiom.md",
+    "Analysis/Absolut-Betrag.md",
+    "Analysis/Cauchy-Vollständigkeit.md",
+    "Analysis/Binomialkoeffizient.md",
+    "Topologie/Topologischer Raum.md",
+    "Physik/Lagrangian",
+    "Physik/Hamiltonian",
+    "Physik/Newtonian",
     "Abstrakte Algebra/Modulo.md",
+    "Abstrakte Algebra/Modul.md",
     "Abstrakte Algebra/Anordnungsaxiome.md",
     "Abstrakte Algebra/Totalordnung.md",
     "Abstrakte Algebra/Halbordnung.md",
     "Abstrakte Algebra/Ringe/Polynomring.md",
     "Abstrakte Algebra/Permutation.md",
-    "Abstrakte Algebra/Äquivalenzrelation.md",
-    "Abstrakte Algebra/Äquivalenzklasse.md",
-    "Abstrakte Algebra/Zweistellige Verknüpfung.md",
-    "Abstrakte Algebra/Peano-Axiome.md",
     "Abstrakte Algebra/Ringe",
-    "Abstrakte Algebra/Körper/Charakteristik.md",
     "Abstrakte Algebra/Körper",
-    "Abstrakte Algebra/Inverses Element.md",
-    "Abstrakte Algebra/Identitätsabbildung.md",
-    "Analysis/Gaußklammer.md",
     "Abstrakte Algebra/Gruppen",
-    "Analysis/Vollständiger Raum.md",
-    "Analysis/Cauchy-Vollständigkeit.md",
-    "Analysis/Intervalle und Mengen/Kompaktheit.md",
-    "Analysis/Binomialkoeffizient.md",
-    "Analysis/Intervalle und Mengen/Offene Menge.md",
-    "Analysis/Intervalle und Mengen",
-    "Lineare Algebra/Matrizen/Unitäre Matrix.md",
-    "Lineare Algebra/Orthogonale Abbildung.md",
-    "Lineare Algebra/Selbstadjungierter Endomorphismus.md",
-    "Lineare Algebra/Matrizen/Jordannormalform.md",
-    "Analysis/Konvergenz/Grenzwertkriterium.md",
-    "Analysis/Differentiation/Umkehrregel.md"
+    "Analysis/Intervalle und Mengen"
   ]
 }
