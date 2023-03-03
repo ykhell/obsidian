@@ -9,11 +9,17 @@
         "children": [
           {
             "id": "1b4f56c6214d4041",
+        "id": "c60ea5c2acfaa3e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c182aca4137d8e65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Analysis/Integration/Riemann-Integral.md",
+                "file": "Mengenlehre/Menge.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.0110321044922
+    "width": 242.5
   },
   "right": {
     "id": "83ae1a22de9efd24",
@@ -78,6 +84,7 @@
               "type": "backlink",
               "state": {
                 "file": "Analysis/Integration/Riemann-Integral.md",
+                "file": "Mengenlehre/Menge.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -92,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5,
-    "collapsed": true
+    "width": 205.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,5 +146,17 @@
     "Abstrakte Algebra/Körper",
     "Abstrakte Algebra/Gruppen",
     "Analysis/Intervalle und Mengen"
+  "active": "c182aca4137d8e65",
+  "lastOpenFiles": [
+    "Abstrakte Algebra/Annihilator.md",
+    "Mengenlehre/Menge.md",
+    "Logik/Logische Verknüpfung.md",
+    "Logik/Implikation (wenn dann).md",
+    "Logik/Konjunktion (und).md",
+    "Logik/Disjunktion (oder).md",
+    "Abstrakte Algebra/Kommutativität.md",
+    "Lineare Algebra/Orthogonale Abbildung.md",
+    "Lineare Algebra/Selbstadjungierter Endomorphismus.md",
+    "Abstrakte Algebra/Distributivität.md"
   ]
 }
