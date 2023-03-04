@@ -1,45 +1,76 @@
 {
   "main": {
-    "id": "e1efbd3c927d2db2",
+    "id": "2553796d8634042a",
     "type": "split",
     "children": [
       {
-        "id": "4207430d47c424c2",
+        "id": "02431f5bb766c55c",
         "type": "tabs",
         "children": [
           {
-            "id": "1b4f56c6214d4041",
-        "id": "c60ea5c2acfaa3e4",
-        "type": "tabs",
-        "children": [
+            "id": "36834e1a534c9173",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Funktionen/Treppenfunktion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
           {
-            "id": "c182aca4137d8e65",
+            "id": "7da8303e8e7a0966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Integration/Treppenintegral.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1997aa53dbbc4a95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Analysis/Integration/Riemann-Integral.md",
-                "file": "Mengenlehre/Menge.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d17f57f128204018",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Integration/Riemann-Integrierbarkeit.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "0add447483da598a",
+    "id": "1bcd5392d7ffbc55",
     "type": "split",
     "children": [
       {
-        "id": "167fce72e06d92f7",
+        "id": "61fcbbd6f73ef28b",
         "type": "tabs",
         "children": [
           {
-            "id": "2afdbd746c40d736",
+            "id": "6edbb87e42002f53",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,13 +80,13 @@
             }
           },
           {
-            "id": "47171c3e4c081b2d",
+            "id": "51ececab4734878c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#19th_Century",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -67,31 +98,30 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 300
   },
   "right": {
-    "id": "83ae1a22de9efd24",
+    "id": "f8dcb8f8da5eab31",
     "type": "split",
     "children": [
       {
-        "id": "7f2a36044259cde0",
+        "id": "7eae23602471de4c",
         "type": "tabs",
         "children": [
           {
-            "id": "7940de4bfe9e4a3c",
+            "id": "d67aa76dd41ef1ce",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Integration/Riemann-Integral.md",
-                "file": "Mengenlehre/Menge.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "Analysis/Integration/Riemann-Integrierbarkeit.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -99,64 +129,27 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obisidian-note-linker:Note Linker": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "obisidian-note-linker:Note Linker": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "2afdbd746c40d736",
+  "active": "d17f57f128204018",
   "lastOpenFiles": [
-    "Mengenlehre/Menge.md",
-    "Lineare Algebra/Orthogonale Abbildung.md",
-    "Lineare Algebra/Orthogonale Gruppe.md",
-    "Physik/Kinetic Energy.md",
-    "Physik/Work.md",
-    "Physik/Newton's Second Law of Motion.md",
-    "Lineare Algebra/Kreuzprodukt.md",
-    "Physik/Kronecker Delta.md",
-    "Physik/Torque.md",
-    "Physik/Conservation of Linear Momentum.md",
-    "Physik/Angular Momentum.md",
-    "Physik/Linear Momentum.md",
-    "Logik/Algorithmus.md",
-    "Analysis/Integration/Partialbruchzerlegung.md",
-    "Analysis/Vollständigkeitsaxiom.md",
-    "Analysis/Absolut-Betrag.md",
-    "Analysis/Cauchy-Vollständigkeit.md",
-    "Analysis/Binomialkoeffizient.md",
-    "Topologie/Topologischer Raum.md",
-    "Physik/Lagrangian",
-    "Physik/Hamiltonian",
-    "Physik/Newtonian",
-    "Abstrakte Algebra/Modulo.md",
-    "Abstrakte Algebra/Modul.md",
-    "Abstrakte Algebra/Anordnungsaxiome.md",
-    "Abstrakte Algebra/Totalordnung.md",
-    "Abstrakte Algebra/Halbordnung.md",
-    "Abstrakte Algebra/Ringe/Polynomring.md",
-    "Abstrakte Algebra/Permutation.md",
-    "Abstrakte Algebra/Ringe",
-    "Abstrakte Algebra/Körper",
-    "Abstrakte Algebra/Gruppen",
-    "Analysis/Intervalle und Mengen"
-  "active": "c182aca4137d8e65",
-  "lastOpenFiles": [
-    "Abstrakte Algebra/Annihilator.md",
-    "Mengenlehre/Menge.md",
-    "Logik/Logische Verknüpfung.md",
-    "Logik/Implikation (wenn dann).md",
-    "Logik/Konjunktion (und).md",
-    "Logik/Disjunktion (oder).md",
-    "Abstrakte Algebra/Kommutativität.md",
-    "Lineare Algebra/Orthogonale Abbildung.md",
-    "Lineare Algebra/Selbstadjungierter Endomorphismus.md",
-    "Abstrakte Algebra/Distributivität.md"
+    "Lineare Algebra/Untervektorraum.md",
+    "Analysis/Integration/Riemann-Integrierbarkeit.md",
+    "Analysis/Integration/Riemann-Integral.md",
+    "Analysis/Integration/Obersumme - Untersumme.md",
+    "Analysis/Integration/Treppenintegral.md",
+    "Analysis/Funktionen/Treppenfunktion.md",
+    "Analysis/Vollständiger Raum.md"
   ]
 }
