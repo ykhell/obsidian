@@ -1,1 +1,0 @@
-Eine abgeschlossene [[Menge]] ist eine [[Teilmenge - Obermenge|Teilmenge]] eines [[Topologischer Raum|topologischen Raums]], deren [[Komplement]] eine [[Offene Menge]] ist.
