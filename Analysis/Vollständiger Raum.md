@@ -1,1 +1,0 @@
-Ein vollständiger Raum ist ein [[Metrischer Raum]], in dem jede [[Cauchy-Folge]] von Elementen des Raums konvergiert. Und heißt [[Cauchy-Vollständigkeit|Cauchy-Vollständig]]

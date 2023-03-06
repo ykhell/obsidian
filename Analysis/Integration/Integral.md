@@ -3,7 +3,7 @@ Integration ist das Gegenstück zur Differentiation und beschreibt den Prozess d
 $$\int_a^bf(x)dx$$
 Das Integralzeichen $\int$ und die Unbestimmte Integrationskonstante $C$ sind verwendet, um das Integral darzustellen. Das Integral ist auch [[Linearität|linear]]
 # Formal
-Die formale Definition des Integrals einer Funktion $f(x)$ in einem Intervall $[a,b]$ ist gegeben durch der Idee des [[Riemann-Integral|Riemann-Integrals]]:
+Die formale Definition des Integrals einer Funktion $f(x)$ in einem Intervall $[a,b]$ ist gegeben durch der Idee des [[Riemann-Summe|Riemann-Integrals]]:
 $$\int_a^b f(x)dx = \lim_{\Delta x \to 0} \sum_{i=1}^n f(x_i)\Delta x$$
 # Eigenschaften und Techniques
 * Additivität: Für alle Funktionen $f(x)$ und $g(x)$ und einen Skalar $c$ gilt: $\int f(x) dx + \int g(x) dx = \int (f(x) + g(x)) dx$ und $c\int f(x) dx = \int (cf(x)) dx$

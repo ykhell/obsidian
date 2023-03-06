@@ -1,2 +1,0 @@
-Ist die [[Menge]] $U$ eine [[Teilmenge - Obermenge|Teilmenge]] des $n$-dimensionalen [[Euklidischer Raum|euklidischen Raums]] $\Bbb R^n$, dann nennt man $U$ offen, falls gilt:
-$$\forall x \in U, \exists \varepsilon > 0 : \forall y \in \Bbb R^n : |x-y| < \varepsilon \implies y \in U$$
