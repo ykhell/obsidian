@@ -1,0 +1,3 @@
+Sei $M$ eine nichtleere [[Menge]] und $(X, \|\cdot\|_Y)$ ein [[Normierter Raum]], dann bezeichnet $B(M, X)$ den [[Funktionenraum]] der beschränkten Funktionen von $M$ nach $X$. Die Supremumsnorm auf diesem Funktionenraum ist dann die [[Abbildung]] 
+$$\|\cdot\|_\infty :=B(M,X) \to \Bbb R, \text{ mit }\|\Psi\|_\infty := \sup_{x \in M}\|\Psi(x)\|_X$$
+Die Supremumsnorm einer [[Abbildung|Funktion]] ist also das [[Supremum und Infimum|Supremum]] der [[Norm|Normen]] aller Funktionswerte und damit eine nichtnegative [[Reelle Zahlen|reelle Zahl]]. hierbei ist es wichtig, dass die Funktion eine [[Beschränkte Funktion]] ist.

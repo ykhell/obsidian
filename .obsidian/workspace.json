@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "02431f5bb766c55c",
+        "id": "0cb9a7d640c8fc91",
         "type": "tabs",
         "children": [
           {
-            "id": "36834e1a534c9173",
+            "id": "c708e408c84e802e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Funktionen/Treppenfunktion.md",
+                "file": "Analysis/Funktionen/Konvexität.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d17f57f128204018",
+            "id": "caf37d43b9ee482a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Integration/Riemann-Integrierbarkeit.md",
+                "file": "Lineare Algebra/Räume/Halbraum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa96a5af6337fffb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Konvexe Hülle.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Integration/Riemann-Integrierbarkeit.md",
+                "file": "Lineare Algebra/Konvexe Hülle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,11 +130,25 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d17f57f128204018",
+  "active": "aa96a5af6337fffb",
   "lastOpenFiles": [
-    "Analysis/Metrische Räume/Vollständiger Raum.md",
-    "Analysis/Metrische Räume/Kugel.md",
+    "Lineare Algebra/Räume/Halbraum.md",
+    "Lineare Algebra/Konvexe Hülle.md",
+    "Analysis/Funktionen/Konvexität.md",
+    "Lineare Algebra/Räume/Komplexifizierung.md",
+    "Analysis/Funktionen/Treppenfunktion.md",
     "Analysis/Metrische Räume/Fixpunkt.md",
+    "Analysis/Funktionen/Iteration.md",
+    "Analysis/Metrische Räume/Kontraktion.md",
+    "Mengenlehre/Reelle Zahlen.md",
+    "Analysis/Funktionen/Supremumsnorm.md",
+    "Analysis/Funktionen/Stetigkeit.md",
+    "Analysis/Metrische Räume/Vollständiger Raum.md",
+    "Lineare Algebra/Räume/Funktionenraum.md",
+    "Analysis/Funktionen/Beschränkte Funktion.md",
+    "Analysis/Metrische Räume/Banach-Fixpunktsatz.md",
+    "Analysis/Integration/Riemann-Integrierbarkeit.md",
+    "Analysis/Metrische Räume/Kugel.md",
     "Analysis/Metrische Räume",
     "Analysis/Mengen/Supremum und Infimum.md",
     "Analysis/Mengen/Rand.md",
@@ -133,16 +159,6 @@
     "Analysis/Mengen/Abgeschlossene Menge.md",
     "Analysis/Mengen",
     "Analysis/Integration/Treppenfunktionsintegral.md",
-    "Analysis/Integration/Riemann-Summe.md",
-    "Analysis/Integration/Mittelwertsatz der Integralrechnung.md",
-    "Analysis/Folgen/Bernoulli-Zahl.md",
-    "Analysis/Faulhabersche Formel.md",
-    "Lineare Algebra/Untervektorraum.md",
-    "Analysis/Integration/Riemann-Integrierbarkeit.md",
-    "Analysis/Integration/Riemann-Integral.md",
-    "Analysis/Integration/Obersumme - Untersumme.md",
-    "Analysis/Integration/Treppenintegral.md",
-    "Analysis/Funktionen/Treppenfunktion.md",
-    "Analysis/Vollständiger Raum.md"
+    "Analysis/Integration/Riemann-Summe.md"
   ]
 }

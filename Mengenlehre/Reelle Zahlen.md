@@ -5,6 +5,8 @@ aliases: [reelle Zahl, reellen Zahlen]
 Die [[Menge]] der reellen Zahlen $\mathbb R$ ist eine Erweiterung des Bereichs der [[Rationale Zahlen | rationalen Zahlen]], der Brüche, womit die Maßzahlen der Messwerte für übliche physikalische Größen wie zum Beispiel Länge, Temperatur oder Masse als reelle Zahlen aufgefasst werden können. Die reellen Zahlen umfassen die rationalen Zahlen und die [[Irrationale Zahlen | irrationalen Zahlen]]. 
 $$ |\mathbb{R}| = \mathfrak c$$
 
+# Eigenschaften
+1. $\Bbb R^n$ ist vollständig
 # Axiome
 Die reellen Zahlen sind eine Struktur der Form $(\Bbb R, +, \cdot, <)$ mit zwei ausgezeichneten Elementen $0, 1 \in \Bbb R$ derart, so dass $\forall x, y, z \in R$:
 - K1: [[Assoziativität]] für die Addition:
