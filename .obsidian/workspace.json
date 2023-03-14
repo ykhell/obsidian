@@ -13,6 +13,31 @@
             "state": {
               "type": "empty",
               "state": {}
+        "id": "02431f5bb766c55c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36834e1a534c9173",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Funktionen/Treppenfunktion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d17f57f128204018",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Integration/Riemann-Integrierbarkeit.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Analysis/Integration/Riemann-Integrierbarkeit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,26 +134,31 @@
     "Abstrakte Algebra/Magma.md",
     "Abstrakte Algebra/Halbgruppe.md",
     "Analysis/Metrische Räume/Fixpunkt.md",
+  "active": "d17f57f128204018",
+  "lastOpenFiles": [
+    "Analysis/Metrische Räume/Vollständiger Raum.md",
+    "Analysis/Metrische Räume/Kugel.md",
+    "Analysis/Metrische Räume/Fixpunkt.md",
+    "Analysis/Metrische Räume",
+    "Analysis/Mengen/Supremum und Infimum.md",
     "Analysis/Mengen/Rand.md",
     "Analysis/Mengen/Offene Menge.md",
-    "Analysis/Mengen/Abgeschlossene Menge.md",
-    "Analysis/Metrische Räume/Kugel.md",
     "Analysis/Mengen/Kompaktheit.md",
-    "Analysis/Metrische Räume",
-    "Analysis/Gaußklammer.md",
-    "Analysis/Mengen/Supremum und Infimum.md",
-    "Analysis/Intervalle und Mengen/Offene Menge.md",
-    "Analysis/Intervalle und Mengen/Abgeschlossene Menge.md",
-    "Analysis/Folgen/Cauchy-Folge.md",
-    "Analysis/Faulhabersche Formel.md",
-    "Analysis/Vollständiger Raum.md",
-    "Analysis/Cauchy-Vollständigkeit.md",
     "Analysis/Mengen/Inneres.md",
-    "Analysis/Konvergenz/Konvergenz.md",
-    "Topologie/Topologischer Raum.md",
-    "Analysis/Funktionen/Treppenfunktion.md",
+    "Analysis/Mengen/Abschluss.md",
+    "Analysis/Mengen/Abgeschlossene Menge.md",
+    "Analysis/Mengen",
     "Analysis/Integration/Treppenfunktionsintegral.md",
     "Analysis/Integration/Riemann-Summe.md",
-    "Analysis/Integration/Riemann-Integrierbarkeit.md"
+    "Analysis/Integration/Mittelwertsatz der Integralrechnung.md",
+    "Analysis/Folgen/Bernoulli-Zahl.md",
+    "Analysis/Faulhabersche Formel.md",
+    "Lineare Algebra/Untervektorraum.md",
+    "Analysis/Integration/Riemann-Integrierbarkeit.md",
+    "Analysis/Integration/Riemann-Integral.md",
+    "Analysis/Integration/Obersumme - Untersumme.md",
+    "Analysis/Integration/Treppenintegral.md",
+    "Analysis/Funktionen/Treppenfunktion.md",
+    "Analysis/Vollständiger Raum.md"
   ]
 }
