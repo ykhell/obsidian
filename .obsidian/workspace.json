@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "338d254757d3e9b9",
+        "id": "daaa3ae5329b1c39",
         "type": "tabs",
         "children": [
           {
-            "id": "29bb6cccbd260e2a",
+            "id": "a5863351862763b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Mengen/Abschluss.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42fe831bb9b8b177",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Metrische Räume/Vollständiger Raum.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Metrische Räume/Vollständiger Raum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,11 +100,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "42fe831bb9b8b177",
+  "active": "a5863351862763b8",
   "lastOpenFiles": [
-    "Analysis/Metrische Räume/Fixpunkt.md",
-    "Analysis/Metrische Räume/Vollständiger Raum.md",
+    "Abstrakte Algebra/Untermagma.md",
     "Analysis/Mengen/Abschluss.md",
+    "Analysis/Metrische Räume/Vollständiger Raum.md",
+    "Abstrakte Algebra/Magma.md",
+    "Abstrakte Algebra/Halbgruppe.md",
+    "Analysis/Metrische Räume/Fixpunkt.md",
     "Analysis/Mengen/Rand.md",
     "Analysis/Mengen/Offene Menge.md",
     "Analysis/Mengen/Abgeschlossene Menge.md",
@@ -143,9 +128,6 @@
     "Analysis/Funktionen/Treppenfunktion.md",
     "Analysis/Integration/Treppenfunktionsintegral.md",
     "Analysis/Integration/Riemann-Summe.md",
-    "Analysis/Integration/Riemann-Integrierbarkeit.md",
-    "Analysis/Folgen/Bernoulli-Zahl.md",
-    "Topologie/Konvergenz (Metrische Räume).md",
-    "Analysis/Integration/Mittelwertsatz der Integralrechnung.md"
+    "Analysis/Integration/Riemann-Integrierbarkeit.md"
   ]
 }
