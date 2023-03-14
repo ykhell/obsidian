@@ -4,7 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0cb9a7d640c8fc91",
+        "id": "daaa3ae5329b1c39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5863351862763b8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+        "id": "02431f5bb766c55c",
         "type": "tabs",
         "children": [
           {
@@ -45,6 +54,7 @@
           }
         ],
         "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,6 +141,15 @@
     }
   },
   "active": "aa96a5af6337fffb",
+  "active": "a5863351862763b8",
+  "lastOpenFiles": [
+    "Abstrakte Algebra/Untermagma.md",
+    "Analysis/Mengen/Abschluss.md",
+    "Analysis/Metrische Räume/Vollständiger Raum.md",
+    "Abstrakte Algebra/Magma.md",
+    "Abstrakte Algebra/Halbgruppe.md",
+    "Analysis/Metrische Räume/Fixpunkt.md",
+  "active": "d17f57f128204018",
   "lastOpenFiles": [
     "Lineare Algebra/Räume/Halbraum.md",
     "Lineare Algebra/Konvexe Hülle.md",
