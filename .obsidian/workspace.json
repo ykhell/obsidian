@@ -4,71 +4,97 @@
     "type": "split",
     "children": [
       {
-        "id": "daaa3ae5329b1c39",
+        "id": "9225a713af616b7e",
         "type": "tabs",
         "children": [
           {
-            "id": "a5863351862763b8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-        "id": "02431f5bb766c55c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c708e408c84e802e",
+            "id": "f9900a874a8bae32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Funktionen/Konvexität.md",
+                "file": "Zahlentheorie/P-adische Zahlen/Absolutbetrag.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5872895e54730f8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zahlentheorie/P-adische Zahlen/P-adic Absolute Value.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "caf37d43b9ee482a",
+            "id": "62a1f959682ee0e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Räume/Halbraum.md",
+                "file": "Lineare Algebra/Matrizen/Komplexe Matrix.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "aa96a5af6337fffb",
+            "id": "890dcbfc1b251f22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Konvexe Hülle.md",
+                "file": "Analysis/Absolut-Betrag.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cabb66cfce71088e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zahlentheorie/P-adische Zahlen/Absolutbetrag.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "118e749e86056ac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1bcd5392d7ffbc55",
+    "id": "9a8f46e046daf246",
     "type": "split",
     "children": [
       {
-        "id": "61fcbbd6f73ef28b",
+        "id": "98ca695aa94ecd6e",
         "type": "tabs",
         "children": [
           {
-            "id": "6edbb87e42002f53",
+            "id": "73b71b9585b1570f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -78,7 +104,7 @@
             }
           },
           {
-            "id": "51ececab4734878c",
+            "id": "e722f6fa7b42e1cd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -99,20 +125,20 @@
     "width": 300
   },
   "right": {
-    "id": "f8dcb8f8da5eab31",
+    "id": "3860746ada5fe258",
     "type": "split",
     "children": [
       {
-        "id": "7eae23602471de4c",
+        "id": "af9768d18a0b16e8",
         "type": "tabs",
         "children": [
           {
-            "id": "d67aa76dd41ef1ce",
+            "id": "72de55b0f58e9a26",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Konvexe Hülle.md",
+                "file": "Zahlentheorie/P-adische Zahlen/P-adic Absolute Value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,44 +166,35 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "aa96a5af6337fffb",
-  "active": "a5863351862763b8",
+  "active": "5872895e54730f8f",
   "lastOpenFiles": [
+    "Zahlentheorie/P-adische Zahlen/Absolutbetrag.md",
+    "Zahlentheorie/P-adische Zahlen/P-adic Absolute Value.md",
+    "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
+    "Analysis/Metrische Räume/Banach-Fixpunktsatz.md",
+    "Analysis/Absolut-Betrag.md",
+    "Lineare Algebra/Matrizen/Darstellungsmatrix eines Skalarprodukts.md",
+    "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf",
+    "Lineare Algebra/Standardskalarprodukt.md",
+    "Lineare Algebra/Matrizen/Darstellungsmatrix einer Bilinearform.md",
+    "Lineare Algebra/Matrizen/Kongruenz von Matrizen.md",
+    "Lineare Algebra/Matrizen/Komplexe Matrix.md",
+    "Analysis/Integration/Riemann-Summe.md",
+    "Analysis/Funktionen/Supremumsnorm.md",
+    "Analysis/Analysis 2/381-68-81644-2-10-20180712.pdf",
+    "Analysis/Metrische Räume/Euklidische Metrik.md",
+    "Abstrakte Algebra/Ringe/Ring.md",
+    "Engineering/Verbrennungsmotor/Fuel System/Carburator.md",
     "Abstrakte Algebra/Untermagma.md",
-    "Analysis/Mengen/Abschluss.md",
-    "Analysis/Metrische Räume/Vollständiger Raum.md",
+    "Abstrakte Algebra/Gruppen/Gruppe.md",
+    "Abstrakte Algebra/Kern.md",
+    "Abstrakte Algebra/Annihilator.md",
     "Abstrakte Algebra/Magma.md",
     "Abstrakte Algebra/Halbgruppe.md",
-    "Analysis/Metrische Räume/Fixpunkt.md",
-  "active": "d17f57f128204018",
-  "lastOpenFiles": [
-    "Lineare Algebra/Räume/Halbraum.md",
-    "Lineare Algebra/Konvexe Hülle.md",
-    "Analysis/Funktionen/Konvexität.md",
-    "Lineare Algebra/Räume/Komplexifizierung.md",
-    "Analysis/Funktionen/Treppenfunktion.md",
-    "Analysis/Metrische Räume/Fixpunkt.md",
-    "Analysis/Funktionen/Iteration.md",
-    "Analysis/Metrische Räume/Kontraktion.md",
-    "Mengenlehre/Reelle Zahlen.md",
-    "Analysis/Funktionen/Supremumsnorm.md",
-    "Analysis/Funktionen/Stetigkeit.md",
-    "Analysis/Metrische Räume/Vollständiger Raum.md",
-    "Lineare Algebra/Räume/Funktionenraum.md",
-    "Analysis/Funktionen/Beschränkte Funktion.md",
-    "Analysis/Metrische Räume/Banach-Fixpunktsatz.md",
-    "Analysis/Integration/Riemann-Integrierbarkeit.md",
-    "Analysis/Metrische Räume/Kugel.md",
-    "Analysis/Metrische Räume",
-    "Analysis/Mengen/Supremum und Infimum.md",
-    "Analysis/Mengen/Rand.md",
-    "Analysis/Mengen/Offene Menge.md",
-    "Analysis/Mengen/Kompaktheit.md",
-    "Analysis/Mengen/Inneres.md",
-    "Analysis/Mengen/Abschluss.md",
-    "Analysis/Mengen/Abgeschlossene Menge.md",
-    "Analysis/Mengen",
-    "Analysis/Integration/Treppenfunktionsintegral.md",
-    "Analysis/Integration/Riemann-Summe.md"
+    "Abstrakte Algebra/Monoid.md",
+    "Abstrakte Algebra/Algebraische Struktur.md",
+    "Lineare Algebra/Bilinearform.md",
+    "Lineare Algebra/Norm.md",
+    "Lineare Algebra/Symmetrische Bilinearform.md"
   ]
 }

@@ -1,4 +1,5 @@
 # Definition
+Eine Gruppe $(G, *, e, ^{-1})$ ist eine algebraische Struktur bestehend aus ein [[Monoid]] mit einem [[Inverses Element|inversen Element]] $a^{-1} \ \forall a \in G$
 Eine Gruppe ist eine [[Menge]] von [[Element|Elementen]] zusammen mit einer [[Zweistellige Verknüpfung|zweistelligen Verknüpfung]], die je zwei [[Mathematics/Mengenlehre/Element|Elementen]] der [[Menge]] ein drittes [[Mathematics/Mengenlehre/Element|Element]] derselben [[Menge]] zuordnet und dabei drei Bedingungen, die Gruppenaxiome, erfüllt:
 - [[Assoziativität]]: $\forall a, b, c \in G$ gilt:
     $(a * b) * c = a * (b * c).$

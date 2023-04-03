@@ -1,0 +1,3 @@
+Die [[Kongruenzrelation|Kongruenz]] von Matrizen ist eine [[Äquivalenzrelation]] auf der Klasse der quadratischen [[Matrix|Matrizen]]. Zwei Matrizen $A, B$ heißen kongruent, wenn es eine [[Invertierbare Matrix]] $P$ gibt, mit
+$$B = P^TAP$$
+Äquivalent lässt sich definieren, dass zwei Matrizen kongruent sind, falls sie bzgl. zweier (möglicherweise unterschiedlicher) [[Basen]] die gleiche [[Bilinearform]] repräsentieren.

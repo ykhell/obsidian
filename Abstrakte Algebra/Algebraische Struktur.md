@@ -1,0 +1,3 @@
+Eine algebraische Struktur oder allgemeine Algebra ist ein [[Geordnetes Paar]] $$(A, (\Psi_i)_{i \in I}),$$
+bestehend aus einer nichtleeren [[Menge]] $A$, der Grundmenge oder [[Trägermenge]] der Algebra, und einer Familie $(\Psi_i)_{i \in I}$ von inneren endlichstelligen Verknüpfungen, auch Grundoperationen oder fundamentale Operationen genannt, auf $A$.
+Eine innere $n$-stellige Verknüpfung auf $A$ ist eine [[Abbildung]] $\Psi: A^n \to A$, die $n$ [[Element|Elemente]] $a_1, ..., a_n$ aus $A$ immer auf ein [[Element]] $\Psi(a_1, ..., a_n) \in A$ abbildet. Eine nullstellige Verknüpfung auf $A$ kann als eine Konstante interpretiert werden, Konstanten werden meist mit einem speziellen Symbol z.B. $e, 0, 1$ bezeichnet.
