@@ -4,57 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "daaa3ae5329b1c39",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a5863351862763b8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-        "id": "02431f5bb766c55c",
+        "id": "aed50deb1160917d",
         "type": "tabs",
         "children": [
           {
             "id": "36834e1a534c9173",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "9486396976b0a095",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Funktionen/Treppenfunktion.md",
+                "file": "Wahrscheinlichkeitstheorie/Warscheinlichkeitsraum.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d17f57f128204018",
+            "id": "1e1f0ef5164387e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Integration/Riemann-Integrierbarkeit.md",
+                "file": "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f5cbe067ad50568",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Metrische Räume/Triviale Metrik.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d089b6562dc0cd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Faulhabersche Formel.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1bcd5392d7ffbc55",
+    "id": "90829aea97a5045d",
     "type": "split",
     "children": [
       {
-        "id": "61fcbbd6f73ef28b",
+        "id": "b8df0277e87115a3",
         "type": "tabs",
         "children": [
           {
-            "id": "6edbb87e42002f53",
+            "id": "55e4be7430e31ca8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,7 +88,7 @@
             }
           },
           {
-            "id": "51ececab4734878c",
+            "id": "ec3e86392c559181",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -82,23 +106,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "f8dcb8f8da5eab31",
+    "id": "e31b534322c25e95",
     "type": "split",
     "children": [
       {
-        "id": "7eae23602471de4c",
+        "id": "a5bcf899bebbffad",
         "type": "tabs",
         "children": [
           {
-            "id": "d67aa76dd41ef1ce",
+            "id": "ec3824fde9eab8bb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Integration/Riemann-Integrierbarkeit.md",
+                "file": "Analysis/Faulhabersche Formel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,39 +150,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a5863351862763b8",
+  "active": "1d089b6562dc0cd2",
   "lastOpenFiles": [
-    "Abstrakte Algebra/Untermagma.md",
-    "Analysis/Mengen/Abschluss.md",
-    "Analysis/Metrische Räume/Vollständiger Raum.md",
-    "Abstrakte Algebra/Magma.md",
-    "Abstrakte Algebra/Halbgruppe.md",
-    "Analysis/Metrische Räume/Fixpunkt.md",
-  "active": "d17f57f128204018",
-  "lastOpenFiles": [
-    "Analysis/Metrische Räume/Vollständiger Raum.md",
-    "Analysis/Metrische Räume/Kugel.md",
-    "Analysis/Metrische Räume/Fixpunkt.md",
-    "Analysis/Metrische Räume",
-    "Analysis/Mengen/Supremum und Infimum.md",
-    "Analysis/Mengen/Rand.md",
-    "Analysis/Mengen/Offene Menge.md",
-    "Analysis/Mengen/Kompaktheit.md",
-    "Analysis/Mengen/Inneres.md",
-    "Analysis/Mengen/Abschluss.md",
-    "Analysis/Mengen/Abgeschlossene Menge.md",
-    "Analysis/Mengen",
-    "Analysis/Integration/Treppenfunktionsintegral.md",
-    "Analysis/Integration/Riemann-Summe.md",
-    "Analysis/Integration/Mittelwertsatz der Integralrechnung.md",
-    "Analysis/Folgen/Bernoulli-Zahl.md",
-    "Analysis/Faulhabersche Formel.md",
-    "Lineare Algebra/Untervektorraum.md",
-    "Analysis/Integration/Riemann-Integrierbarkeit.md",
-    "Analysis/Integration/Riemann-Integral.md",
-    "Analysis/Integration/Obersumme - Untersumme.md",
-    "Analysis/Integration/Treppenintegral.md",
-    "Analysis/Funktionen/Treppenfunktion.md",
-    "Analysis/Vollständiger Raum.md"
+    "Analysis/Metrische Räume/Induzierte Metrik.md",
+    "Analysis/Metrische Räume/Triviale Metrik.md",
+    "Lineare Algebra/Räume/Normierter Raum.md",
+    "Analysis/Analysis 2/skript2022.pdf",
+    "Abstrakte Algebra/Maß.md",
+    "Wahrscheinlichkeitstheorie/Warscheinlichkeitsraum.md",
+    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
+    "Abstrakte Algebra/Maßraum.md",
+    "Abstrakte Algebra/Sigma-Algebra.md",
+    "Wahrscheinlichkeitstheorie"
   ]
 }
