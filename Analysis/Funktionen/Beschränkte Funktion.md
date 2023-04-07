@@ -1,0 +1,1 @@
+Eine beschränkte [[Abbildung|Funktion]] ist eine Funktion, deren [[Bild|Bildmenge]] [[Beschränkte Menge|beschränkt]] ist. 

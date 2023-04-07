@@ -2,7 +2,7 @@ Die Norm ist eine [[Abbildung]] $\| \cdot \|$ von einem [[Vektorraum]] $V$ über
 $$\|\cdot\|:V \to \Bbb R_0^+, x \mapsto \|x\|$$
 die $\forall x, y \in V, \forall \alpha \in K$ folgenden drei Axiome erfüllt:
 - Definitheit: $$\|x\| = 0 \implies x = 0$$
-- Absolute Homogenität: $$\|\alpha \cdot x \| = |\alpha| \cdot \|x\|$$
+- Absolute Homogenität oder Multiplikativität: $$\|\alpha \cdot x \| = |\alpha| \cdot \|x\|$$
 - Subadditivität oder [[Dreiecksungleichung]]:
 $$\|x+y\| \leq \|x\| + \|y\|$$
 # Beispiel

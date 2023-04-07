@@ -9,6 +9,11 @@
         "children": [
           {
             "id": "36834e1a534c9173",
+        "id": "9225a713af616b7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9900a874a8bae32",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -22,6 +27,19 @@
               "type": "markdown",
               "state": {
                 "file": "Wahrscheinlichkeitstheorie/Warscheinlichkeitsraum.md",
+                "file": "Zahlentheorie/P-adische Zahlen/Absolutbetrag.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5872895e54730f8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zahlentheorie/P-adische Zahlen/P-adic Absolute Value.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,11 +47,13 @@
           },
           {
             "id": "1e1f0ef5164387e6",
+            "id": "62a1f959682ee0e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
+                "file": "Lineare Algebra/Matrizen/Komplexe Matrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,11 +61,13 @@
           },
           {
             "id": "7f5cbe067ad50568",
+            "id": "890dcbfc1b251f22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Analysis/Metrische Räume/Triviale Metrik.md",
+                "file": "Analysis/Absolut-Betrag.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,11 +75,25 @@
           },
           {
             "id": "1d089b6562dc0cd2",
+            "id": "cabb66cfce71088e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Analysis/Faulhabersche Formel.md",
+                "file": "Zahlentheorie/P-adische Zahlen/Absolutbetrag.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "118e749e86056ac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,6 +101,7 @@
           }
         ],
         "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +115,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "55e4be7430e31ca8",
+    "id": "9a8f46e046daf246",
+    "type": "split",
+    "children": [
+      {
+        "id": "98ca695aa94ecd6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73b71b9585b1570f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -89,6 +134,7 @@
           },
           {
             "id": "ec3e86392c559181",
+            "id": "e722f6fa7b42e1cd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -118,11 +164,21 @@
         "children": [
           {
             "id": "ec3824fde9eab8bb",
+    "id": "3860746ada5fe258",
+    "type": "split",
+    "children": [
+      {
+        "id": "af9768d18a0b16e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72de55b0f58e9a26",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
                 "file": "Analysis/Faulhabersche Formel.md",
+                "file": "Zahlentheorie/P-adische Zahlen/P-adic Absolute Value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,5 +218,35 @@
     "Abstrakte Algebra/Maßraum.md",
     "Abstrakte Algebra/Sigma-Algebra.md",
     "Wahrscheinlichkeitstheorie"
+  "active": "5872895e54730f8f",
+  "lastOpenFiles": [
+    "Zahlentheorie/P-adische Zahlen/Absolutbetrag.md",
+    "Zahlentheorie/P-adische Zahlen/P-adic Absolute Value.md",
+    "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
+    "Analysis/Metrische Räume/Banach-Fixpunktsatz.md",
+    "Analysis/Absolut-Betrag.md",
+    "Lineare Algebra/Matrizen/Darstellungsmatrix eines Skalarprodukts.md",
+    "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf",
+    "Lineare Algebra/Standardskalarprodukt.md",
+    "Lineare Algebra/Matrizen/Darstellungsmatrix einer Bilinearform.md",
+    "Lineare Algebra/Matrizen/Kongruenz von Matrizen.md",
+    "Lineare Algebra/Matrizen/Komplexe Matrix.md",
+    "Analysis/Integration/Riemann-Summe.md",
+    "Analysis/Funktionen/Supremumsnorm.md",
+    "Analysis/Analysis 2/381-68-81644-2-10-20180712.pdf",
+    "Analysis/Metrische Räume/Euklidische Metrik.md",
+    "Abstrakte Algebra/Ringe/Ring.md",
+    "Engineering/Verbrennungsmotor/Fuel System/Carburator.md",
+    "Abstrakte Algebra/Untermagma.md",
+    "Abstrakte Algebra/Gruppen/Gruppe.md",
+    "Abstrakte Algebra/Kern.md",
+    "Abstrakte Algebra/Annihilator.md",
+    "Abstrakte Algebra/Magma.md",
+    "Abstrakte Algebra/Halbgruppe.md",
+    "Abstrakte Algebra/Monoid.md",
+    "Abstrakte Algebra/Algebraische Struktur.md",
+    "Lineare Algebra/Bilinearform.md",
+    "Lineare Algebra/Norm.md",
+    "Lineare Algebra/Symmetrische Bilinearform.md"
   ]
 }
