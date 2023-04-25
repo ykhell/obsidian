@@ -1,0 +1,3 @@
+Es sei $R$ ein [[Ring]], dann heißt ein [[Ideal]] $m \subsetneq R$ maximal, wenn $m$ ein maximales Element ist in der durch die [[Inklusion]] $\subseteq$ halbgeordneten Menge aller [[Ideal|echten Ideale]]. D.h. für jedes echte Ideal $a \subseteq R$ gilt:
+$$a \supseteq m \implies a = m$$
+Ein echtes Ideal $m \subsetneq R$ wird maximal genannt, wenn es kein anderes echtes Ideal von $R$ gibt, das $m$ ganz enthält.

@@ -1,1 +1,1 @@
-Ein [[Skalarproduktraum]] heißt [[Euklidischer Raum]], falls $K = \Bbb R$
+Ein euklidischer Raum ist ein $\Bbb R$-[[Vektorraum]] mit einem [[Skalarprodukt]], also ein $\Bbb R$-[[Skalarproduktraum]].
