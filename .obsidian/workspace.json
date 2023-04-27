@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "85e4bd8411d8f367",
+        "id": "5ceffad92cae93e1",
         "type": "tabs",
         "children": [
           {
-            "id": "63bf2e4cbbf14326",
+            "id": "8189c4fd62ffb571",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -100,8 +100,22 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "63bf2e4cbbf14326",
+  "active": "8189c4fd62ffb571",
   "lastOpenFiles": [
+    "Lineare Algebra/Hermitesche Sesquilinearform.md",
+    "Lineare Algebra/Sesquilinearform.md",
+    "Lineare Algebra/Matrizen/Matrixmultiplikation.md",
+    "Lineare Algebra/Skalarprodukt.md",
+    "Lineare Algebra/Standardskalarprodukt.md",
+    "Lineare Algebra/Hermitesche Form.md",
+    "Lineare Algebra/Sesquilineare Abbildung.md",
+    "Lineare Algebra/Multilinearform.md",
+    "Lineare Algebra/Multilineare Abbildung.md",
+    "Lineare Algebra/Symmetrische Bilinearform.md",
+    "Lineare Algebra/Standardbasis.md",
+    "Lineare Algebra/Spaltenraum.md",
+    "Lineare Algebra/Skalarproduktnorm.md",
+    "Lineare Algebra/Semilineare Abbildung.md",
     "Lineare Algebra/Gram-Schmidt Orthogonalisierungsverfahren.md",
     "Topologie/Ultrametrischer Raum.md",
     "Topologie/Ultrametrik.md",
@@ -114,20 +128,6 @@
     "Abstrakte Algebra/Annihilator.md",
     "Abstrakte Algebra/Monoid.md",
     "Abstrakte Algebra/Algebraische Struktur.md",
-    "Abstrakte Algebra/Ringe/Polynomring.md",
-    "Abstrakte Algebra/Ringe/Ring.md",
-    "Abstrakte Algebra/Ringe/Commutative Ring.md",
-    "Abstrakte Algebra/Ringe/Lokaler Ring.md",
-    "Abstrakte Algebra/Körper/Körper.md",
-    "Abstrakte Algebra/Körper/Körperaxiome.md",
-    "Zahlentheorie/P-adische Zahlen/Betrag.md",
-    "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf",
-    "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
-    "Zahlentheorie/P-adische Zahlen/p-adische Metrik.md",
-    "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
-    "Abstrakte Algebra/Metrik.md",
-    "Lineare Algebra/Räume/Euklidischer Raum.md",
-    "Lineare Algebra/Lineare Algebra 2/18.04.23.md",
-    "Abstrakte Algebra/Maß.md"
+    "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf"
   ]
 }
