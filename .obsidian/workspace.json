@@ -9,6 +9,11 @@
         "children": [
           {
             "id": "63bf2e4cbbf14326",
+        "id": "ead4e2c46601484b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbbe131b9ce68e97",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -107,6 +112,16 @@
   },
   "active": "63bf2e4cbbf14326",
   "lastOpenFiles": [
+  "active": "bbbe131b9ce68e97",
+  "lastOpenFiles": [
+    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
+    "Wahrscheinlichkeitstheorie/Warscheinlichkeitsraum.md",
+    "Lineare Algebra/Hermitesche Sesquilinearform.md",
+    "Lineare Algebra/Sesquilinearform.md",
+    "Lineare Algebra/Matrizen/Matrixmultiplikation.md",
+    "Lineare Algebra/Skalarprodukt.md",
+    "Lineare Algebra/Standardskalarprodukt.md",
+    "Lineare Algebra/Hermitesche Form.md",
     "Lineare Algebra/Sesquilineare Abbildung.md",
     "Lineare Algebra/Hermitesche Form.md",
     "Lineare Algebra/Normaler Endomorphismus.md",
@@ -134,5 +149,6 @@
     "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf",
     "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
     "Zahlentheorie/P-adische Zahlen/p-adische Metrik.md"
+    "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf"
   ]
 }
