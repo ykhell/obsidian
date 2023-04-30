@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5ceffad92cae93e1",
+        "id": "ead4e2c46601484b",
         "type": "tabs",
         "children": [
           {
-            "id": "8189c4fd62ffb571",
+            "id": "bbbe131b9ce68e97",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -100,8 +100,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8189c4fd62ffb571",
+  "active": "bbbe131b9ce68e97",
   "lastOpenFiles": [
+    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
+    "Wahrscheinlichkeitstheorie/Warscheinlichkeitsraum.md",
     "Lineare Algebra/Hermitesche Sesquilinearform.md",
     "Lineare Algebra/Sesquilinearform.md",
     "Lineare Algebra/Matrizen/Matrixmultiplikation.md",
@@ -126,8 +128,6 @@
     "Abstrakte Algebra/Metrischer Raum.md",
     "Abstrakte Algebra/Kommutativität.md",
     "Abstrakte Algebra/Annihilator.md",
-    "Abstrakte Algebra/Monoid.md",
-    "Abstrakte Algebra/Algebraische Struktur.md",
     "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf"
   ]
 }
