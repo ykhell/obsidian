@@ -9,17 +9,48 @@
         "children": [
           {
             "id": "ddb9b5ee7a11b51d",
+        "id": "4563d64ff25d51f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a69f70d084e49de2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Wahrscheinlichkeitstheorie/Diskreter Wahrscheinlichkeitsraum.md",
+                "file": "Lineare Algebra/Lineare Abbildung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e4c86b90e3eb997",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Morphismen/Orthogonale Projektion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58af597a092716fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Algebra/Morphismen/Projektion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -34,6 +65,15 @@
         "children": [
           {
             "id": "ec6dc88684e0bdd8",
+    "id": "2e14286da9450d16",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c38e735650129fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "003835f6153bd48e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,6 +84,7 @@
           },
           {
             "id": "59237ff0a251d6f7",
+            "id": "2ed2c0b220d64be2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -73,11 +114,24 @@
         "children": [
           {
             "id": "8ba8a60487b99713",
+    "width": 362.50312423706055
+  },
+  "right": {
+    "id": "fe69de4edad0625f",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd67827fed2c6c35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04304848c41e08ef",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
                 "file": "Wahrscheinlichkeitstheorie/Diskreter Wahrscheinlichkeitsraum.md",
+                "file": "Lineare Algebra/Morphismen/Orthogonale Projektion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,4 +161,34 @@
   },
   "active": "ddb9b5ee7a11b51d",
   "lastOpenFiles": []
+  "active": "1e4c86b90e3eb997",
+  "lastOpenFiles": [
+    "Lineare Algebra/Morphismen/Selbstadjungierter Endomorphismus.md",
+    "Lineare Algebra/Morphismen/Orthogonale Projektion.md",
+    "Lineare Algebra/Morphismen/Projektion.md",
+    "Lineare Algebra/Lineare Abbildung.md",
+    "Lineare Algebra/Multilineare Abbildung.md",
+    "Lineare Algebra/Skalarproduktnorm.md",
+    "Lineare Algebra/Sesquilinearform.md",
+    "Lineare Algebra/Semilineare Abbildung.md",
+    "Lineare Algebra/Morphismen/Adjungierter Endomorphismus.md",
+    "Lineare Algebra/Lineare Isometrie.md",
+    "Lineare Algebra/Morphismen/Unitäre Abbildung.md",
+    "Lineare Algebra/Morphismen/Orthogonale Abbildung.md",
+    "Analysis/Metrische Räume/Umgebung.md",
+    "Lineare Algebra/Morphismen",
+    "Analysis/Funktionen/Stetigkeit.md",
+    "Analysis/Metrische Räume/Schachtelungsprinzip.md",
+    "Lineare Algebra/Räume/Funktionenraum.md",
+    "Analysis/Metrische Räume/Offener Ball.md",
+    "Analysis/Topologie/Topologie.md",
+    "Analysis/Topologie/Hausdorffraum.md",
+    "Analysis/Metrische Räume/Vollständiger Raum.md",
+    "Analysis/Metrische Räume/Banachraum.md",
+    "Analysis/Mengen/Abgeschlossene Hülle.md",
+    "Analysis/Mengen/Abgeschlossene Menge.md",
+    "Analysis/Mengen/Inneres.md",
+    "Analysis/Topologie/Induzierte Topologie.md",
+    "Analysis/Metrische Räume/Induzierte Metrik.md"
+  ]
 }

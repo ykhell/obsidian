@@ -1,0 +1,1 @@
+Ein [[Normierter Raum|normierter]], [[Vollständiger Raum]] heißt Banachraum.

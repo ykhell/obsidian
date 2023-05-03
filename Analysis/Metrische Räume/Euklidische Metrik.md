@@ -1,2 +1,2 @@
 Die Euklidische Metrik oder Euklidischer Abstand ist eine [[Metrik]] definiert durch
-$$d(p,q) = \|q - p\|_2 = \sqrt{\sum_{i = 1}^n(q_i-p_i)^2}$$
+$$d(p,q) = \|q - p\|_2 = \sqrt{\sum_{i = 1}^n(q_i-p_i)^2}$$Die Euklidische Metrik ist von dem [[Standardskalarprodukt]] auf $\Bbb R^n$ induziert. d.h. auf einem [[Euklidischer Raum|Euklidischen Raum]]

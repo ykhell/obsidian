@@ -1,7 +1,15 @@
 ---
 aliases: [stetige Funktion]
 ---
-# Definition
+# Definition ([[Topologie]])
+Seien $X, Y$ [[Topologischer Raum|Topologische Räume]] und $f: X \to Y$ eine [[Abbildung]]. $f$ heißt stetig, wenn $\forall V \subset_{offen} Y : f^{-1}(V) \subset_{offen} X$ 
+
+$f$ heißt stetig im Punkt $x \in X$, wenn für jede [[Umgebung]] $V$ von $f(x)$ eine Umgebung von $x$ existiert mit $f(U) \subset V$. Dann gilt 
+$f$ ist stetig $\iff f$ ist stetig in $x, \forall x \in X$
+
+Durch Komplementbildung erhält man $f$ stetig $\iff \forall A \subset_{abg} Y : f^{-1}(A) \subset_{abg} X$
+
+# Motivation und andere Definitionen
 Eine stetige [[Abbildung]] oder [[Abbildung | Funktion]] ist eine Funktion, bei der hinreichend kleine Änderungen des Arguments nur beliebig kleine Änderungen des Funktionswerts nach sich ziehen. Formal mit dem [[Epsilon-Delta-Kriterium]].
 
 Sei $f$ eine reelle Funktion, also eine Funktion $f:D_f \to \Bbb R$, wobei $D_f \subset \Bbb R$ ist deren [[Definitionsmenge | Definitionsbereich]].
