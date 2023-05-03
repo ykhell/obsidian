@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Abstrakte Algebra\"",
@@ -19,13 +19,6 @@
       "color": {
         "a": 1,
         "rgb": 3669760
-      }
-    },
-    {
-      "query": "path:Logik/",
-      "color": {
-        "a": 1,
-        "rgb": 14048448
       }
     },
     {
@@ -43,17 +36,10 @@
       }
     },
     {
-      "query": "path:Kategorientheorie",
+      "query": "path:Zahlentheorie",
       "color": {
         "a": 1,
         "rgb": 16514816
-      }
-    },
-    {
-      "query": "path:Informatik/",
-      "color": {
-        "a": 1,
-        "rgb": 16753274
       }
     }
   ],
@@ -67,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.023825541725287332,
+  "scale": 0.040772158354738394,
   "close": true
 }

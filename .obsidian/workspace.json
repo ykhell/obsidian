@@ -4,21 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "85e4bd8411d8f367",
+        "id": "06bd85ee5d5192b0",
         "type": "tabs",
         "children": [
           {
-            "id": "63bf2e4cbbf14326",
-        "id": "ead4e2c46601484b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bbbe131b9ce68e97",
+            "id": "ddb9b5ee7a11b51d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Adjungierter Endomorphismus.md",
+                "file": "Wahrscheinlichkeitstheorie/Diskreter Wahrscheinlichkeitsraum.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "754d4c01a73b39b9",
+    "id": "f4b6772715348d7a",
     "type": "split",
     "children": [
       {
-        "id": "ab4aa035e2651084",
+        "id": "6e1d792b6afc183f",
         "type": "tabs",
         "children": [
           {
-            "id": "ab568c45aaad4aad",
+            "id": "ec6dc88684e0bdd8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +43,7 @@
             }
           },
           {
-            "id": "4c87fad6930d9542",
+            "id": "59237ff0a251d6f7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,23 +61,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.00124740600586
+    "width": 300
   },
   "right": {
-    "id": "999e4847242b04ad",
+    "id": "75ba8696e782d4cb",
     "type": "split",
     "children": [
       {
-        "id": "1b4d19521830a916",
+        "id": "4d33133a97c2fed6",
         "type": "tabs",
         "children": [
           {
-            "id": "3802a8dc63705036",
+            "id": "8ba8a60487b99713",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Adjungierter Endomorphismus.md",
+                "file": "Wahrscheinlichkeitstheorie/Diskreter Wahrscheinlichkeitsraum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,45 +105,6 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "63bf2e4cbbf14326",
-  "lastOpenFiles": [
-  "active": "bbbe131b9ce68e97",
-  "lastOpenFiles": [
-    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
-    "Wahrscheinlichkeitstheorie/Warscheinlichkeitsraum.md",
-    "Lineare Algebra/Hermitesche Sesquilinearform.md",
-    "Lineare Algebra/Sesquilinearform.md",
-    "Lineare Algebra/Matrizen/Matrixmultiplikation.md",
-    "Lineare Algebra/Skalarprodukt.md",
-    "Lineare Algebra/Standardskalarprodukt.md",
-    "Lineare Algebra/Hermitesche Form.md",
-    "Lineare Algebra/Sesquilineare Abbildung.md",
-    "Lineare Algebra/Hermitesche Form.md",
-    "Lineare Algebra/Normaler Endomorphismus.md",
-    "Lineare Algebra/Sesquilinearform.md",
-    "Lineare Algebra/Hermitesche Sesquilinearform.md",
-    "Lineare Algebra/Gram-Schmidt Orthogonalisierungsverfahren.md",
-    "Topologie/Ultrametrischer Raum.md",
-    "Topologie/Ultrametrik.md",
-    "Abstrakte Algebra/Ringe/Ideal.md",
-    "Abstrakte Algebra/Ringe/Maximales Ideal.md",
-    "Abstrakte Algebra/Vektorraum.md",
-    "Abstrakte Algebra/Vorzeichen (Permutation).md",
-    "Abstrakte Algebra/Metrischer Raum.md",
-    "Abstrakte Algebra/Kommutativität.md",
-    "Abstrakte Algebra/Annihilator.md",
-    "Abstrakte Algebra/Monoid.md",
-    "Abstrakte Algebra/Algebraische Struktur.md",
-    "Abstrakte Algebra/Ringe/Polynomring.md",
-    "Abstrakte Algebra/Ringe/Ring.md",
-    "Abstrakte Algebra/Ringe/Commutative Ring.md",
-    "Abstrakte Algebra/Ringe/Lokaler Ring.md",
-    "Abstrakte Algebra/Körper/Körper.md",
-    "Abstrakte Algebra/Körper/Körperaxiome.md",
-    "Zahlentheorie/P-adische Zahlen/Betrag.md",
-    "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf",
-    "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
-    "Zahlentheorie/P-adische Zahlen/p-adische Metrik.md"
-    "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf"
-  ]
+  "active": "ddb9b5ee7a11b51d",
+  "lastOpenFiles": []
 }
