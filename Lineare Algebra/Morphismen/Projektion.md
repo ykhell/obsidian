@@ -1,0 +1,1 @@
+Ein [[Endomorphismus]] $P : V \to V$ heißt Projektion auf $V$, falls $P^2 = P$

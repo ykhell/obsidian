@@ -1,1 +1,12 @@
 #+title: P-adic Numbers
+
+* Talk 1 - Absolute Values on Fields
+* Talk 2 - Ultrametric Topology and Valuation rings
+** DONE Ring
+** TODO Ideal
+** TODO Local Ring
+** TODO Proper Ideal
+** TODO Maximal Ideal
+** TODO Valuation Ring
+* Talk 3 - Ostrowskis Theorem
+** TODO Equivalence of Absolute Values
