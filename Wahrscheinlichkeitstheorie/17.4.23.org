@@ -1,6 +1,0 @@
-#+title: 17 4 23
-* Kapitel 1: Einführung
-** 1.1. Zufall und Wahrscheinlichkeit
-** 1.2. Das mathematische Modell
-*** Def. 1.1.
-Ein diskreter Wahrscheinlichkeitsraum

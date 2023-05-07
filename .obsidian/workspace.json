@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36834e1a534c9173",
+            "id": "60a70e008859d9e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Komplexes Standartskalarprodukt.md",
+                "file": "Wahrscheinlichkeitstheorie/Verteilung einer Zufallsvariable.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,6 +56,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "278c3e69cdc99296",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -77,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Komplexes Standartskalarprodukt.md",
+                "file": "Wahrscheinlichkeitstheorie/Verteilung einer Zufallsvariable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,8 +113,29 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "36834e1a534c9173",
+  "active": "60a70e008859d9e7",
   "lastOpenFiles": [
+    "Maßtheorie/Bildmaß.md",
+    "Wahrscheinlichkeitstheorie/Verteilung einer Zufallsvariable.md",
+    "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
+    "Maßtheorie/Messbare Funktion.md",
+    "Maßtheorie/Messbare Menge.md",
+    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
+    "Wahrscheinlichkeitstheorie/Diskreter Wahrscheinlichkeitsraum.md",
+    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsraum.md",
+    "Wahrscheinlichkeitstheorie/Ergebnisraum.md",
+    "Maßtheorie/Messraum.md",
+    "Abstrakte Algebra/Ringe/Commutative Ring.md",
+    "Maßtheorie/Sigma-Algebra.md",
+    "Maßtheorie/Maß.md",
+    "Maßtheorie/Maßraum.md",
+    "Maßtheorie",
+    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
+    "Wahrscheinlichkeitstheorie/Literatur",
+    "Wahrscheinlichkeitstheorie/Literatur/Norbert Henze - Stochastik für Einsteiger_ Eine Einführung in die faszinierende Welt des Zufalls (German Edition)-Springer Spektrum (2018).pdf",
+    "Wahrscheinlichkeitstheorie/17.4.23.org",
+    "Analysis/Topologie/Homöomorphismus.md",
+    "Lineare Algebra/Komplexes Standartskalarprodukt.md",
     "Lineare Algebra/Standardskalarprodukt.md"
   ]
 }

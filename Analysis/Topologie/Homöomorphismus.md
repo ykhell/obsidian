@@ -1,0 +1,3 @@
+Seien $X, Y$ [[Topologischer Raum|Topologischer Räume]], eine bijektive [[Abbildung]] $f : X \to Y$ heißt Homöomorphismus, wenn $f$ stetig ist und die Umkehrabbildung $f^{-1} : Y \to X$ ebenfalls stetig ist. 
+Gibt es einen Homöomorphismus zwischen $X$ und $Y$ schreiben wir auch $X \cong Y$ ($X$ und $Y$ sind also homöomorph)
+Homöomorphismen induzieren also auch Bijektionen auf den Toplogien von zwei topologischen Räumen.

@@ -7,5 +7,6 @@
   "spellcheck": false,
   "readableLineLength": false,
   "strictLineBreaks": false,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "attachmentFolderPath": "Wahrscheinlichkeitstheorie"
 }

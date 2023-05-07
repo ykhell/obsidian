@@ -1,3 +1,0 @@
-Es sei $A$ eine [[Sigma-Algebra]] über einer nicht-leeren [[Grundmenge]] $\Omega$. Eine [[Abbildung|Funktion]] $\mu: A \to [0, \infty]$ heißt Maß auf $A$, wenn die beiden folgenden Bedingungen erfüllt sind:
-1. $\mu(\emptyset) = 0$
-2. Sigma-Additivität: Für jede [[Folge]] $(A_n)_{n \in \Bbb N}$ paarweise disjunkter Mengen aus $A$ gilt $$\mu\left(\bigcup_{n=1}^\infty A_n\right) = \sum_{n=1}^\infty \mu(A_n).$$ Was willst du essen?
