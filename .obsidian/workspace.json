@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilung einer Zufallsvariable.md",
+                "file": "Misc.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilung einer Zufallsvariable.md",
+                "file": "Misc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,8 +115,8 @@
   },
   "active": "60a70e008859d9e7",
   "lastOpenFiles": [
-    "Maßtheorie/Bildmaß.md",
     "Wahrscheinlichkeitstheorie/Verteilung einer Zufallsvariable.md",
+    "Maßtheorie/Bildmaß.md",
     "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
     "Maßtheorie/Messbare Funktion.md",
     "Maßtheorie/Messbare Menge.md",
