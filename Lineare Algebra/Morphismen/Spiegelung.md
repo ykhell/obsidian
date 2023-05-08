@@ -1,0 +1,1 @@
+$\Psi$ heißt Spiegelung genau dann, wenn ein [[Untervektorraum|Unterraum]] $U \subseteq V$ ("Spiegelhyperebene") existiert, sodass $$\dim U^\perp = 1, f|_{U} = id_U, f|_{U^\perp} = -id_{U^\perp}$$

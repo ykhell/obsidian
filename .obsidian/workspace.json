@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ac916a0a3c70eabe",
+        "id": "de4f224e36a0f6f5",
         "type": "tabs",
         "children": [
           {
-            "id": "60a70e008859d9e7",
+            "id": "67a4f838d5f95d49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc.md",
+                "file": "Lineare Algebra/Morphismen/Spiegelung.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misc.md",
+                "file": "Lineare Algebra/Morphismen/Spiegelung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,6 +93,39 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5fb47f93a38b2780",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lineare Algebra/Morphismen/Spiegelung.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ea91b1bd47032592",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f57e55d3fa315d74",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lineare Algebra/Morphismen/Spiegelung.md"
               }
             }
           }
@@ -105,16 +138,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obisidian-note-linker:Note Linker": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "60a70e008859d9e7",
+  "active": "67a4f838d5f95d49",
   "lastOpenFiles": [
+    "Lineare Algebra/Morphismen/Drehung.md",
+    "Lineare Algebra/Morphismen/Spiegelung.md",
+    "Lineare Algebra/Matrizen/Spiegelungsmatrix.md",
+    "Lineare Algebra/Morphismen/Orthogonale Abbildung.md",
+    "Lineare Algebra/Morphismen/Unitäre Abbildung.md",
+    "Abstrakte Algebra/Kategorientheorie/Automorphismus.md",
+    "Lineare Algebra/Drehung.md",
+    "Drehmatrix.md",
+    "Lineare Algebra/Räume/Euklidischer Raum.md",
+    "Lineare Algebra/Morphismen/Orthogonale Projektion.md",
+    "Wahrscheinlichkeitstheorie/Formel der totalen Wahrscheinlichkeit.md",
+    "Wahrscheinlichkeitstheorie/Bedingte Wahrscheinlichkeit.md",
+    "Wahrscheinlichkeitstheorie/Ergebnisraum.md",
+    "Misc.md",
     "Wahrscheinlichkeitstheorie/Verteilung einer Zufallsvariable.md",
     "Maßtheorie/Bildmaß.md",
     "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
@@ -123,19 +170,14 @@
     "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
     "Wahrscheinlichkeitstheorie/Diskreter Wahrscheinlichkeitsraum.md",
     "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsraum.md",
-    "Wahrscheinlichkeitstheorie/Ergebnisraum.md",
     "Maßtheorie/Messraum.md",
     "Abstrakte Algebra/Ringe/Commutative Ring.md",
     "Maßtheorie/Sigma-Algebra.md",
     "Maßtheorie/Maß.md",
-    "Maßtheorie/Maßraum.md",
     "Maßtheorie",
     "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
     "Wahrscheinlichkeitstheorie/Literatur",
     "Wahrscheinlichkeitstheorie/Literatur/Norbert Henze - Stochastik für Einsteiger_ Eine Einführung in die faszinierende Welt des Zufalls (German Edition)-Springer Spektrum (2018).pdf",
-    "Wahrscheinlichkeitstheorie/17.4.23.org",
-    "Analysis/Topologie/Homöomorphismus.md",
-    "Lineare Algebra/Komplexes Standartskalarprodukt.md",
-    "Lineare Algebra/Standardskalarprodukt.md"
+    "Wahrscheinlichkeitstheorie/17.4.23.org"
   ]
 }
