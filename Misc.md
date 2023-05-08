@@ -21,3 +21,27 @@ $$
 &\leq \max_{x \in [a, b]} |f(x)|(b-a).
 \end{align*}
 $$
+
+
+
+
+
+
+
+
+
+
+
+Wir definieren die Zufallsvariablen $A$ und $B$ als die Ausgaben von Studentin A und B, und ihre Wahrscheinlichkeitsverteilungen wie folgt:
+
+$$\begin{align*} &P(A=3)=0.2, \quad P(A=4)=0.25, \quad P(A=5)=0.3, \quad P(A=6)=0.25\ &P(B=4)=0.25, \quad P(B=5.5)=0.15, \quad P(B=6.5)=0.3, \quad P(B=8)=0.3 \end{align*}$$
+
+Dann ist die Wahrscheinlichkeitsverteilung der Summe $S=A+B$ gegeben durch die Faltung der beiden Verteilungen:
+
+$$\begin{array}{c|cccc} S & 7 & 8.5 & 9.5 & 10.5 & 12 \\ \hline P(S) & 0.05 & 0.08 & 0.36 & 0.4 & 0.11 \end{array}$$
+
+Um die Wahrscheinlichkeit zu berechnen, dass Studentin A mindestens 12 Euro ausgibt, müssen wir $P(S\geq12)$ berechnen. Dazu können wir die Wahrscheinlichkeiten der anderen Werte addieren:
+
+P(S≥12)=P(S=12)+P(S>12)=0.11+0=0.11P(S≥12)=P(S=12)+P(S>12)=0.11+0=0.11
+
+Also gibt Studentin A mit einer Wahrscheinlichkeit von 11% mindestens 12 Euro aus, wenn sie für ihre Freundin mitbezahlt und beide unabhängig voneinander frühstücken.
