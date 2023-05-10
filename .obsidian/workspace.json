@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "13cddf7a186e3241",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67a4f838d5f95d49",
+  "active": "13cddf7a186e3241",
   "lastOpenFiles": [
     "Lineare Algebra/Morphismen/Drehung.md",
     "Lineare Algebra/Morphismen/Spiegelung.md",
