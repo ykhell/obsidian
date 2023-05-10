@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "de4f224e36a0f6f5",
+        "id": "61e2f94453ebb86f",
         "type": "tabs",
         "children": [
           {
-            "id": "67a4f838d5f95d49",
+            "id": "6617915d820644c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Morphismen/Spiegelung.md",
+                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Morphismen/Spiegelung.md",
+                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lineare Algebra/Morphismen/Spiegelung.md",
+                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lineare Algebra/Morphismen/Spiegelung.md"
+                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md"
               }
             }
           }
@@ -146,34 +146,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67a4f838d5f95d49",
+  "active": "6617915d820644c2",
   "lastOpenFiles": [
-    "Lineare Algebra/Morphismen/Drehung.md",
+    "Lineare Algebra/Gruppen/Orthogonale Gruppe.md",
+    "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+    "Lineare Algebra/Morphismen/Selbstadjungierter Endomorphismus.md",
+    "Abstrakte Algebra/Kategorientheorie/Automorphismus.md",
+    "Lineare Algebra/Lineare Formen/Symplektische Form.md",
+    "Lineare Algebra/Räume/Symplektischer Raum.md",
+    "Lineare Algebra/Lineare Formen/Nichtausgeartete Bilinearform.md",
+    "Abstrakte Algebra/Kategorientheorie/Morphismus.md",
+    "Lineare Algebra/Lineare Formen/Antisymmetrische Bilinearform.md",
+    "Lineare Algebra/Lineare Formen/Symmetrische Bilinearform.md",
+    "Lineare Algebra/Lineare Formen/Alternierende Bilinearform.md",
+    "Lineare Algebra/Lineare Formen/Bilinearform.md",
+    "Lineare Algebra/Lineare Formen/Hermitesche Form.md",
+    "Lineare Algebra/Gruppen/Spezielle Lineare Gruppe.md",
+    "Lineare Algebra/Gruppen/Allgemeine Lineare Gruppe.md",
+    "Lineare Algebra/Linearform.md",
+    "Lineare Algebra/Multilinearform.md",
+    "Lineare Algebra/Lineare Formen/Sesquilinearform.md",
+    "Lineare Algebra/Semilineare Abbildung.md",
+    "Lineare Algebra/Sesquilinearformen/Hermitesche Sesquilinearform.md",
+    "Lineare Algebra/Lineare Formen/Skalarprodukt.md",
+    "Lineare Algebra/Gruppen",
+    "Lineare Algebra/Morphismen/Sesquilineare Abbildung.md",
+    "Lineare Algebra/Lineare Formen",
     "Lineare Algebra/Morphismen/Spiegelung.md",
+    "Lineare Algebra/Morphismen/Drehung.md",
     "Lineare Algebra/Matrizen/Spiegelungsmatrix.md",
     "Lineare Algebra/Morphismen/Orthogonale Abbildung.md",
-    "Lineare Algebra/Morphismen/Unitäre Abbildung.md",
-    "Abstrakte Algebra/Kategorientheorie/Automorphismus.md",
-    "Lineare Algebra/Drehung.md",
-    "Drehmatrix.md",
-    "Lineare Algebra/Räume/Euklidischer Raum.md",
-    "Lineare Algebra/Morphismen/Orthogonale Projektion.md",
-    "Wahrscheinlichkeitstheorie/Formel der totalen Wahrscheinlichkeit.md",
-    "Wahrscheinlichkeitstheorie/Bedingte Wahrscheinlichkeit.md",
-    "Wahrscheinlichkeitstheorie/Ergebnisraum.md",
-    "Misc.md",
-    "Wahrscheinlichkeitstheorie/Verteilung einer Zufallsvariable.md",
-    "Maßtheorie/Bildmaß.md",
-    "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
-    "Maßtheorie/Messbare Funktion.md",
-    "Maßtheorie/Messbare Menge.md",
-    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
-    "Wahrscheinlichkeitstheorie/Diskreter Wahrscheinlichkeitsraum.md",
-    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsraum.md",
-    "Maßtheorie/Messraum.md",
-    "Abstrakte Algebra/Ringe/Commutative Ring.md",
-    "Maßtheorie/Sigma-Algebra.md",
-    "Maßtheorie/Maß.md",
     "Maßtheorie",
     "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
     "Wahrscheinlichkeitstheorie/Literatur",

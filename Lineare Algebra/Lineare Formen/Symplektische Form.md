@@ -1,0 +1,3 @@
+Eine symplektische Form ist eine [[Nichtausgeartete Bilinearform|nichtausgeartete]] [[alternierende Bilinearform]]. D.h. eine [[Bilinearform]] $\langle - , - \rangle : V \times V \to K$, die die folgenden Eigenschaften besitzt:
+- $\langle - , - \rangle$ ist [[Alternierende Bilinearform]], d.h. $$\langle v, v \rangle = 0, \forall v \in V$$
+- $\langle - , - \rangle$ ist [[Nichtausgeartete Bilinearform]], d.h. $$\forall v \neq 0 \in V \exists w \in V : \langle v, w \rangle \neq 0$$
