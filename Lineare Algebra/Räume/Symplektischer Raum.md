@@ -1,0 +1,1 @@
+Ein symplektischer Raum ist ein [[Vektorraum]] $V$ über einem [[Körper]] $K$, mit einer [[Symplektische Form|symplektischen Form]].
