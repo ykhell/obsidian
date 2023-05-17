@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "61e2f94453ebb86f",
+        "id": "23be7cb6064bc391",
         "type": "tabs",
         "children": [
           {
-            "id": "6617915d820644c2",
+            "id": "585476b868c8eb14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+                "file": "Lineare Algebra/Lineare Formen/Symplektische Form.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "13cddf7a186e3241",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.8"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+                "file": "Lineare Algebra/Lineare Formen/Symplektische Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+                "file": "Lineare Algebra/Lineare Formen/Symplektische Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md"
+                "file": "Lineare Algebra/Lineare Formen/Symplektische Form.md"
               }
             }
           }
@@ -157,21 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13cddf7a186e3241",
-  "active": "6617915d820644c2",
+  "active": "585476b868c8eb14",
   "lastOpenFiles": [
-    "Lineare Algebra/Gruppen/Orthogonale Gruppe.md",
+    "Lineare Algebra/Räume/Symplektischer Raum.md",
+    "Lineare Algebra/Norm.md",
+    "Lineare Algebra/Lineare Formen/Symplektische Form.md",
+    "Lineare Algebra/Lineare Formen/Bilinearform.md",
     "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+    "Lineare Algebra/Gruppen/Orthogonale Gruppe.md",
     "Lineare Algebra/Morphismen/Selbstadjungierter Endomorphismus.md",
     "Abstrakte Algebra/Kategorientheorie/Automorphismus.md",
-    "Lineare Algebra/Lineare Formen/Symplektische Form.md",
-    "Lineare Algebra/Räume/Symplektischer Raum.md",
     "Lineare Algebra/Lineare Formen/Nichtausgeartete Bilinearform.md",
     "Abstrakte Algebra/Kategorientheorie/Morphismus.md",
     "Lineare Algebra/Lineare Formen/Antisymmetrische Bilinearform.md",
     "Lineare Algebra/Lineare Formen/Symmetrische Bilinearform.md",
     "Lineare Algebra/Lineare Formen/Alternierende Bilinearform.md",
-    "Lineare Algebra/Lineare Formen/Bilinearform.md",
     "Lineare Algebra/Lineare Formen/Hermitesche Form.md",
     "Lineare Algebra/Gruppen/Spezielle Lineare Gruppe.md",
     "Lineare Algebra/Gruppen/Allgemeine Lineare Gruppe.md",
@@ -187,7 +176,6 @@
     "Lineare Algebra/Morphismen/Spiegelung.md",
     "Lineare Algebra/Morphismen/Drehung.md",
     "Lineare Algebra/Matrizen/Spiegelungsmatrix.md",
-    "Lineare Algebra/Morphismen/Orthogonale Abbildung.md",
     "Maßtheorie",
     "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
     "Wahrscheinlichkeitstheorie/Literatur",
