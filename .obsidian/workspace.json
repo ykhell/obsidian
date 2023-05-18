@@ -9,11 +9,17 @@
         "children": [
           {
             "id": "e41a056266efd999",
+        "id": "23be7cb6064bc391",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "585476b868c8eb14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
+                "file": "Analysis/Folgen/Cauchy-Folge.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,6 +92,7 @@
               "type": "backlink",
               "state": {
                 "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
+                "file": "Analysis/Folgen/Cauchy-Folge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +110,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
+                "file": "Analysis/Folgen/Cauchy-Folge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md"
+                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
+                "file": "Analysis/Folgen/Cauchy-Folge.md"
               }
             }
           }
@@ -161,6 +170,39 @@
     "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsraum.md",
     "Wahrscheinlichkeitstheorie/Ergebnisraum.md",
     "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
+  "active": "585476b868c8eb14",
+  "lastOpenFiles": [
+    "Zahlentheorie/P-adische Zahlen/Cauchy-Folgen in Qp.md",
+    "Lineare Algebra/Lineare Formen/Symplektische Form.md",
+    "Lineare Algebra/Räume/Symplektischer Raum.md",
+    "Lineare Algebra/Norm.md",
+    "Lineare Algebra/Lineare Formen/Bilinearform.md",
+    "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+    "Lineare Algebra/Gruppen/Orthogonale Gruppe.md",
+    "Lineare Algebra/Morphismen/Selbstadjungierter Endomorphismus.md",
+    "Abstrakte Algebra/Kategorientheorie/Automorphismus.md",
+    "Lineare Algebra/Lineare Formen/Nichtausgeartete Bilinearform.md",
+    "Abstrakte Algebra/Kategorientheorie/Morphismus.md",
+    "Lineare Algebra/Lineare Formen/Antisymmetrische Bilinearform.md",
+    "Lineare Algebra/Lineare Formen/Symmetrische Bilinearform.md",
+    "Lineare Algebra/Lineare Formen/Alternierende Bilinearform.md",
+    "Lineare Algebra/Lineare Formen/Hermitesche Form.md",
+    "Lineare Algebra/Gruppen/Spezielle Lineare Gruppe.md",
+    "Lineare Algebra/Gruppen/Allgemeine Lineare Gruppe.md",
+    "Lineare Algebra/Linearform.md",
+    "Lineare Algebra/Multilinearform.md",
+    "Lineare Algebra/Lineare Formen/Sesquilinearform.md",
+    "Lineare Algebra/Semilineare Abbildung.md",
+    "Lineare Algebra/Sesquilinearformen/Hermitesche Sesquilinearform.md",
+    "Lineare Algebra/Lineare Formen/Skalarprodukt.md",
+    "Lineare Algebra/Gruppen",
+    "Lineare Algebra/Morphismen/Sesquilineare Abbildung.md",
+    "Lineare Algebra/Lineare Formen",
+    "Lineare Algebra/Morphismen/Spiegelung.md",
+    "Lineare Algebra/Morphismen/Drehung.md",
+    "Maßtheorie",
+    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
+    "Wahrscheinlichkeitstheorie/Literatur",
     "Wahrscheinlichkeitstheorie/Literatur/Norbert Henze - Stochastik für Einsteiger_ Eine Einführung in die faszinierende Welt des Zufalls (German Edition)-Springer Spektrum (2018).pdf",
     "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
     "Wahrscheinlichkeitstheorie/Bernoulli-Verteilung.md",
