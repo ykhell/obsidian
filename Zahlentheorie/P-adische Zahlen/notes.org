@@ -1,12 +1,21 @@
 #+title: P-adic Numbers
-
 * Talk 1 - Absolute Values on Fields
 * Talk 2 - Ultrametric Topology and Valuation rings
-** DONE Ring
-** TODO Ideal
 ** TODO Local Ring
 ** TODO Proper Ideal
 ** TODO Maximal Ideal
 ** TODO Valuation Ring
+** TODO Connected, disconnected metric spaces
 * Talk 3 - Ostrowskis Theorem
 ** TODO Equivalence of Absolute Values
+* Talk 4 - The Field Qp
+* Talk 5 - Properties of Qp
+** TODO Coherent Sequences
+** TODO totally disconnected hausdorff topological space
+** TODO compact, locally compact
+** TODO
+* Talk 6 - Hensel's Lifting Lemma
+* Talk 7 - Local-Global Principle
+* Talk 8 - Elementary Analysis in Qp
+
+* Talk 9 - Strassman's Theorem and the Logarithm Function

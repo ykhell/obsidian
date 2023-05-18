@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Lineare Formen/Symplektische Form.md",
+                "file": "Analysis/Folgen/Cauchy-Folge.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Lineare Formen/Symplektische Form.md",
+                "file": "Analysis/Folgen/Cauchy-Folge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lineare Algebra/Lineare Formen/Symplektische Form.md",
+                "file": "Analysis/Folgen/Cauchy-Folge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lineare Algebra/Lineare Formen/Symplektische Form.md"
+                "file": "Analysis/Folgen/Cauchy-Folge.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "585476b868c8eb14",
   "lastOpenFiles": [
+    "Zahlentheorie/P-adische Zahlen/Cauchy-Folgen in Qp.md",
+    "Lineare Algebra/Lineare Formen/Symplektische Form.md",
     "Lineare Algebra/Räume/Symplektischer Raum.md",
     "Lineare Algebra/Norm.md",
-    "Lineare Algebra/Lineare Formen/Symplektische Form.md",
     "Lineare Algebra/Lineare Formen/Bilinearform.md",
     "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
     "Lineare Algebra/Gruppen/Orthogonale Gruppe.md",
@@ -175,7 +176,6 @@
     "Lineare Algebra/Lineare Formen",
     "Lineare Algebra/Morphismen/Spiegelung.md",
     "Lineare Algebra/Morphismen/Drehung.md",
-    "Lineare Algebra/Matrizen/Spiegelungsmatrix.md",
     "Maßtheorie",
     "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
     "Wahrscheinlichkeitstheorie/Literatur",
