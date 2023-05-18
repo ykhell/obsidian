@@ -1,0 +1,2 @@
+Sei $K[T]_{\leq m}$ der [[Polynomring]] vom Grad $\leq m, m \in \Bbb N$, dann ist $$(\cdot)^*:K[T] \to K[T],p(T) \mapsto p^*(T) := (-T)^m \cdot p(1/T)$$
+Es gilt $(p^*)^* = p$ und $$(\cdot)^* \in \mathrm{Aut}(K[T])$$

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "61e2f94453ebb86f",
+        "id": "3bcfbb5d53021e3d",
         "type": "tabs",
         "children": [
           {
-            "id": "6617915d820644c2",
+            "id": "e41a056266efd999",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md"
+                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md"
               }
             }
           }
@@ -146,40 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6617915d820644c2",
+  "active": "e41a056266efd999",
   "lastOpenFiles": [
-    "Lineare Algebra/Gruppen/Orthogonale Gruppe.md",
-    "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
-    "Lineare Algebra/Morphismen/Selbstadjungierter Endomorphismus.md",
-    "Abstrakte Algebra/Kategorientheorie/Automorphismus.md",
-    "Lineare Algebra/Lineare Formen/Symplektische Form.md",
-    "Lineare Algebra/Räume/Symplektischer Raum.md",
-    "Lineare Algebra/Lineare Formen/Nichtausgeartete Bilinearform.md",
-    "Abstrakte Algebra/Kategorientheorie/Morphismus.md",
-    "Lineare Algebra/Lineare Formen/Antisymmetrische Bilinearform.md",
-    "Lineare Algebra/Lineare Formen/Symmetrische Bilinearform.md",
-    "Lineare Algebra/Lineare Formen/Alternierende Bilinearform.md",
-    "Lineare Algebra/Lineare Formen/Bilinearform.md",
-    "Lineare Algebra/Lineare Formen/Hermitesche Form.md",
-    "Lineare Algebra/Gruppen/Spezielle Lineare Gruppe.md",
-    "Lineare Algebra/Gruppen/Allgemeine Lineare Gruppe.md",
-    "Lineare Algebra/Linearform.md",
-    "Lineare Algebra/Multilinearform.md",
-    "Lineare Algebra/Lineare Formen/Sesquilinearform.md",
-    "Lineare Algebra/Semilineare Abbildung.md",
-    "Lineare Algebra/Sesquilinearformen/Hermitesche Sesquilinearform.md",
-    "Lineare Algebra/Lineare Formen/Skalarprodukt.md",
-    "Lineare Algebra/Gruppen",
-    "Lineare Algebra/Morphismen/Sesquilineare Abbildung.md",
-    "Lineare Algebra/Lineare Formen",
-    "Lineare Algebra/Morphismen/Spiegelung.md",
-    "Lineare Algebra/Morphismen/Drehung.md",
-    "Lineare Algebra/Matrizen/Spiegelungsmatrix.md",
-    "Lineare Algebra/Morphismen/Orthogonale Abbildung.md",
-    "Maßtheorie",
-    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
-    "Wahrscheinlichkeitstheorie/Literatur",
+    "Algebra/Ringe/Ideal.md",
+    "Lineare Algebra/Lineare Formen/Quadratische Form.md",
+    "Lineare Algebra/Lineare Formen/Trägheitssatz von Sylvester.md",
+    "Wahrscheinlichkeitstheorie/Bedingte Wahrscheinlichkeit.md",
+    "Wahrscheinlichkeitstheorie/Poissonverteilung.md",
+    "Wahrscheinlichkeitstheorie/Stochastische Unabängigkeit.md",
+    "Misc.md",
+    "Wahrscheinlichkeitstheorie/Bildmaß einer Zufallsvariable.md",
+    "Wahrscheinlichkeitstheorie/Ereignis.md",
+    "Wahrscheinlichkeitstheorie/Ereignisraum.md",
+    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsraum.md",
+    "Wahrscheinlichkeitstheorie/Ergebnisraum.md",
+    "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
     "Wahrscheinlichkeitstheorie/Literatur/Norbert Henze - Stochastik für Einsteiger_ Eine Einführung in die faszinierende Welt des Zufalls (German Edition)-Springer Spektrum (2018).pdf",
-    "Wahrscheinlichkeitstheorie/17.4.23.org"
+    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
+    "Wahrscheinlichkeitstheorie/Bernoulli-Verteilung.md",
+    "Wahrscheinlichkeitstheorie/Binomialverteilung.md",
+    "Wahrscheinlichkeitstheorie/Verteilungen",
+    "Analysis/Topologie/Satz von Heine-Borel.md",
+    "Wahrscheinlichkeitstheorie/Literatur/chpt3.pdf",
+    "Wahrscheinlichkeitstheorie/Literatur/chpt2.pdf",
+    "Wahrscheinlichkeitstheorie/Literatur/chpt1.pdf",
+    "Analysis/Funktionen/Stetigkeit.md",
+    "Analysis/Funktionen/Iteration.md",
+    "Analysis/Topologie/Kompakter Raum.md",
+    "Analysis/Mengen/Kompaktheit.md",
+    "Analysis/Metrische Räume/Banachraum.md",
+    "Analysis/Topologie/Offene Überdeckung.md",
+    "Lineare Algebra/Gruppen/Symplektische Gruppe.md",
+    "Lineare Algebra/Gruppen/Allgemeine Lineare Gruppe.md",
+    "Lineare Algebra/Reziprokes Polynom.md",
+    "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
+    "Lineare Algebra/Gruppen",
+    "Lineare Algebra/Lineare Formen",
+    "Maßtheorie",
+    "Wahrscheinlichkeitstheorie/Literatur"
   ]
 }

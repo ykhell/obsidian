@@ -1,0 +1,1 @@
+Ein Ereignisraum ist ein [[Element]] der [[Sigma-Algebra]] eines [[Wahrscheinlichkeitsraum]].

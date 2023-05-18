@@ -1,0 +1,1 @@
+Sei $(X, \mathcal T)$ ein [[Topologischer Raum]], $X$ heißt kompakt, wenn jede [[Offene Überdeckung]] $\{U_i\}$ von $X$ eine endliche Teilüberdeckung besitzt, d.h. $$\exists i_0, ..., i_n : X = U_{i_0} \cup ... \cup U_{i_n}$$
