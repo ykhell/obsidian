@@ -17,5 +17,22 @@
 * Talk 6 - Hensel's Lifting Lemma
 * Talk 7 - Local-Global Principle
 * Talk 8 - Elementary Analysis in Qp
+** TODO p-adic mean value theorem
+** Derivatives:
++ There exist Injective Functions with derivative zero at some points, so the zero derivative does not imply that a function is locally constant in $\Bbb Q_p$
+** Integration:
++ The Fundamental theorem of calculus does not hold in $\Bbb Q_P$
++ Integrals and Antiderivatives are not related
++ No good general theory for Antiderivatives
++ There is no translation invariant bounded $\Bbb Q_p$-valued measure on $\Bbb Z_p$.
++ There is no perfect theory of integration
+  This leads to two possible theories of integration:
+  1. Accept unbounded measures: leads to Volkenborn integral and Mahler's theory of continuous p-adic function.
+  2. Drop translation invariance: leads to p-adic interpolation problems
+** TODO Haar Measure
+Qp is a locally compact abelian additive group, so it carries a Haar measure, which is translation invariant.
+So it makes it easy to integrate functions $f : Q_p \to R$.
+
+
 
 * Talk 9 - Strassman's Theorem and the Logarithm Function

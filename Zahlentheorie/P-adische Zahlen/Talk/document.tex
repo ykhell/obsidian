@@ -1,0 +1,109 @@
+\documentclass{article}
+\usepackage[english]{babel}			
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{tikz-cd}
+
+\usepackage{graphicx}
+\usepackage[colorlinks = true,
+linkcolor = blue,
+urlcolor  = blue,
+citecolor = blue,
+anchorcolor = blue]{hyperref}
+
+\newcommand{\MYhref}[3][blue]{\href{#2}{\color{#1}{#3}}}%
+
+\usepackage{amsmath}
+\usepackage{amssymb}			
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{mathtools}
+
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usetikzlibrary{fit}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lemm}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition} 
+\newtheorem{theo}[thm]{Theorem}
+\newtheorem{Cor}[thm]{Corollary}
+\newtheorem{thm-defi}[thm]{Theorem-Definition}
+
+\theoremstyle{definition}
+\newtheorem{defi}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+\newtheorem{ex}[thm]{Example}
+\newtheorem{Conc}[thm]{Conclusion}
+\newtheorem{nota}[thm]{Notation}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{soln}[thm]{Solution}
+\usepackage{fancyhdr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\begin{document}
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead{}
+\fancyhead[RO,RE]{$p-$adic numbers}
+\fancyhead[LO,LE]{Yousef Khell}%This is the header
+\fancyfoot{}
+\fancyfoot[LO]{Handout} %This is the place for footnote
+
+\begin{center}
+	\Huge{\textbf{Talk 9: Strassman's theorem and the Logarithm function}}%Title spot
+\end{center}
+	\begin{minipage}{0.45\textwidth}%This helps you write on one half of a page and may be helps you conserve some space
+	\section{Sample section}%\section{} creates the section you want
+			In this talk, we would like to study blah blah blah... They are defined as 
+			\begin{defi}%\begin{defi}..\end{defi} creates a definition
+			  ...
+			  only if $$something gilt$$
+			\end{defi}
+		We prove the following result
+		\begin{thm}%this is for creating theorems
+			...
+		\end{thm}
+		
+		
+		
+				
+	\end{minipage}%
+	\hfill
+	\begin{minipage}{0.45\textwidth}
+		Blah ....
+\section{Sample section II}
+
+\begin{defi}
+	....
+\end{defi}		
+
+\begin{thm}
+	 ...
+\end{thm}
+
+\begin{proof}
+..... The proof follows then from \cite[Prop. 3.13]{Gou} %\cite helps you cite from the references belows 
+\end{proof}
+	\end{minipage}%
+
+
+
+\begin{thebibliography}{widest-label} % References are listed here
+	
+	\bibitem[Gou]{Gou}%You can add more refernces by \bibitem command
+	Fernando Q. Gouv\^{e}a:
+	\emph{p-adic Numbers}.
+	
+	
+\end{thebibliography}
+
+\end{document}

@@ -1,25 +1,19 @@
 {
   "main": {
-    "id": "2553796d8634042a",
+    "id": "9ad2b9201ff139c6",
     "type": "split",
     "children": [
       {
-        "id": "3bcfbb5d53021e3d",
+        "id": "a1c8d5eccc1b0573",
         "type": "tabs",
         "children": [
           {
-            "id": "e41a056266efd999",
-        "id": "23be7cb6064bc391",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "585476b868c8eb14",
+            "id": "f6726c7ce1683273",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
-                "file": "Analysis/Folgen/Cauchy-Folge.md",
+                "file": "Analysis/Metrische Räume/Banachraum.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,25 +25,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2c2ad0caefcf4d33",
+    "id": "a7c8c1d710b89af2",
     "type": "split",
     "children": [
       {
-        "id": "df542cd0f7d3d09b",
+        "id": "16113d58f085cbd4",
         "type": "tabs",
         "children": [
           {
-            "id": "d12c033fd4ae918b",
+            "id": "2a8257f1b45bdc86",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "d4875c8f799f24ba",
+            "id": "acbdc84804b8a217",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +58,7 @@
             }
           },
           {
-            "id": "278c3e69cdc99296",
+            "id": "9a8b17e6ad5a1c98",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,21 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "b7acac494ed24b43",
+    "id": "1df6f7804353dcd9",
     "type": "split",
     "children": [
       {
-        "id": "a03e581cca8d042d",
+        "id": "1b5688e95fb87d0f",
         "type": "tabs",
         "children": [
           {
-            "id": "12028d2ec8f4279d",
+            "id": "14687458008e307b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
-                "file": "Analysis/Folgen/Cauchy-Folge.md",
+                "file": "Analysis/Metrische Räume/Banachraum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,20 +97,19 @@
             }
           },
           {
-            "id": "5fb47f93a38b2780",
+            "id": "68f57790018953f8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
-                "file": "Analysis/Folgen/Cauchy-Folge.md",
+                "file": "Analysis/Metrische Räume/Banachraum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ea91b1bd47032592",
+            "id": "5a6b5e43ca5d8354",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,13 +120,12 @@
             }
           },
           {
-            "id": "f57e55d3fa315d74",
+            "id": "a4ef0a1ee3e2e8cf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lineare Algebra/Lineare Formen/Bilinearform.md",
-                "file": "Analysis/Folgen/Cauchy-Folge.md"
+                "file": "Analysis/Metrische Räume/Banachraum.md"
               }
             }
           }
@@ -147,84 +138,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "e41a056266efd999",
+  "floating": {
+    "id": "14517d335b36d4d5",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a4096c76d56978da",
+        "type": "window",
+        "children": [
+          {
+            "id": "48ddce5fcdda8a87",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a151a37f23c10c48",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Analysis/Reihen/Potenzreihe.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2528,
+        "y": 20,
+        "width": 912,
+        "height": 1420,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "f6726c7ce1683273",
   "lastOpenFiles": [
-    "Algebra/Ringe/Ideal.md",
-    "Lineare Algebra/Lineare Formen/Quadratische Form.md",
-    "Lineare Algebra/Lineare Formen/Trägheitssatz von Sylvester.md",
-    "Wahrscheinlichkeitstheorie/Bedingte Wahrscheinlichkeit.md",
-    "Wahrscheinlichkeitstheorie/Poissonverteilung.md",
-    "Wahrscheinlichkeitstheorie/Stochastische Unabängigkeit.md",
-    "Misc.md",
-    "Wahrscheinlichkeitstheorie/Bildmaß einer Zufallsvariable.md",
-    "Wahrscheinlichkeitstheorie/Ereignis.md",
-    "Wahrscheinlichkeitstheorie/Ereignisraum.md",
-    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsraum.md",
-    "Wahrscheinlichkeitstheorie/Ergebnisraum.md",
-    "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
-  "active": "585476b868c8eb14",
-  "lastOpenFiles": [
-    "Zahlentheorie/P-adische Zahlen/Cauchy-Folgen in Qp.md",
-    "Lineare Algebra/Lineare Formen/Symplektische Form.md",
-    "Lineare Algebra/Räume/Symplektischer Raum.md",
-    "Lineare Algebra/Norm.md",
-    "Lineare Algebra/Lineare Formen/Bilinearform.md",
-    "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
-    "Lineare Algebra/Gruppen/Orthogonale Gruppe.md",
-    "Lineare Algebra/Morphismen/Selbstadjungierter Endomorphismus.md",
-    "Abstrakte Algebra/Kategorientheorie/Automorphismus.md",
-    "Lineare Algebra/Lineare Formen/Nichtausgeartete Bilinearform.md",
-    "Abstrakte Algebra/Kategorientheorie/Morphismus.md",
-    "Lineare Algebra/Lineare Formen/Antisymmetrische Bilinearform.md",
-    "Lineare Algebra/Lineare Formen/Symmetrische Bilinearform.md",
-    "Lineare Algebra/Lineare Formen/Alternierende Bilinearform.md",
-    "Lineare Algebra/Lineare Formen/Hermitesche Form.md",
-    "Lineare Algebra/Gruppen/Spezielle Lineare Gruppe.md",
-    "Lineare Algebra/Gruppen/Allgemeine Lineare Gruppe.md",
-    "Lineare Algebra/Linearform.md",
-    "Lineare Algebra/Multilinearform.md",
-    "Lineare Algebra/Lineare Formen/Sesquilinearform.md",
-    "Lineare Algebra/Semilineare Abbildung.md",
-    "Lineare Algebra/Sesquilinearformen/Hermitesche Sesquilinearform.md",
-    "Lineare Algebra/Lineare Formen/Skalarprodukt.md",
-    "Lineare Algebra/Gruppen",
-    "Lineare Algebra/Morphismen/Sesquilineare Abbildung.md",
-    "Lineare Algebra/Lineare Formen",
-    "Lineare Algebra/Morphismen/Spiegelung.md",
-    "Lineare Algebra/Morphismen/Drehung.md",
-    "Maßtheorie",
-    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
-    "Wahrscheinlichkeitstheorie/Literatur",
-    "Wahrscheinlichkeitstheorie/Literatur/Norbert Henze - Stochastik für Einsteiger_ Eine Einführung in die faszinierende Welt des Zufalls (German Edition)-Springer Spektrum (2018).pdf",
-    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
-    "Wahrscheinlichkeitstheorie/Bernoulli-Verteilung.md",
-    "Wahrscheinlichkeitstheorie/Binomialverteilung.md",
-    "Wahrscheinlichkeitstheorie/Verteilungen",
-    "Analysis/Topologie/Satz von Heine-Borel.md",
-    "Wahrscheinlichkeitstheorie/Literatur/chpt3.pdf",
-    "Wahrscheinlichkeitstheorie/Literatur/chpt2.pdf",
-    "Wahrscheinlichkeitstheorie/Literatur/chpt1.pdf",
-    "Analysis/Funktionen/Stetigkeit.md",
-    "Analysis/Funktionen/Iteration.md",
-    "Analysis/Topologie/Kompakter Raum.md",
-    "Analysis/Mengen/Kompaktheit.md",
-    "Analysis/Metrische Räume/Banachraum.md",
-    "Analysis/Topologie/Offene Überdeckung.md",
-    "Lineare Algebra/Gruppen/Symplektische Gruppe.md",
-    "Lineare Algebra/Gruppen/Allgemeine Lineare Gruppe.md",
-    "Lineare Algebra/Reziprokes Polynom.md",
-    "Lineare Algebra/Gruppen/Spezielle Orthogonale Gruppe.md",
-    "Lineare Algebra/Gruppen",
-    "Lineare Algebra/Lineare Formen",
-    "Maßtheorie",
-    "Wahrscheinlichkeitstheorie/Literatur"
+    "Lineare Algebra/Räume/Untitled.md",
+    "Maßtheorie/Bildmaß.md",
+    "Analysis/Reihen/Potenzreihe.md"
   ]
 }
