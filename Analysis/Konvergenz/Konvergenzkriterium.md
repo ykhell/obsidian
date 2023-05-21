@@ -1,5 +1,5 @@
 # Definition
-In der Analysis ist ein Konvergenzkriterium ein Kriterium, mit dem die [[Konvergenz]] einer [[Folge]] oder [[Reihe]] bewiesen oder auch widerlegt werden kann. Insbesondere sind damit Kriterien für die [[Konvergenz]] oder auch [[Divergenz]] reeller [[Folge | Folgen]] oder [[Reihe | Reihen]] gemeint. 
+In der Analysis ist ein Konvergenzkriterium ein Kriterium, mit dem die [[Konvergenz]] einer [[Folge]] oder [[Reihe]] bewiesen oder auch widerlegt werden kann. Insbesondere sind damit Kriterien für die [[Konvergenz]] oder auch [[Analysis/Konvergenz/Divergenz]] reeller [[Folge | Folgen]] oder [[Reihe | Reihen]] gemeint. 
 
 # Konvergenzkriterien für Folgen
 - [[Monotoniekriterium]]

@@ -1,0 +1,2 @@
+Ein Vektorfeld ist eine [[Abbildung]] $V:U \to \Bbb R^n$, wobei $U \subset_{off} \Bbb R^n$. Wir können $V$ auch komponentenweise darstellen: $$V = (V_1, ..., V_n), V_i : U \to \Bbb R$$
+Wir sagen $V$ ist [[Partielle Ableitung|partiell differenzierbar]] auf $U$, wenn jede Komponentenfunktion $V_i$ auf $U$ partiell differenzierbar ist. Anschaulich kann man sich verstellen, dass $V$ jedem Punkt in $U$ einen [[Vektor]] zuordnet.

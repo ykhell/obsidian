@@ -1,0 +1,2 @@
+Seien $V, W$ [[Normierter Raum|normierte Vektorräume]] und $A:V \to W$ eine [[Lineare Abbildung|lineare Abbildung]], dann gilt:
+$$A \text{ stetig} \iff \exists C > 0 : \|A(x)\| \leq C \cdot \|x\| \forall x \in V$$

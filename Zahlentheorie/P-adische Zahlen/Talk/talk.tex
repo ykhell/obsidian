@@ -1,0 +1,104 @@
+\documentclass[a4paper]{article}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=30mm,
+ right=30mm,
+ top=10mm,
+ bottom=10mm,
+ }
+\graphicspath{ {./graphics/} }
+\title{\vspace{-2cm}Übungen Analysis 1 - Blatt 3}
+\author{Yousef Khell}
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lemm}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{theo}[thm]{Theorem}
+\newtheorem{Cor}[thm]{Corollary}
+\newtheorem{thm-defi}[thm]{Theorem-Definition}
+
+\theoremstyle{definition}
+\newtheorem{defi}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+\newtheorem{ex}[thm]{Example}
+\newtheorem{Conc}[thm]{Conclusion}
+\newtheorem{nota}[thm]{Notation}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{soln}[thm]{Solution}
+\usepackage{fancyhdr}
+
+\begin{document}
+\section{Revision}
+\section{Strassman's Theorem}
+For the entirety of section §2 let
+$$f: \Bbb Z_{p} \to \Bbb Q_{p}, f(X) = \sum_{n=0}^{\infty}a_{n}X^{n} = a_{0} + a_{1}X + a_{2}X^{2} + \cdots$$
+be a non-zero (formal?) power series with coefficients in $\Bbb Q_{p}$
+\begin{lemm}
+  For $x, y \in \Bbb Z_{p}$ we have
+  $$f(x) - f(y) = (x-y)\sum_{n=1}^{\infty}\sum_{j=0}^{n-1}a_{n}x^{j}y^{n-1-j}$$
+  %$$f(x) - f(y) = (x-y)\sum_{n=1}^{\infty}a_{n}(x^{n-1}+x^{n-2}y + \cdots + xy^{n-2} + y^{n-1})$$
+\end{lemm}
+\begin{proof}
+
+\end{proof}
+\begin{lemm}
+If $f(x)$ converges $(\lim_{n\to \infty} a_{n} = 0)$ $\forall x \in \Bbb Z_{p}$, then $\exists N \in \Bbb N_{0}:$
+$$|a_{N}| = \max_{n \in \Bbb N_{0}}|a_{n}| \text{ and } |a_{n}| < |a_{N}| \forall n > N$$
+\begin{proof}
+
+\end{proof}
+\end{lemm}
+\begin{thm}[Strassman] %make this non italic
+Suppose we have $\lim_{n \to \infty}a_{n} = 0$, so that $f(x)$ converges $\forall x \in \Bbb Z_{p}$. Define $N \in \Bbb N_{0}$ by the following condition:
+$$|a_{N}| = \max_{n \in \Bbb N_{0}}|a_{n}| \text{ and } |a_{n}| < |a_{N}| \forall n > N$$
+then the function $f$ has at most $N$ zeros.
+\begin{proof}
+First step is to show that $N$ exists.
+\end{proof}
+\end{thm}
+\begin{Cor}
+  Let $f(X) = \sum a_{n}x^{n}$ be a non-zero power series which converges on $\Bbb Z_{p}$, and let $\alpha_{1}, ..., \alpha_{m} \in \Bbb Z_{p}$ be the roots of $f(X)$ in $\Bbb Z_{p}$, then there exists another power series $g(X)$ which also converges on $\Bbb Z_{p}$ but has no zeros in $\Bbb Z_{p}$, for which
+  $$f(X) = \left(\prod_{i=1}^{m}(X-\alpha_{i})\right)g(X)$$
+  \begin{proof}
+
+  \end{proof}
+\end{Cor}
+
+\begin{Cor}
+  Let $f(X) = \sum a_{n}x^{n}$ be a non-zero power series which converges on $p^{m}\Bbb Z_{p}$, for some $m \in \Bbb Z$. Then $f(X)$ has a finite number of roots in $p^{m} \Bbb Z_{p}$.
+  \begin{proof}
+
+  \end{proof}
+\end{Cor}
+\begin{Cor}
+  Let $f(X) = \sum a_{n}x^{n}$ and $g(X) = \sum b_{n}X^{n}$ be two p-adic power series which converge in a disc $p^{m}\Bbb Z_{p}$. If there exist infinitely many numbers $\alpha \in p^{m}Z_{p}$ such that $f(\alpha) = g(\alpha)$, then $a_{n} = b_{n}, \forall n \geq 0$
+
+  \begin{proof}
+
+  \end{proof}
+\end{Cor}
+\begin{Cor}
+  Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which converges in some disc $p^{m}\Bbb Z_{p}$. If the function $p^{m}\Bbb Z_{p} \to \Bbb Q_{p}, x \mapsto f(x)$ is periodic, that is, $\exists \pi \in p^{m}\Bbb Z_{p} : f(x + \pi) = f(x), \forall \in p^{m}\Bbb Z_{p}$ then $f(X)$ is constant.
+
+  \begin{proof}
+
+  \end{proof}
+\end{Cor}
+\begin{Cor}
+  Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which is entire, that is, $f(x)$ converges $\forall x \in \Bbb Q_{p}$. Then $f(X)$ has at most countably many zeros. Furthermore, if the set of zeros is not finite then the zeros form a sequence $\alpha_{n}$ with $|\alpha_{n}| \to \infty$.
+
+  \begin{proof}
+
+  \end{proof}
+\end{Cor}
+\section{The $p$-adic Logarithm Function}
+\section{Roots of Unity}
+\end{document}

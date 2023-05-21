@@ -1,0 +1,2 @@
+Eine $N_0$ wertige [[Zufallsvariable]] $X$ heißt Poisson-verteilt zum Parameter $\lambda > 0$, man schreibt $X \sim Pois(\lambda):\iff\forall k \in \Bbb N_0:$
+$$P(X=k) = e^{-\lambda} \frac{\lambda^k}{k!}$$

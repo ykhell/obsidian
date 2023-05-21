@@ -1,0 +1,2 @@
+Sei $X$ eine Grundmenge, $A \subset X$ eine [[Teilmenge - Obermenge|Teilmenge]]. Die [[Abbildung|Funktion]]  $$\Bbb 1_A: X \to \{0,1\}, x \mapsto \begin{cases}1, & x \in A,\\0, & x \notin A.\end{cases}$$
+heißt dann charakteristische Funktion oder Indikatorfunktion der [[Menge]] $A$.
