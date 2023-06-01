@@ -1,0 +1,1 @@
+Die [[Ordnung einer Gruppe|Ordnung]] jeder [[Untergruppe]] $H$ einer endlichen [[Gruppe]] $G$ ist ein [[Teiler]] der Ordnung der Gruppe $G$. Ist speziell $|G|$ eine [[Primzahl]], dann hat $G$ nur die (trivialen) [[Untergruppe|Untergruppen]] $\{e\}$ (bestehend aus dem [[Neutrales Element|neutralen Element]]) und $G$ selbst.

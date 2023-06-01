@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c18e80c41ad10b7a",
+        "id": "3ebb14f8bcf43ead",
         "type": "tabs",
         "children": [
           {
-            "id": "165b338cc58553a7",
+            "id": "15d19335693b2418",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Differentiation/Divergenz.md",
+                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 246.50247192382812
   },
   "right": {
     "id": "1df6f7804353dcd9",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Differentiation/Divergenz.md",
+                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Differentiation/Divergenz.md",
+                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Differentiation/Divergenz.md"
+                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md"
               }
             }
           }
@@ -146,41 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "165b338cc58553a7",
+  "active": "15d19335693b2418",
   "lastOpenFiles": [
+    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
+    "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
+    "Maßtheorie/Messbare Funktion.md",
+    "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
+    "Maßtheorie/Borelsche Sigma-Algebra.md",
+    "Maßtheorie/Sigma-Operator.md",
+    "Algebra/Ringtheorie/Euklidischer Ring.md",
+    "Analysis/Ungleichungen/Dreiecksungleichung.md",
+    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
+    "Algebra/Ringtheorie/Hauptidealring.md",
+    "Algebra/Ringtheorie/Hauptideal.md",
+    "Algebra/Ringtheorie/Unitärer Ring.md",
+    "Algebra/Ringtheorie/Untitled.md",
+    "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
+    "Zahlentheorie/P-adische Zahlen/p-adische Bewertung.md",
+    "Zahlentheorie/P-adische Zahlen/p-adische Zahlen.md",
+    "Zahlentheorie/P-adische Zahlen/Ring der nicht-archimedischen Cauchy-Folgen.md",
+    "Zahlentheorie/P-adische Zahlen/p-adische Metrik.md",
+    "Zahlentheorie/P-adische Zahlen/Cauchy-Folgen in Qp.md",
+    "Algebra/Ringtheorie/Quotientenkörper.md",
+    "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
+    "Algebra/Ringtheorie/Ring der formallen Potenzreihen.md",
+    "Algebra/Formale Potenzreihe.md",
+    "Algebra/Ringtheorie/Faktorring.md",
+    "Algebra/Ringtheorie/Maximales Ideal.md",
+    "Algebra/Restklasse.md",
+    "Algebra/Polynom.md",
+    "Analysis/Analysis 2/Analysis2_Vorlesungsmitschrieb-2.pdf",
+    "Algebra/Plaumann-Algebra.pdf",
+    "Algebra/Relationen",
     "Zahlentheorie/P-adische Zahlen/Talk/notes.org",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.out",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.aux",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.log",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.tex",
-    "Analysis/Konvergenz/Divergenz.md",
-    "Analysis/Differentiation/Divergenz.md",
-    "Analysis/Differentiation/Gradient.md",
-    "Analysis/Differentiation/Vektorfeld.md",
-    "Analysis/Differentiation/Partielle Ableitung.md",
-    "Analysis/Differentiation/Tangentialvektor.md",
-    "Analysis/Differentiation/Ableitung.md",
-    "Analysis/Kurve.md",
-    "Analysis/Folgen/Satz von Bolzano-Weierstraß.md",
-    "Analysis/Topologie/Satz von Heine-Borel.md",
-    "Analysis/Topologie/Untitled.md",
-    "Analysis/Topologie/Kompakter Raum.md",
-    "Analysis/Funktionen/Operatornorm.md",
-    "Analysis/Funktionen/Stetigkeit von linearen Abbildungen.md",
-    "Analysis/Funktionen/Gleichmäßige Stetigkeit.md",
-    "Analysis/Konvergenz/Gleichmäßige Konvergenz.md",
-    "Analysis/Funktionen/Stetigkeit.md",
-    "Wahrscheinlichkeitstheorie/Diskrete Verteilungen/Geometrische Verteilung.md",
-    "Wahrscheinlichkeitstheorie/Diskrete Verteilungen/Hypergeometrische Verteilung.md",
-    "Wahrscheinlichkeitstheorie/Indikatorfunktion.md",
-    "Wahrscheinlichkeitstheorie/Diskrete Verteilungen",
-    "Wahrscheinlichkeitstheorie/Erwartungswert.md",
-    "Wahrscheinlichkeitstheorie/Poissonapproximation.md",
-    "Wahrscheinlichkeitstheorie/Diskrete Verteilungen/Poissonverteilung.md",
-    "Zahlentheorie/P-adische Zahlen/p_adic_psem.pdf",
-    "Zahlentheorie/P-adische Zahlen/Gouvea p-adic numbers old.pdf",
-    "Analysis/Metrische Räume/Banachraum.md",
-    "Analysis/Reihen/Potenzreihe.md"
+    "Zahlentheorie/P-adische Zahlen/Talk/talk.tex"
   ]
 }

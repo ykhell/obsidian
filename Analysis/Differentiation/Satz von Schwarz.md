@@ -1,0 +1,3 @@
+Sei $f: U \to \Bbb{R}, U \underset{\text{offen}}{\subset} \Bbb{R}^n$  zweimal stetig [[Partielle Ableitung|partiell differenzierbar]] (d.h. $f$ ist stetig und die ersten und zweiten [[Partielle Ableitung|partiellen Ableitungen]] existieren und sind stetig). Dann gilt:
+$$(\partial_j(\partial_i f))(a) = (\partial_i(\partial_j f))(a) \quad \forall a \in U$$
+d.h. die Operatoren der partiellen Ableitungen kommutieren.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.9)  21 MAY 2023 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.9)  1 JUN 2023 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -276,7 +276,7 @@ Package amsfonts Warning: Obsolete command \Bbb; \mathbb should be used instead
 Here is how much of TeX's memory you used:
  3360 strings out of 479719
  49758 string characters out of 5880574
- 351638 words of memory out of 5000000
+ 351655 words of memory out of 5000000
  21345 multiletter control sequences out of 15000+600000
  474497 words of font info for 48 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -298,7 +298,7 @@ texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
 cal/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 ></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm7.pfb>
-Output written on talk.pdf (1 page, 144891 bytes).
+Output written on talk.pdf (1 page, 145229 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream

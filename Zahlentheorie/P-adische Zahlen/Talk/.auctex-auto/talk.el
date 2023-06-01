@@ -14,7 +14,7 @@
     "amsthm"
     "geometry"
     "fancyhdr")
-   (LaTeX-add-environments
+   (LaTeX-add-amsthm-newtheorems
     "thm"
     "lemm"
     "prop"

@@ -1,0 +1,1 @@
+Eine Funktion $f: U \to \Bbb{R}, U \underset{\text{offen}}{\subset} \Bbb{R}^n$, eine zweimal [[Partielle Ableitung|partiell differenzierbare]] [[Abbildung|Funktion]]. $f$ heißt harmonisch, wenn $\Delta f = 0$. wobei $\Delta f$ den [[Laplaceoperator]] bezeichne. 

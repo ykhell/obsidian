@@ -1,0 +1,1 @@
+Ein [[Ring]] heißt [[Kommutativität|kommutativ]], falls er bezüglich der Multiplikation [[Kommutativität|kommutativ]] ist, ansonsten spricht man von einem nicht-kommutativen Ring.

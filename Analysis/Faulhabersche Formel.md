@@ -1,2 +1,2 @@
 für eine [[Reihe]] $$\sum_{k=1}^n k^p = \frac{1}{p+1} \sum_{i=1}^{p+1} (-1)^{\delta_{ip}}\binom{p + 1}{i}B_{p+1-i}n^i$$
-Wobei $\delta_{ip}$ ist die [[Kronecker Delta]] Funktion, $\binom ni$ ist die [[Binomialkoeffizient]] und $B_i$ die $i$-te [[Bernoulli-Zahl]]
+Wobei $\delta_{ip}$ ist die [[Algebra/Lineare Algebra/Kronecker Delta]] Funktion, $\binom ni$ ist die [[Binomialkoeffizient]] und $B_i$ die $i$-te [[Bernoulli-Zahl]]

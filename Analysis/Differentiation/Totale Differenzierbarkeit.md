@@ -1,0 +1,1 @@
+Sei $f: U \to \Bbb{R}^m, U \underset{\text{offen}}{\subset}\Bbb{R}^n, x \in U$, wir sagen $f$ ist total differenzierbar in $x$

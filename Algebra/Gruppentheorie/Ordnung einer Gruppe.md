@@ -1,0 +1,1 @@
+Die [[Kardinalität - Mächtigkeit|Mächtigkeit]] $|G|$ der Trägermenge einer [[Gruppe]] heißt Ordnung.
