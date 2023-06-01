@@ -1031,6 +1031,7 @@ bgjk
 bwM
 biN
 borelsche
+besitzt
 Dann
 Das
 Definition
@@ -1380,6 +1381,7 @@ DTPr
 DViKO
 DLn
 DQc
+Dichte
 gilt
 großen
 genannt
@@ -4621,6 +4623,7 @@ nPe
 nhS
 nUm
 nun
+nennen
 heißt
 heißen
 häufig
@@ -6604,6 +6607,7 @@ krokX
 kjS
 kzU
 krI
+kontinuirlich
 eine
 ein
 existiere
@@ -12446,6 +12450,7 @@ Vknd
 Vbl
 Vhq
 VSl
+Verteilungsfunktion
 Polynomring
 Polynomkörper
 Polynomen
