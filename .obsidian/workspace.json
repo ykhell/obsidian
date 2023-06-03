@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md"
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "15d19335693b2418",
   "lastOpenFiles": [
-    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
+    "Wahrscheinlichkeitstheorie/Bildmaß einer Zufallsvariable.md",
+    "Maßtheorie/Bildmaß.md",
+    "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
     "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
+    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
     "Maßtheorie/Messbare Funktion.md",
     "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
     "Maßtheorie/Borelsche Sigma-Algebra.md",
@@ -168,13 +171,10 @@
     "Zahlentheorie/P-adische Zahlen/p-adische Metrik.md",
     "Zahlentheorie/P-adische Zahlen/Cauchy-Folgen in Qp.md",
     "Algebra/Ringtheorie/Quotientenkörper.md",
-    "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
     "Algebra/Ringtheorie/Ring der formallen Potenzreihen.md",
     "Algebra/Formale Potenzreihe.md",
     "Algebra/Ringtheorie/Faktorring.md",
     "Algebra/Ringtheorie/Maximales Ideal.md",
-    "Algebra/Restklasse.md",
-    "Algebra/Polynom.md",
     "Analysis/Analysis 2/Analysis2_Vorlesungsmitschrieb-2.pdf",
     "Algebra/Plaumann-Algebra.pdf",
     "Algebra/Relationen",
