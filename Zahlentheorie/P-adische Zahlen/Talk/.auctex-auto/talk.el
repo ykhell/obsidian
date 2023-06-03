@@ -14,6 +14,8 @@
     "amsthm"
     "geometry"
     "fancyhdr")
+   (LaTeX-add-bibitems
+    "Gou")
    (LaTeX-add-amsthm-newtheorems
     "thm"
     "lemm"
