@@ -1,0 +1,1 @@
+Sei $R$ ein [[Integritätsbereich]], $a, b \in R$ heißen zueinander assoziiert, falls eine [[Einheit]] $\epsilon$ existiert mit $b=a \cdot \epsilon$. Dies ist genau dann erfüllt, wenn sich $a$ und $b$ gegenseitig teilen, d.h. $a \mid b$ und $b \mid a$. Man schreibt auch $a \sim b$ oder $a \hat = b$.

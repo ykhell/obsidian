@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.9)  5 JUN 2023 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.9)  6 JUN 2023 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -269,40 +269,48 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package amsfonts Warning: Obsolete command \Bbb; \mathbb should be used instead
  on input line 41.
 
+
+Overfull \hbox (34.61931pt too wide) in paragraph at lines 44--48
+[][] \OML/cmm/m/it/10 b[] \OT1/cmr/m/n/10 = 0$ \OT1/cmr/m/it/10 and $\OML/cmm/m
+/it/10 lim[]b[] \OT1/cmr/m/n/10 = 0$ \OT1/cmr/m/it/10 uni-formly in $\OML/cmm/m
+/it/10 j$\OT1/cmr/m/it/10 , then both se-ries $[][] [] [] [][] []$
+ []
+
 [1
 
 {/usr/local/texlive/2022basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] (./talk.aux) ) 
+[2] [3] [4] (./talk.aux) ) 
 Here is how much of TeX's memory you used:
- 3366 strings out of 479719
- 49808 string characters out of 5880574
+ 3368 strings out of 479719
+ 49832 string characters out of 5880574
  355660 words of memory out of 5000000
- 21349 multiletter control sequences out of 15000+600000
- 475116 words of font info for 50 fonts, out of 8000000 for 9000
+ 21350 multiletter control sequences out of 15000+600000
+ 475475 words of font info for 51 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 55i,8n,62p,410b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/yousef/Library/texlive/2022basic/texmf-var/fonts
-/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2022basic/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022basic
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022b
-asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2
-022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texliv
-e/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/tex
-live/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loca
-l/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
-/usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msbm7.pfb>
-Output written on talk.pdf (3 pages, 175235 bytes).
+ 55i,12n,62p,410b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/yousef/Library/texlive/2022basic/texmf-var/f
+onts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2022basic/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/202
+2basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive
+/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local
+/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
+cal/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+</usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfon
+ts/symbols/msbm10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msbm7.pfb>
+Output written on talk.pdf (4 pages, 192711 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

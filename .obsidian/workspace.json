@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Konvergenz/Wurzelkriterium.md",
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Konvergenz/Wurzelkriterium.md",
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Konvergenz/Wurzelkriterium.md",
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Konvergenz/Wurzelkriterium.md"
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md"
               }
             }
           }
@@ -161,9 +161,18 @@
   },
   "active": "2d3701966601ac63",
   "lastOpenFiles": [
+    "Algebra/Repräsentantensystem.md",
+    "Algebra/Ringtheorie/Assoziiertheit.md",
+    "Algebra/Ringtheorie/Einheit.md",
+    "Algebra/Ringtheorie/Einheitengruppe.md",
+    "Algebra/Ringtheorie/Primelement.md",
+    "Algebra/Ringtheorie/Faktorieller Ring.md",
+    "Algebra/Ringtheorie/Irreduzibles Element.md",
+    "Analysis/Funktionen/Sinus.md",
+    "Analysis/Konvergenz/Wurzelkriterium.md",
+    "Zahlentheorie/P-adische Zahlen/Talk/document.pdf",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf",
     "Analysis/Konvergenz/Weierstraßsches Majorantenkriterium.md",
-    "Analysis/Konvergenz/Wurzelkriterium.md",
     "Analysis/Konvergenz/Regel von L'Hôpital.md",
     "Analysis/Konvergenz/Quotientenkriterium.md",
     "Analysis/Konvergenz/Punktweise Konvergenz.md",
@@ -180,13 +189,6 @@
     "Analysis/Konvergenz/Cauchy-Verdichtungskriterium.md",
     "Analysis/Konvergenz/Cauchy-Kriterium.md",
     "Analysis/Konvergenz/Absolute Konvergenz.md",
-    "Analysis/Reihen/Taylorreihe.md",
-    "Analysis/Reihen/Cauchy-Produkt.md",
-    "Analysis/Reihen/Geometrische Reihe.md",
-    "Analysis/Reihen/Konvergenzradius.md",
-    "Analysis/Reihen/Harmonische Reihe.md",
-    "Analysis/Reihen/Potenzreihe.md",
-    "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
     "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
     "Analysis/Analysis 2/Analysis2_Vorlesungsmitschrieb-2.pdf",
     "Algebra/Plaumann-Algebra.pdf",
@@ -194,7 +196,6 @@
     "Zahlentheorie/P-adische Zahlen/Talk/notes.org",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.out",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.aux",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.log",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.tex"
+    "Zahlentheorie/P-adische Zahlen/Talk/talk.log"
   ]
 }

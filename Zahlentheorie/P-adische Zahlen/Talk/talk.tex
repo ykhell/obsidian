@@ -41,7 +41,7 @@
   Let $f(X) \in \Bbb Q_{p}[[X]]$ be a power series, then the radius of convergence is
   $$\rho = \frac{1}{\displaystyle \limsup_{n \to \infty}\sqrt[n]{|a_{n}|}}$$
 \end{rem}
-\begin{prop}{\cite[Prop. 5.1.4]{Gou}}
+\begin{prop}{\cite[Prop. 5.1.4]{Gou}}[Proposition 1.5 in Talk 8]
   Let $b_{ij} \in \Bbb Q_{p}$ and suppose $\forall i: \lim_{j \to \infty}b_{ij} = 0$ and $lim_{i \to \infty}b_{ij} = 0$ uniformly in $j$, then both series
   $\sum_{i=0}^{\infty}\left(\sum_{j=0}^{\infty} b_{ij} \right) \text{ and } \sum_{j=0}^{\infty}\left(\sum_{i=0}^{\infty} b_{ij} \right)$
   converge and have equal sum.
@@ -71,7 +71,7 @@
   Since $f(X)$ converges $\forall x \in \Bbb Z_{p}$, then we have
   $$\forall x \in \Bbb Z_{p} : \lim_{n \to \infty}|a_{n}x^{n}| = 0 = \lim_{n \to \infty}|a_{n}|\cdot|x^{n}| \implies \lim_{n \to \infty}|a_{n}| = 0$$
 \end{proof}
-\begin{thm}[Strassman]
+\begin{thm}[Strassman] % STRASSMAN
 Let $f(X) \in \Bbb Q_{p}[[X]]$ and suppose we have $\lim_{n \to \infty}a_{n} = 0$, so that $f(x)$ converges $\forall x \in \Bbb Z_{p}$. Define $N \in \Bbb N_{0}$ like in Lemma 2.2
 then the function $f$ has at most $N$ zeros.
 \end{thm}
@@ -99,6 +99,17 @@ then the function $f$ has at most $N$ zeros.
           $$= (x-\alpha) \sum_{j=0}^{\infty} \sum_{n=j+1}^{\infty} a_{n}x^{j}\alpha^{n-1-j} = (x-\alpha) \sum_{j=0}^{\infty} x^{j} \underbrace{\sum_{n=0}^{\infty} a_{n+j+1}\alpha^{n}}_{=:b_{j}}$$
           $$= (x-\alpha)g(x),\quad g(x):=\sum_{j=0}^{\infty}b_{j}x^{j}$$
           Now we check if $g(X)$ fits the assumptions of the theorem, to use the induction steps. We need to show that $g(X)$ is non zero and that $b_{j} \to 0$
+          \begin{itemize}
+            \item $g(X)$ is non zero: clear since if $g(X)$ was the zero power series then $f(X)$ would also be zero, which is a contradiction.
+            \item $b_{j} \to 0$: Consider $|b_{j}| = \left|\sum_{n=0}^{\infty}a_{n+j+1}\alpha^{n}\right| \leq \max_{n}|a_{n+j+1}\alpha^{n}| \leq \max_{n}|a_{n+j+1}| \xrightarrow{j \to \infty} 0$
+          \end{itemize}
+          Now we look for $\max_{j}|b_{j}|$, note that
+          $$|b_{j}| \leq \max_{n}|a_{n+j+1}| \leq |a_{N}|, \forall j$$
+          So we have
+          $$|b_{N-1}| = |a_{N} + a_{N_+1}\alpha + a_{N+2}\alpha^{2} + \cdots | = |a_{N}|$$
+          Finnaly, if $j > N-1$, then
+          $$|b_{j}| \leq \max_{k}|a_{j+k+1}| \leq \max_{j > N}|a_{j}| < |a_{N}|$$
+      So the index at which the maximum coefficient is reached $b_{n}$ is $N-1$, if we assume that $g(X)$ has at most $N-1$ zeros in $\Bbb Z_{p}$ then $f(X)$ has at most $N$ zeros (g's zeros and $\alpha$).
   \end{itemize}
 \end{proof}
 \begin{Cor} %5.6.2 in the book
@@ -113,17 +124,43 @@ then the function $f$ has at most $N$ zeros.
   Let $f(X) = \sum a_{n}x^{n}$ be a non-zero power series which converges on $p^{m}\Bbb Z_{p}$, for some $m \in \Bbb Z$. Then $f(X)$ has a finite number of roots in $p^{m} \Bbb Z_{p}$.
 \end{Cor}
 \begin{proof}
-
+  Define $$g(X) = f(p^{m}X) = \sum a_{n}p^{mn}X^{n},$$
+  Since $f(x)$ converges for $x \in p^{m}\Bbb Z_{p}$, $g(x) = f(p^{m}x)$ converges for $x \in \Bbb Z_{p}$, applying the theorem to $g(X)$ gives the finiteness of its zeros.
 \end{proof}
 \begin{Cor}
   Let $f(X) = \sum a_{n}x^{n}$ and $g(X) = \sum b_{n}X^{n}$ be two p-adic power series which converge in a disc $p^{m}\Bbb Z_{p}$. If there exist infinitely many numbers $\alpha \in p^{m}Z_{p}$ such that $f(\alpha) = g(\alpha)$, then $a_{n} = b_{n}, \forall n \geq 0$
 \end{Cor}
+\begin{proof}
+  Define $$h(X) = f(X) - g(X) = \sum(a_{n}-b_{n})X^{n}$$, then $h(X)$ converges also on $p^{m}\Bbb Z_{p}$, by Corollary 2.5 $h(X)$ has to have finitely many zeros, otherwise it must be the zero power series. Which means that
+  $$f(X) = g(X) \implies a_{n} = b_{n} \forall n \geq 0$$
+\end{proof}
 \begin{Cor}
   Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which converges in some disc $p^{m}\Bbb Z_{p}$. If the function $p^{m}\Bbb Z_{p} \to \Bbb Q_{p}, x \mapsto f(x)$ is periodic, that is, $\exists \pi \in p^{m}\Bbb Z_{p} : f(x + \pi) = f(x), \forall \in p^{m}\Bbb Z_{p}$ then $f(X)$ is constant.
 \end{Cor}
+\begin{proof}
+
+\end{proof}
 \begin{Cor}
   Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which is entire, that is, $f(x)$ converges $\forall x \in \Bbb Q_{p}$. Then $f(X)$ has at most countably many zeros. Furthermore, if the set of zeros is not finite then the zeros form a sequence $\alpha_{n}$ with $|\alpha_{n}| \to \infty$.
 \end{Cor}
+\section{Formal Derivatives}
+\begin{thm-defi}
+  Let $f(X) = \sum_{n=0}^{\infty} a_{n}X^{n} $, we define its \textbf{formal derivative} as
+  $$f'(X) = \sum_{n=1}^{\infty} na_{n}X^{n-1}, $$
+  Then $f'(X)$ has the properties of the derivative:
+  \begin{itemize}
+    \item Additivity: $(f+g)'(X) = f'(X) + g'(X)$
+    \item Product rule: $(fg)'(X) = f(X)g'(X) + f'(X)g(x)$
+    \item Chain rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
+  \end{itemize}
+\end{thm-defi}
+\begin{proof}
+  % TODO
+
+\end{proof}
+\begin{prop}
+Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ and $|b| < \rho$, then $g(x) = f(ax+b)$ is given by a power series $g(X)$ which converges for $|x| < \rho$.
+\end{prop}
 \section{The $p$-adic Logarithm Function}
 \begin{defi}[Formal power series for the logarithm]   $$\mathbf{log}(1+X) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {X^{n}}{n} = X - \frac{X^{2}}{2} + \frac{X^{3}}{3} \mp \cdots \in \Bbb Q_{p}[[X]]$$
   Since the coefficients are in $\Bbb Q$ we can consider it as a power series with coefficients in $\Bbb Q_{p}$
@@ -138,7 +175,7 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
 \end{proof}
 \begin{defi}Let $U_{1} = B(1,1) = \{x \in \Bbb Z_{p} : |x-1| < 1\} = 1+p\Bbb Z_{p}$, we define the $p$-adic logarithm of $x \in U_{1}$ as:
   $$\log_{p}(x) = \mathbf{log}(1+(x-1)) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {(x-1)^{n}}{n}$$
-In order to be able to call it a logarithm, it has to fill the usual logarithmic property:
+  In order to be able to call it a logarithm, it has to fill the usual logarithmic property:
 \end{defi}
 \begin{prop}
   Let $a, b \in 1+p\Bbb Z_{p}$, then we have
@@ -157,6 +194,31 @@ In order to be able to call it a logarithm, it has to fill the usual logarithmic
   We know that $\log_{p}(x)$ converges only for $x \in p\Bbb Z_{p}$, not in $\Bbb Z_{p}$, but we can do a change of variables like in Corollary 2.5
   % TODO
 \end{proof}
+\begin{prop}
+  Let $p \neq 2, x \in \Bbb Q_{p}$ and $x^{p}=1$, then $x=1$.
+\end{prop}
+\begin{proof}
+% TODO
+\end{proof}
+\begin{Cor}
+  (Remark 4.5 in Talk 6) There are no $p$-th and hence no $p^{n}$-th roots of unity in $\Bbb Q_{p}$.
+\end{Cor}
+\begin{proof}
+% TODO
+\end{proof}
+\begin{prop} If $p = 2, x \in \Bbb Q_{2}$ and $x^{4} = 1$ then $x = \pm 1$, which means that there are no fourth roots of unity in $\Bbb Q_{2}$
+\end{prop}
+\begin{proof}
+% TODO
+\end{proof}
+\begin{rem}
+  We now summarize what we know so far about the roots of unity in $\Bbb Q_{p}$:
+  \begin{itemize}
+    \item If $p=2$, then the only roots of unity are $\pm 1$
+    \item If $p \neq 2$, then $\Bbb Q_{p}$ contains all the $p-1$-st roots of unity and none other. (their existence was shown in Talk 6)
+  \end{itemize}
+
+\end{rem}
 
 \begin{thebibliography}{widest-label} % References are listed here
 
