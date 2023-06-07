@@ -13,13 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Analysis/Satz von Taylor.md",
+=======
+                "file": "Zahlentheorie/P-adische Zahlen/p-adische Bewertung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d3701966601ac63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
+>>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +102,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Analysis/Satz von Taylor.md",
+=======
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
+>>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Analysis/Satz von Taylor.md",
+=======
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
+>>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Analysis/Satz von Taylor.md"
+=======
+                "file": "Algebra/Ringtheorie/Euklidischer Ring.md"
+>>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
               }
             }
           }
@@ -146,8 +175,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15d19335693b2418",
+  "active": "2d3701966601ac63",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Analysis/Lagrangesches Restglied.md",
     "Analysis/Satz von Taylor.md",
     "Analysis/Multinomischer Lehrsatz.md",
@@ -177,12 +207,47 @@
     "Analysis/Absolut-Betrag.md",
     "Analysis/Literatur",
     "Analysis/Literatur/Analysis 2/Analysis2_Vorlesungsmitschrieb.pdf",
+=======
+    "Algebra/Repräsentantensystem.md",
+    "Algebra/Ringtheorie/Assoziiertheit.md",
+    "Algebra/Ringtheorie/Einheit.md",
+    "Algebra/Ringtheorie/Einheitengruppe.md",
+    "Algebra/Ringtheorie/Primelement.md",
+    "Algebra/Ringtheorie/Faktorieller Ring.md",
+    "Algebra/Ringtheorie/Irreduzibles Element.md",
+    "Analysis/Funktionen/Sinus.md",
+    "Analysis/Konvergenz/Wurzelkriterium.md",
+    "Zahlentheorie/P-adische Zahlen/Talk/document.pdf",
+    "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf",
+    "Analysis/Konvergenz/Weierstraßsches Majorantenkriterium.md",
+    "Analysis/Konvergenz/Regel von L'Hôpital.md",
+    "Analysis/Konvergenz/Quotientenkriterium.md",
+    "Analysis/Konvergenz/Punktweise Konvergenz.md",
+    "Analysis/Konvergenz/Nullfolgenkriterium.md",
+    "Analysis/Konvergenz/Monotoniekriterium.md",
+    "Analysis/Konvergenz/Minorantenkriterium.md",
+    "Analysis/Konvergenz/Majorantenkriterium.md",
+    "Analysis/Konvergenz/Leibniz-Kriterium.md",
+    "Analysis/Konvergenz/Konvergenzkriterium.md",
+    "Analysis/Konvergenz/Konvergenz.md",
+    "Analysis/Konvergenz/Integralkriterium.md",
+    "Analysis/Konvergenz/Grenzwertkriterium.md",
+    "Analysis/Konvergenz/Gleichmäßige Konvergenz.md",
+    "Analysis/Konvergenz/Cauchy-Verdichtungskriterium.md",
+    "Analysis/Konvergenz/Cauchy-Kriterium.md",
+    "Analysis/Konvergenz/Absolute Konvergenz.md",
+>>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
     "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
     "Analysis/Analysis 2/Analysis2_Vorlesungsmitschrieb-2.pdf",
     "Algebra/Plaumann-Algebra.pdf",
     "Algebra/Relationen",
     "Zahlentheorie/P-adische Zahlen/Talk/notes.org",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.out",
+<<<<<<< HEAD
     "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf"
+=======
+    "Zahlentheorie/P-adische Zahlen/Talk/talk.aux",
+    "Zahlentheorie/P-adische Zahlen/Talk/talk.log"
+>>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
   ]
 }
