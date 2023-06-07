@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
+                "file": "Analysis/Satz von Taylor.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
+                "file": "Analysis/Satz von Taylor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
+                "file": "Analysis/Satz von Taylor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md"
+                "file": "Analysis/Satz von Taylor.md"
               }
             }
           }
@@ -148,41 +148,41 @@
   },
   "active": "15d19335693b2418",
   "lastOpenFiles": [
-    "Wahrscheinlichkeitstheorie/Wahrscheinlichkeitsmaß.md",
-    "Wahrscheinlichkeitstheorie/Verteilungsfunktion.md",
-    "Maßtheorie/Messbare Funktion.md",
-    "Wahrscheinlichkeitstheorie/Zufallsvariable.md",
-    "Maßtheorie/Borelsche Sigma-Algebra.md",
-    "Maßtheorie/Sigma-Operator.md",
-    "Algebra/Ringtheorie/Euklidischer Ring.md",
-    "Analysis/Ungleichungen/Dreiecksungleichung.md",
-    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
-    "Algebra/Ringtheorie/Hauptidealring.md",
-    "Algebra/Ringtheorie/Hauptideal.md",
-    "Algebra/Ringtheorie/Unitärer Ring.md",
-    "Algebra/Ringtheorie/Untitled.md",
-    "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
-    "Zahlentheorie/P-adische Zahlen/p-adische Bewertung.md",
-    "Zahlentheorie/P-adische Zahlen/p-adische Zahlen.md",
-    "Zahlentheorie/P-adische Zahlen/Ring der nicht-archimedischen Cauchy-Folgen.md",
-    "Zahlentheorie/P-adische Zahlen/p-adische Metrik.md",
-    "Zahlentheorie/P-adische Zahlen/Cauchy-Folgen in Qp.md",
-    "Algebra/Ringtheorie/Quotientenkörper.md",
+    "Analysis/Lagrangesches Restglied.md",
+    "Analysis/Satz von Taylor.md",
+    "Analysis/Multinomischer Lehrsatz.md",
+    "Analysis/Binomialkoeffizient.md",
+    "Analysis/Faulhabersche Formel.md",
+    "Analysis/Reihen/Taylorreihe.md",
+    "Analysis/Differentiation/Richtungsableitung.md",
+    "Analysis/Differentiation/Verallgemeinerte Kettenregel.md",
+    "Analysis/Differentiation/Totale Differenzierbarkeit.md",
+    "Analysis/Differentiation/Differentationsregeln.md",
+    "Analysis/Differentiation/Jacobi-Matrix.md",
+    "Analysis/Differentiation/Rotation.md",
+    "Analysis/Vektoranalysis",
+    "Algebra/Lineare Algebra/Kreuzprodukt.md",
+    "Analysis/Differentiation/Satz von Schwarz.md",
+    "Analysis/Topologie/Hausdorffraum.md",
+    "Analysis/Topologie/Topologischer Raum.md",
+    "Analysis/Topologie/Topologie.md",
+    "Analysis/Topologie/Satz von Heine-Borel.md",
+    "Analysis/Metrische Räume/Vollständiger Raum.md",
+    "Analysis/Metrische Räume/Umgebung.md",
+    "Analysis/Metrische Räume/Ultrametrik.md",
+    "Zahlentheorie/P-adische Zahlen/Betrag.md",
     "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
-    "Algebra/Ringtheorie/Ring der formallen Potenzreihen.md",
-    "Algebra/Formale Potenzreihe.md",
-    "Algebra/Ringtheorie/Faktorring.md",
-    "Algebra/Ringtheorie/Maximales Ideal.md",
-    "Algebra/Restklasse.md",
-    "Algebra/Polynom.md",
+    "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
+    "Analysis/Abbildungen/Vektorfeld.md",
+    "Analysis/Absolut-Betrag.md",
+    "Analysis/Literatur",
+    "Analysis/Literatur/Analysis 2/Analysis2_Vorlesungsmitschrieb.pdf",
+    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
     "Analysis/Analysis 2/Analysis2_Vorlesungsmitschrieb-2.pdf",
     "Algebra/Plaumann-Algebra.pdf",
     "Algebra/Relationen",
     "Zahlentheorie/P-adische Zahlen/Talk/notes.org",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.out",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.aux",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.log",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.tex"
+    "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf"
   ]
 }

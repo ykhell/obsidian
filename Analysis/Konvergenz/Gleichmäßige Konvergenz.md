@@ -1,6 +1,7 @@
 ## Definition aus ANA2
 Sei $X$ eine [[Menge]] und $Y$ ein [[Metrischer Raum]]. Seien $f_n: X \to Y$ [[Abbildung|Abbildungen]]. Die [[Folge]] $(f_n)$ konvergiert gleichmäßig gegen $f: X \to Y$, wenn
 $$\forall \varepsilon > 0 \exists N = N(\varepsilon) : d(f_n(x), f(x)) < \varepsilon\ \forall x \in X \forall n \geq N$$
+wenn $N$ also nicht von $x$ abhingt.
 
 ### Satz
 Sei $X$ [[Topologischer Raum]], $Y$ [[Metrischer Raum]], $f_n : X \to Y$ stetig, dann gilt:
