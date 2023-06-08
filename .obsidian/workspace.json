@@ -1,35 +1,27 @@
 {
   "main": {
-    "id": "9ad2b9201ff139c6",
+    "id": "1819057c5d36c39e",
     "type": "split",
     "children": [
       {
-        "id": "3ebb14f8bcf43ead",
+        "id": "8ae28d93083a0bf3",
         "type": "tabs",
         "children": [
           {
-            "id": "15d19335693b2418",
+            "id": "f832b4626078c3de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "Analysis/Satz von Taylor.md",
-=======
-                "file": "Zahlentheorie/P-adische Zahlen/p-adische Bewertung.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "2d3701966601ac63",
+            "id": "aa4d6578252677bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
->>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
+                "file": "Algebra/Ringtheorie/Ringhomomorphismus.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,15 +34,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a7c8c1d710b89af2",
+    "id": "e2ad558c538455f6",
     "type": "split",
     "children": [
       {
-        "id": "16113d58f085cbd4",
+        "id": "5c1419085200e47d",
         "type": "tabs",
         "children": [
           {
-            "id": "2a8257f1b45bdc86",
+            "id": "eb6c1dc7e2ebc78e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -60,7 +52,7 @@
             }
           },
           {
-            "id": "acbdc84804b8a217",
+            "id": "cea60c387cd21bfe",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +67,7 @@
             }
           },
           {
-            "id": "9a8b17e6ad5a1c98",
+            "id": "0349104a46eb6066",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -86,27 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.50247192382812
+    "width": 300
   },
   "right": {
-    "id": "1df6f7804353dcd9",
+    "id": "e1498401de033fdc",
     "type": "split",
     "children": [
       {
-        "id": "1b5688e95fb87d0f",
+        "id": "a0f0c93209fe0063",
         "type": "tabs",
         "children": [
           {
-            "id": "14687458008e307b",
+            "id": "2d52caf4baf17152",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Analysis/Satz von Taylor.md",
-=======
-                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
->>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
+                "file": "Algebra/Ringtheorie/Ringhomomorphismus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,23 +106,19 @@
             }
           },
           {
-            "id": "68f57790018953f8",
+            "id": "100759ea7e78fbf8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Analysis/Satz von Taylor.md",
-=======
-                "file": "Algebra/Ringtheorie/Euklidischer Ring.md",
->>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
+                "file": "Algebra/Ringtheorie/Ringhomomorphismus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5a6b5e43ca5d8354",
+            "id": "ddc6c4d683ff2a9e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,16 +129,12 @@
             }
           },
           {
-            "id": "a4ef0a1ee3e2e8cf",
+            "id": "db5d58b841eaf856",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Analysis/Satz von Taylor.md"
-=======
-                "file": "Algebra/Ringtheorie/Euklidischer Ring.md"
->>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
+                "file": "Algebra/Ringtheorie/Ringhomomorphismus.md"
               }
             }
           }
@@ -175,79 +155,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d3701966601ac63",
+  "active": "aa4d6578252677bc",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Analysis/Lagrangesches Restglied.md",
-    "Analysis/Satz von Taylor.md",
-    "Analysis/Multinomischer Lehrsatz.md",
-    "Analysis/Binomialkoeffizient.md",
-    "Analysis/Faulhabersche Formel.md",
-    "Analysis/Reihen/Taylorreihe.md",
-    "Analysis/Differentiation/Richtungsableitung.md",
-    "Analysis/Differentiation/Verallgemeinerte Kettenregel.md",
-    "Analysis/Differentiation/Totale Differenzierbarkeit.md",
-    "Analysis/Differentiation/Differentationsregeln.md",
-    "Analysis/Differentiation/Jacobi-Matrix.md",
-    "Analysis/Differentiation/Rotation.md",
-    "Analysis/Vektoranalysis",
-    "Algebra/Lineare Algebra/Kreuzprodukt.md",
-    "Analysis/Differentiation/Satz von Schwarz.md",
-    "Analysis/Topologie/Hausdorffraum.md",
-    "Analysis/Topologie/Topologischer Raum.md",
-    "Analysis/Topologie/Topologie.md",
-    "Analysis/Topologie/Satz von Heine-Borel.md",
-    "Analysis/Metrische Räume/Vollständiger Raum.md",
-    "Analysis/Metrische Räume/Umgebung.md",
-    "Analysis/Metrische Räume/Ultrametrik.md",
-    "Zahlentheorie/P-adische Zahlen/Betrag.md",
-    "Zahlentheorie/P-adische Zahlen/Nicht-Archimedischer Absolutbetrag.md",
-    "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
-    "Analysis/Abbildungen/Vektorfeld.md",
-    "Analysis/Absolut-Betrag.md",
-    "Analysis/Literatur",
-    "Analysis/Literatur/Analysis 2/Analysis2_Vorlesungsmitschrieb.pdf",
-=======
-    "Algebra/Repräsentantensystem.md",
-    "Algebra/Ringtheorie/Assoziiertheit.md",
-    "Algebra/Ringtheorie/Einheit.md",
-    "Algebra/Ringtheorie/Einheitengruppe.md",
-    "Algebra/Ringtheorie/Primelement.md",
-    "Algebra/Ringtheorie/Faktorieller Ring.md",
-    "Algebra/Ringtheorie/Irreduzibles Element.md",
-    "Analysis/Funktionen/Sinus.md",
-    "Analysis/Konvergenz/Wurzelkriterium.md",
-    "Zahlentheorie/P-adische Zahlen/Talk/document.pdf",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf",
-    "Analysis/Konvergenz/Weierstraßsches Majorantenkriterium.md",
-    "Analysis/Konvergenz/Regel von L'Hôpital.md",
-    "Analysis/Konvergenz/Quotientenkriterium.md",
-    "Analysis/Konvergenz/Punktweise Konvergenz.md",
-    "Analysis/Konvergenz/Nullfolgenkriterium.md",
-    "Analysis/Konvergenz/Monotoniekriterium.md",
-    "Analysis/Konvergenz/Minorantenkriterium.md",
-    "Analysis/Konvergenz/Majorantenkriterium.md",
-    "Analysis/Konvergenz/Leibniz-Kriterium.md",
-    "Analysis/Konvergenz/Konvergenzkriterium.md",
-    "Analysis/Konvergenz/Konvergenz.md",
-    "Analysis/Konvergenz/Integralkriterium.md",
-    "Analysis/Konvergenz/Grenzwertkriterium.md",
-    "Analysis/Konvergenz/Gleichmäßige Konvergenz.md",
-    "Analysis/Konvergenz/Cauchy-Verdichtungskriterium.md",
-    "Analysis/Konvergenz/Cauchy-Kriterium.md",
-    "Analysis/Konvergenz/Absolute Konvergenz.md",
->>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
-    "Wahrscheinlichkeitstheorie/Literatur/(de Gruyter Lehrbuch) Georgii H.-O. - Stochastik_ Einfuehrung in die Wahrscheinlichkeitstheorie und Statistik-de Gruyter (2009).pdf",
-    "Analysis/Analysis 2/Analysis2_Vorlesungsmitschrieb-2.pdf",
-    "Algebra/Plaumann-Algebra.pdf",
-    "Algebra/Relationen",
-    "Zahlentheorie/P-adische Zahlen/Talk/notes.org",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.out",
-<<<<<<< HEAD
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf"
-=======
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.aux",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.log"
->>>>>>> 1459701ceba39f1699aede5915ca5dbceec75f7a
+    "Algebra/Distributivität.md",
+    "Algebra/Ringtheorie/Ring.md",
+    "Algebra/Gruppentheorie/Halbgruppe.md"
   ]
 }

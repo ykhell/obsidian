@@ -8,8 +8,8 @@
  \geometry{
  a4paper,
  total={170mm,257mm},
- left=30mm,
- right=30mm,
+ left=20mm,
+ right=20mm,
  top=10mm,
  bottom=10mm,
  }
@@ -138,11 +138,14 @@ then the function $f$ has at most $N$ zeros.
   Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which converges in some disc $p^{m}\Bbb Z_{p}$. If the function $p^{m}\Bbb Z_{p} \to \Bbb Q_{p}, x \mapsto f(x)$ is periodic, that is, $\exists \pi \in p^{m}\Bbb Z_{p} : f(x + \pi) = f(x), \forall \in p^{m}\Bbb Z_{p}$ then $f(X)$ is constant.
 \end{Cor}
 \begin{proof}
-
+The series $f(X) - f(0)$ has zeros at $n\pi$ for all $n \in \Bbb Z$, since $\pi \in p^{m}\Bbb Z_{p}$ implies $n\pi \in p^{m}\Bbb Z_{p}$, this gives infinitely many zeros, and hence the series $f(X) - f(0)$ must be identically zero, i.e. $f(X)$ must be constant.
 \end{proof}
 \begin{Cor}
   Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which is entire, that is, $f(x)$ converges $\forall x \in \Bbb Q_{p}$. Then $f(X)$ has at most countably many zeros. Furthermore, if the set of zeros is not finite then the zeros form a sequence $\alpha_{n}$ with $|\alpha_{n}| \to \infty$.
 \end{Cor}
+\begin{proof}
+  This is clear, because the number of zeros in each bounded disk $p^{m}\Bbb Z_{p}$ is finite.
+\end{proof}
 \section{Formal Derivatives}
 \begin{thm-defi}
   Let $f(X) = \sum_{n=0}^{\infty} a_{n}X^{n} $, we define its \textbf{formal derivative} as
