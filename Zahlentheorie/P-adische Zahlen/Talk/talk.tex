@@ -46,6 +46,24 @@
   $\sum_{i=0}^{\infty}\left(\sum_{j=0}^{\infty} b_{ij} \right) \text{ and } \sum_{j=0}^{\infty}\left(\sum_{i=0}^{\infty} b_{ij} \right)$
   converge and have equal sum.
 \end{prop}
+\section{Formal Derivatives}
+\begin{thm-defi}[162]
+  Let $f(X) = \sum_{n=0}^{\infty} a_{n}X^{n} $, we define its \textbf{formal derivative} as
+  $$f'(X) = \sum_{n=1}^{\infty} na_{n}X^{n-1}, $$
+  Then $f'(X)$ has the properties of the derivative:
+  \begin{itemize}
+    \item Additivity: $(f+g)'(X) = f'(X) + g'(X)$
+    \item Product rule: $(fg)'(X) = f(X)g'(X) + f'(X)g(x)$
+    \item Chain rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
+  \end{itemize}
+\end{thm-defi}
+\begin{proof}
+Chain Rule:
+\end{proof}
+\begin{prop}[165]
+Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ and $|b| < \rho$, then $g(x) = f(ax+b)$ is given by a power series $g(X)$ which converges for $|x| < \rho$.
+\end{prop}
+
 \section{Strassman's Theorem}
  % Let $f \in \Bbb Q_{p}[[X]]$ a formal power series over $\Bbb Q_{p}$, then for $x, y \in \Bbb Z_{p}$ we have
  % $$f(x) - f(y) = (x-y)\sum_{n=1}^{\infty}\sum_{j=0}^{n-1}a_{n}x^{j}y^{n-1-j}$$
@@ -146,24 +164,6 @@ The series $f(X) - f(0)$ has zeros at $n\pi$ for all $n \in \Bbb Z$, since $\pi 
 \begin{proof}
   This is clear, because the number of zeros in each bounded disk $p^{m}\Bbb Z_{p}$ is finite.
 \end{proof}
-\section{Formal Derivatives}
-\begin{thm-defi}
-  Let $f(X) = \sum_{n=0}^{\infty} a_{n}X^{n} $, we define its \textbf{formal derivative} as
-  $$f'(X) = \sum_{n=1}^{\infty} na_{n}X^{n-1}, $$
-  Then $f'(X)$ has the properties of the derivative:
-  \begin{itemize}
-    \item Additivity: $(f+g)'(X) = f'(X) + g'(X)$
-    \item Product rule: $(fg)'(X) = f(X)g'(X) + f'(X)g(x)$
-    \item Chain rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
-  \end{itemize}
-\end{thm-defi}
-\begin{proof}
-  % TODO
-
-\end{proof}
-\begin{prop}
-Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ and $|b| < \rho$, then $g(x) = f(ax+b)$ is given by a power series $g(X)$ which converges for $|x| < \rho$.
-\end{prop}
 \section{The $p$-adic Logarithm Function}
 \begin{defi}[Formal power series for the logarithm]   $$\mathbf{log}(1+X) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {X^{n}}{n} = X - \frac{X^{2}}{2} + \frac{X^{3}}{3} \mp \cdots \in \Bbb Q_{p}[[X]]$$
   Since the coefficients are in $\Bbb Q$ we can consider it as a power series with coefficients in $\Bbb Q_{p}$
