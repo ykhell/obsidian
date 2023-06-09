@@ -37,33 +37,45 @@
 
 \begin{document}
 \section{Revision}
-\begin{rem}\cite[Prop. 5.4.1]{Gou}
-  Let $f(X) \in \Bbb Q_{p}[[X]]$ be a power series, then the radius of convergence is
-  $$\rho = \frac{1}{\displaystyle \limsup_{n \to \infty}\sqrt[n]{|a_{n}|}}$$
-\end{rem}
-\begin{prop}{\cite[Prop. 5.1.4]{Gou}}[Proposition 1.5 in Talk 8]
+\begin{prop}[Prop. 1.5 in Talk 8]
   Let $b_{ij} \in \Bbb Q_{p}$ and suppose $\forall i: \lim_{j \to \infty}b_{ij} = 0$ and $lim_{i \to \infty}b_{ij} = 0$ uniformly in $j$, then both series
   $\sum_{i=0}^{\infty}\left(\sum_{j=0}^{\infty} b_{ij} \right) \text{ and } \sum_{j=0}^{\infty}\left(\sum_{i=0}^{\infty} b_{ij} \right)$
   converge and have equal sum.
 \end{prop}
-\section{Formal Derivatives}
-\begin{thm-defi}[162]
+\begin{prop}[Prop. 2.1 in Talk 8]
+  Let $f(X) \in \Bbb Q_{p}[[X]]$ be a power series, then the radius of convergence is
+  $$\rho = \frac{1}{\displaystyle \limsup_{n \to \infty}\sqrt[n]{|a_{n}|}}$$
+\end{prop}
+\section{Formal Derivatives of Power Series}
+\begin{thm-defi}
   Let $f(X) = \sum_{n=0}^{\infty} a_{n}X^{n} $, we define its \textbf{formal derivative} as
   $$f'(X) = \sum_{n=1}^{\infty} na_{n}X^{n-1}, $$
   Then $f'(X)$ has the properties of the derivative:
   \begin{itemize}
     \item Additivity: $(f+g)'(X) = f'(X) + g'(X)$
-    \item Product rule: $(fg)'(X) = f(X)g'(X) + f'(X)g(x)$
-    \item Chain rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
+    \item Product Rule: $(fg)'(X) = f(X)g'(X) + f'(X)g(x)$
+    \item Chain Rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
   \end{itemize}
 \end{thm-defi}
-\begin{proof}
-Chain Rule:
+\begin{proof} Let $f(X) =\sum_{n=0}^{\infty} a_{n}X^{n}, g(X) = \sum_{n=0}^{\infty} b_{n}X^{n}$
+  \begin{itemize}
+    \item Additivity:
+          $$(f+g)'(X) = (\sum_{n=0}^{\infty} a_{n}X^{n} + \sum_{n=0}^{\infty} b_{n}X^{n})' = (\sum_{n=0}^{\infty} (a_{n}+b_{n})X^{n})' =$$
+          $$\sum_{n = 1}^{\infty} n(a_{n} + b_{n})X^{n-1} = \sum_{n=1}^{\infty}na_{n}X^{n-1} + \sum_{n=1}^{\infty}nb_{n}X^{n-1} = f'(X) + g'(X)$$
+    \item Product Rule:
+          $$f(X)g'(X) + f'(X)g(X) =\left(\sum_{n = 0}^{\infty} a_{n}X^{n}\right) \cdot \left(\sum_{n=0}^{\infty}(n+1)b_{n+1}X^{n} \right) + \left(\sum_{n=0}^{\infty}(n+1)a_{n+1}X^{n}\right)\cdot \left(\sum_{n = 0}^{\infty} b_{n}X^{n}\right)$$
+          $$ = \sum_{n =0}^{\infty}c_{n}X^{n} + \sum_{n =0}^{\infty}d_{n}X^{n},\quad c_{n} = \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i}, d_{n} = \sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i}$$
+          $$ = \sum_{n =0}^{\infty} \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} X^{n}+ \sum_{n =0}^{\infty}\sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i} X^{n} = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} + \sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i}\right)X^{n}$$
+          $$ = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)(b_{i+1}a_{n-i} + a_{i+1}b_{n-i})\right)X^{n}$$
+    \item Chain Rule:
+  \end{itemize}
+
+  % TODO
 \end{proof}
-\begin{prop}[165]
+\begin{prop}
 Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ and $|b| < \rho$, then $g(x) = f(ax+b)$ is given by a power series $g(X)$ which converges for $|x| < \rho$.
 \end{prop}
-
+>>>>>>> bbbc2e51756ec5c36ed47058650a558767b0d50f
 \section{Strassman's Theorem}
  % Let $f \in \Bbb Q_{p}[[X]]$ a formal power series over $\Bbb Q_{p}$, then for $x, y \in \Bbb Z_{p}$ we have
  % $$f(x) - f(y) = (x-y)\sum_{n=1}^{\infty}\sum_{j=0}^{n-1}a_{n}x^{j}y^{n-1-j}$$
