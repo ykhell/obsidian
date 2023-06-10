@@ -37,69 +37,64 @@
 
 \begin{document}
 \section{Revision}
+\begin{prop}[Cor. 1.4 in Talk 8]
+  If $a_{n} \in \Bbb Q_{p}$, then the series $\sum a_{n}$ is convergent if and only if $\lim_{n \to \infty}a_{n} = 0$, which implies $\left | \sum a_{n} \right| \leq \max_{n}|a_{n}|$.
+\end{prop}
 \begin{prop}[Prop. 1.5 in Talk 8]
-  Let $b_{ij} \in \Bbb Q_{p}$ and suppose $\forall i: \lim_{j \to \infty}b_{ij} = 0$ and $lim_{i \to \infty}b_{ij} = 0$ uniformly in $j$, then both series
-  $\sum_{i=0}^{\infty}\left(\sum_{j=0}^{\infty} b_{ij} \right) \text{ and } \sum_{j=0}^{\infty}\left(\sum_{i=0}^{\infty} b_{ij} \right)$
+  %Let $b_{ij} \in \Bbb Q_{p}$ and suppose $\forall i: \lim_{j \to \infty}b_{ij} = 0$ and $lim_{i \to \infty}b_{ij} = 0$ uniformly in $j$, then both series
+  Let $b_{ij} \in \Bbb Q_{p}$ and suppose that $\forall \varepsilon > 0\ \exists N = N(\varepsilon) : \max\{i,j\} \geq N \implies |b_{ij}| < \varepsilon$, then both series
+  $\sum_{i \geq 0}\left(\sum_{j \geq 0} b_{ij} \right) \text{ and } \sum_{j \geq 0}\left(\sum_{i\geq 0} b_{ij} \right)$
   converge and have equal sum.
 \end{prop}
 \begin{prop}[Prop. 2.1 in Talk 8]
   Let $f(X) \in \Bbb Q_{p}[[X]]$ be a power series, then the radius of convergence is
-  $$\rho = \frac{1}{\displaystyle \limsup_{n \to \infty}\sqrt[n]{|a_{n}|}}$$
+  $\rho = \left(\limsup_{n \to \infty}\sqrt[n]{|a_{n}|}\right)^{-1}$.
 \end{prop}
-\section{Formal Derivatives of Power Series}
 
-\begin{thm-defi}
+\section{Formal Derivatives of Power Series}
+\begin{defi}
   Let $f(X) = \sum_{n=0}^{\infty} a_{n}X^{n} $, we define its \textbf{formal derivative} as
-  $$f'(X) = \sum_{n=1}^{\infty} na_{n}X^{n-1}, $$
-  Then $f'(X)$ has the properties of the derivative:
+  $$f'(X) = \sum_{n\geq 1} na_{n}X^{n-1}, $$
+\end{defi}
+\begin{thm} Let $f(X) = \sum a_{n}X^{n}$, $f'(X)$ its formal power series,then $f'(X)$ has the properties of the derivative:
   \begin{itemize}
     \item Additivity: $(f+g)'(X) = f'(X) + g'(X)$
+          \begin{proof}
+            $$(f+g)'(X) = (\sum_{n=0}^{\infty} a_{n}X^{n} + \sum_{n=0}^{\infty} b_{n}X^{n})' = (\sum_{n=0}^{\infty} (a_{n}+b_{n})X^{n})' =$$
+            $$\sum_{n = 1}^{\infty} n(a_{n} + b_{n})X^{n-1} = \sum_{n=1}^{\infty}na_{n}X^{n-1} + \sum_{n=1}^{\infty}nb_{n}X^{n-1} = f'(X) + g'(X)$$
+          \end{proof}
     \item Product Rule: $(fg)'(X) = f(X)g'(X) + f'(X)g(x)$
+          \begin{proof}
+            $$f(X)g'(X) + f'(X)g(X) =\left(\sum_{n = 0}^{\infty} a_{n}X^{n}\right) \cdot \left(\sum_{n=0}^{\infty}(n+1)b_{n+1}X^{n} \right) + \left(\sum_{n=0}^{\infty}(n+1)a_{n+1}X^{n}\right)\cdot \left(\sum_{n = 0}^{\infty} b_{n}X^{n}\right)$$
+            $$ = \sum_{n =0}^{\infty}c_{n}X^{n} + \sum_{n =0}^{\infty}d_{n}X^{n},\quad c_{n} = \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i}, d_{n} = \sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i}$$
+            $$ = \sum_{n =0}^{\infty} \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} X^{n}+ \sum_{n =0}^{\infty}\sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i} X^{n} = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} + \sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i}\right)X^{n}$$
+            $$ = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)(b_{i+1}a_{n-i} + a_{i+1}b_{n-i})\right)X^{n}$$
+          \end{proof}
     \item Chain Rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
+          \begin{proof}
+            % TODO
+          \end{proof}
   \end{itemize}
-\end{thm-defi}
-
-\begin{proof} Let $f(X) =\sum_{n=0}^{\infty} a_{n}X^{n}, g(X) = \sum_{n=0}^{\infty} b_{n}X^{n}$
-  \begin{itemize}
-    \item Additivity:
-          $$(f+g)'(X) = (\sum_{n=0}^{\infty} a_{n}X^{n} + \sum_{n=0}^{\infty} b_{n}X^{n})' = (\sum_{n=0}^{\infty} (a_{n}+b_{n})X^{n})' =$$
-          $$\sum_{n = 1}^{\infty} n(a_{n} + b_{n})X^{n-1} = \sum_{n=1}^{\infty}na_{n}X^{n-1} + \sum_{n=1}^{\infty}nb_{n}X^{n-1} = f'(X) + g'(X)$$
-    \item Product Rule:
-          $$f(X)g'(X) + f'(X)g(X) =\left(\sum_{n = 0}^{\infty} a_{n}X^{n}\right) \cdot \left(\sum_{n=0}^{\infty}(n+1)b_{n+1}X^{n} \right) + \left(\sum_{n=0}^{\infty}(n+1)a_{n+1}X^{n}\right)\cdot \left(\sum_{n = 0}^{\infty} b_{n}X^{n}\right)$$
-          $$ = \sum_{n =0}^{\infty}c_{n}X^{n} + \sum_{n =0}^{\infty}d_{n}X^{n},\quad c_{n} = \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i}, d_{n} = \sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i}$$
-          $$ = \sum_{n =0}^{\infty} \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} X^{n}+ \sum_{n =0}^{\infty}\sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i} X^{n} = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} + \sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i}\right)X^{n}$$
-          $$ = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)(b_{i+1}a_{n-i} + a_{i+1}b_{n-i})\right)X^{n}$$
-    \item Chain Rule:
-
-  \end{itemize}
-
-  % TODO
-\end{proof}
-\begin{prop}
+\end{thm}
+\begin{prop} % 165
 Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ and $|b| < \rho$, then $g(x) = f(ax+b)$ is given by a power series $g(X)$ which converges for $|x| < \rho$.
 \end{prop}
-\section{Strassman's Theorem}
-\begin{rem} % lemma 2.1
-  Let $(R, +, \cdot)$ be a ring, $x, y \in R$, then we have $x^{n}-y^{n} = (x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j}, \forall n \in \Bbb N_{0}$
-  % TODO Ask if this should be in terms of rings or what
-\end{rem}
-\begin{proof} % proof 2.1
-    , we use induction on $n$,
-    Base case: $n = 2$, it's easy to see that
-    $$(x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j} = (x-y)(x+y) = x^{2} - y^{2}$$
-    Induction hypothesis: we assume for an arbitrary $n \geq 2: x^{n}-y^{n} = (x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j}$,
-    Induction step: consider
-    $$(x-y)\sum_{j=0}^{n}x^{j}y^{n-j} = (x-y)(y^{n} + y^{n-1}x + \cdots + x^{n-1}y + x^{n})$$
-    $$ = (x-y)(y(y^{n-1} + y^{n-2}x + \cdots + yx^{n-2} + x^{n-1}) + x^{n}) = y\underbrace{(x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j}}_{= x^{n}-y^{n}} + x^{n}(x-y)$$
-    $$ = y(x^{n} - y^{n}) + x^{n}(x-y) = yx^{n} - y^{n+1} + x^{n+1} - yx^{n} = x^{n+1} - y^{n+1}.$$
-\end{proof}
-\begin{lemm}
-  Let $f(X) \in \Bbb Q_{p}[[X]]$ be a non-zero power series which converges $\forall x \in \Bbb Z_{p}$, then $\exists N \in \Bbb N_{0}$ such that $|a_{N}| = \max_{n \in \Bbb N_{0}}|a_{n}| \text{ and } |a_{n}| < |a_{N}|\ \forall n > N$
-\end{lemm}
 \begin{proof}
-  Since $f(X)$ converges $\forall x \in \Bbb Z_{p}$, then we have
-  $$\forall x \in \Bbb Z_{p} : \lim_{n \to \infty}|a_{n}x^{n}| = 0 = \lim_{n \to \infty}|a_{n}|\cdot|x^{n}| \implies \lim_{n \to \infty}|a_{n}| = 0$$
+  Since $|a| = |1|$ and $|b| < \rho$, we get
+  $$|ax + b| \leq \max\{|x|, |b|\} < \rho \iff |x| \leq b < \rho.$$
+  Now let $f(X) = \sum_{n \geq 0}c_{n}X^{n}$, we want to write $g(X)$ as a power series
+  $$g(x) = f(ax+b) = \sum_{n \geq 0}c_{n}(ax+b)^{n} = \sum_{n = 0}^{\infty} \sum _{k=0}^{n}c_{n}\binom nk a^{k}b^{n-k}x^{k}$$
+  Define $\alpha_{kn} = \begin{cases}\binom nk a^{k}b^{n-k}x^{k}, & k \leq n \\ 0 & k > n\end{cases}$
+  Using Prop. 1.2 we get $$= g(X) = \sum_{k \geq 0}\left( \sum_{n \geq k} \binom nk c_{n}a^{k}b^{n-k}\right)X^{k}$$
 \end{proof}
+\begin{prop}
+  Let $f(X)$ be a power series with radius of convergence $\rho$, $f'(X)$ its formal derivative, and $\rho'$ its radius of convergence, then $\rho' \geq \rho$.
+\end{prop}
+\begin{proof}
+  Let $f(X) = \sum a_{n}X^{n}, f'(X) = \sum_{n \geq 1} na_{n}X^{n-1}$, then by Prop. 1.2 the radius of convergence of $f'(X)$ must be
+  $$\rho' = \left( \limsup_{n \to \infty} \sqrt[n]{\|na_{n}\|} \right)^{-1} \geq \left( \limsup_{n \to \infty} \sqrt[n]{\|a_{n}\|} \right)^{-1} = \rho$$
+\end{proof}
+\section{Strassman's Theorem}
 % STRASSMAN
 \begin{thm}[Strassman]
 Let $f(X) \in \Bbb Q_{p}[[X]]$ and suppose we have $\lim_{n \to \infty}a_{n} = 0$, so that $f(x)$ converges $\forall x \in \Bbb Z_{p}$. Define $N \in \Bbb N_{0}$ like in Lemma 2.2
@@ -137,11 +132,15 @@ then the function $f$ has at most $N$ zeros.
           Now we look for $\max_{j}|b_{j}|$, note that
           $$|b_{j}| \leq \max_{n}|a_{n+j+1}| \leq |a_{N}|, \forall j$$
           So we have
-          $$|b_{N-1}| = \left|\sum_{n = 0}^{\infty}a_{N+n}\alpha^{n}\right| = \left| a_{N}+\underbrace{\sum_{n = 1}^{\infty} a_{N+n}\alpha^{n}}_{S} \right| = \left| a_{N}+\underbrace{\sum_{n = 1}^{m} a_{N+n}\alpha^{n}}_{S_{m}} +  \underbrace{\sum_{n = m}^{\infty} a_{N+n}\alpha^{n}}_{S - S_{m}}\right|$$
-          We know from Lemma 1.2 in Talk 8, That every convergent sequence $(a_{n})$ in $\Bbb Q_{p}$ $\lim_{n \to \infty}|a_{n}| = 0$ or the sequence becomes constant, i.e. $\exists M \in \Bbb N : |a_{n}| = |a_{M}| \forall n \geq M$, so we take $M \in \Bbb N$ to be the index at which $S_{n}$ becomes constant, then we have
-          $$= |a_{N} + S_{M} + \underbrace{S - S_{M}}_{=0}| = |a_{N} + S_{M}|$$
-          Since $S_{M}$ is a finite sum we have $$S_{M} \leq \max_{n \geq 1}|a_{N+n}\alpha^{n}| \leq \max_{n \geq 1}|a_{N+n}| < a_{N}$$
-          $$|a_{N}| \neq |S_{M}| \overset{2.2.2}\implies |a_{N} + S_{N}| = a_{N} \implies b_{N-1} = a_{N}.$$
+          $$|b_{N-1}| = \left|\sum_{n = 0}^{\infty}a_{N+n}\alpha^{n}\right| = \left| a_{N} + \sum_{n=1}^{\infty}a_{N+n}\alpha^{n}\right|$$
+          By 1.3 we have
+          $$\left| \sum_{n = 1}^{\infty}a_{N+n}\alpha^{n}\right| \leq \max_{n \geq 1}|a_{N+n}| < a_{N}$$
+          $$\implies |a_{N}| \neq \left| \sum_{n = 1}^{\infty}a_{N+n}\alpha^{n}\right| \implies \left| a_{N} + \sum_{n=1}^{\infty}a_{N+n}\alpha^{n}\right| \overset{\text{Prop } 2.2}= \max\left\{|a_{N}|, \left| \sum_{n = 1}^{\infty}a_{N+n}\alpha^{n}\right| \right\} = |a_{N}| = |b_{N-1}|$$
+          %$$|b_{N-1}| = \left|\sum_{n = 0}^{\infty}a_{N+n}\alpha^{n}\right| = \left| a_{N}+\underbrace{\sum_{n = 1}^{\infty} a_{N+n}\alpha^{n}}_{S} \right| = \left| a_{N}+\underbrace{\sum_{n = 1}^{m} a_{N+n}\alpha^{n}}_{S_{m}} +  \underbrace{\sum_{n = m}^{\infty} a_{N+n}\alpha^{n}}_{S - S_{m}}\right|$$
+          %We know from Lemma 1.2 in Talk 8, That every convergent sequence $(a_{n})$ in $\Bbb Q_{p}$ $\lim_{n \to \infty}|a_{n}| = 0$ or the sequence becomes constant, i.e. $\exists M \in \Bbb N : |a_{n}| = |a_{M}| \forall n \geq M$, so we take $M \in \Bbb N$ to be the index at which $S_{n}$ becomes constant, then we have
+          %$$= |a_{N} + S_{M} + \underbrace{S - S_{M}}_{=0}| = |a_{N} + S_{M}|$$
+          %Since $S_{M}$ is a finite sum we have $$S_{M} \leq \max_{n \geq 1}|a_{N+n}\alpha^{n}| \leq \max_{n \geq 1}|a_{N+n}| < a_{N}$$
+          %$$|a_{N}| \neq |S_{M}| \overset{2.2.2}\implies |a_{N} + S_{N}| = a_{N} \implies b_{N-1} = a_{N}.$$
           Finnaly, if $j > N-1$, then
           $$|b_{j}| \leq \max_{k}|a_{j+k+1}| \leq \max_{j > N}|a_{j}| < |a_{N}| = |b_{N-1}|$$
       So the index at which the maximum coefficient $b_{n}$ is reached is $N-1$, if we assume that $g(X)$ has at most $N-1$ zeros in $\Bbb Z_{p}$ then $f(X)$ has at most $N$ zeros (g's zeros and $\alpha$), this proves the theorem.
@@ -185,6 +184,12 @@ The series $f(X) - f(0)$ has zeros at $n\pi$ for all $n \in \Bbb Z$, since $\pi 
 \begin{proof}
   This is clear, because the number of zeros in each bounded disk $p^{m}\Bbb Z_{p}$ is finite.
 \end{proof}
+\begin{Cor} Suppose $f(X)$ and $g(X)$ are power series which converge for $|x| < \rho$. If $f'(x)=g'(x)$ for all $|x| < \rho$, then there exists some $c \in \Bbb Q_{p}$ with $f(X)=g(X)+c$.
+\end{Cor}
+\begin{proof}
+  Let $f(X) = \sum a_{n}X^{n}, g(X) = \sum b_{n}X^{n}$ and $f'(X), g'(X)$ their respective formal derivatives. By 5.5.5 we know that whenever $|x| < \rho$ we have
+  $$\sum_{n \geq 1}na_{n}x^{n-1} = \sum_{n \geq 1}nb_{n}x^{n-1}$$
+\end{proof}
 % LOG SECTION
 \section{The $p$-adic Logarithm Function}
 \begin{defi}[Formal power series for the logarithm]
@@ -204,7 +209,10 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
   $$ = \left(\limsup_{n \to \infty} \sqrt[n]{p^{v_{p}(n) - v_{p}(1)}}\right)^{-1} = \left( \limsup_{n \to \infty} p^{v_{p}(n) / n} \right)^{-1}$$
   we have
   $$\frac{v_{p}(n)}{n} \leq \frac{\log(n)}{\log(p)n} \xrightarrow{n \to \infty} 0 \implies \rho = 1$$
-  We have to check for $x=1$ to determine if $\mathbf{log}(1+X)$ converges for $|x| \leq \rho$ or for $|x| < \rho$
+  This doesn't tell us the entire story however, we have to determine if $\mathbf{log}(1+X)$ converges for $|x| \leq \rho$ or for $|x| < \rho$, so we check if $\lim_{n \to \infty}|a_{n}|\rho^{n}$, by Prop. 2.1 - Talk 8, we have
+  $$\lim_{n \to \infty}|a_{n}|\rho^{n} = \lim_{n \to \infty}|a_{n}| = \lim_{n \to \infty}p^{v_{p}(n)} \neq 0$$
+  Since $v_{p}(n) = 0$ whenever $n$ doesn't divide $p$
+
 % TODO
 \end{proof}
 \begin{defi}Let $U_{1} = B(1,1) = \{x \in \Bbb Z_{p} : |x-1| < 1\} = 1+p\Bbb Z_{p}$, we define the $p$-adic logarithm of $x \in U_{1}$ as:
@@ -216,8 +224,16 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
   $$\log_{p}(ab) = \log_{p}(a) + \log_{p}(b)$$
 \end{prop}
 \begin{proof}
-  Let $x, y \in p\Bbb Z_{p}$ such that $a= 1+x, b =1+y$, and define for $x \in \Bbb pZ_{p}$
+  Let $x, y \in p\Bbb Z_{p}$ such that $a= 1+x, b =1+y$, and define for $x \in p\Bbb Z_{p}$
   $$f(x) = \log_{p}(1+x) = \sum_{n \geq 1}(-1)^{n+1}\frac {x^{n}}{n}$$
+  $$f'(x) = \sum_{n \geq 1} (-1)^{n+1}x^{n-1} = \sum_{n \geq 0} (-1)^{n}x^{n} = \sum_{n \geq 0}(-x)^{n} = \frac{1}{1+x}$$
+  $$g(x) = \log_{p}((1+x)(1+y)) = \log_{p}(1+y + (1+y)x) = f(y + (1+y)x)$$
+  By 165, $g(x)$ converges $\iff f(x)$ converges $\iff |x| < 1$, now we use the Chain Rule from Theorem 2.1 to compute the derivative of $g$:
+  $$g'(x) = (1+y)f'(y+(1+y)x) = \frac{1+y}{1+y+(1+y)x} = \frac{1}{1+x} = f'(x)$$
+  Since both $f(x), g(x)$ are defined by power series that converge for $|x| < 1$, by 5.5.6 it follows that
+  $g(x) = f(x) + c$, for $|x| < 1$, to find $c$, we plug $x=0$ and see that
+  $$c = g(0) = \log_{p}((1+0)(1+y)) = \log_{p}(1+y) = f(y)$$
+  $$ \implies g(x) = f(x) + f(y) \implies \log_{p}((1+x)(1+y)) = \log_{p}(1+x) + \log_{p}(1+y) \iff \log_{p}(ab) = \log_{p}(a) + \log_{p}(b).$$
   % TODO
 \end{proof}
 \section{Roots of Unity}
@@ -253,7 +269,28 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
   \end{itemize}
 
 \end{rem}
-
+\section{Miscellaneous}
+\begin{rem} % lemma 2.1
+  Let $(R, +, \cdot)$ be a ring, $x, y \in R$, then we have $x^{n}-y^{n} = (x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j}, \forall n \in \Bbb N_{0}$
+  % TODO Ask if this should be in terms of rings or what
+\end{rem}
+\begin{proof} % proof 2.1
+  We do induction on $n$,
+  Base case: $n = 2$, it's easy to see that
+  $$(x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j} = (x-y)(x+y) = x^{2} - y^{2}$$
+  Induction hypothesis: we assume for an arbitrary $n \geq 2: x^{n}-y^{n} = (x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j}$,
+  Induction step: consider
+  $$(x-y)\sum_{j=0}^{n}x^{j}y^{n-j} = (x-y)(y^{n} + y^{n-1}x + \cdots + x^{n-1}y + x^{n})$$
+  $$ = (x-y)(y(y^{n-1} + y^{n-2}x + \cdots + yx^{n-2} + x^{n-1}) + x^{n}) = y\underbrace{(x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j}}_{= x^{n}-y^{n}} + x^{n}(x-y)$$
+  $$ = y(x^{n} - y^{n}) + x^{n}(x-y) = yx^{n} - y^{n+1} + x^{n+1} - yx^{n} = x^{n+1} - y^{n+1}.$$
+\end{proof}
+\begin{lemm}
+  Let $f(X) \in \Bbb Q_{p}[[X]]$ be a non-zero power series which converges $\forall x \in \Bbb Z_{p}$, then $\exists N \in \Bbb N_{0}$ such that $|a_{N}| = \max_{n \in \Bbb N_{0}}|a_{n}| \text{ and } |a_{n}| < |a_{N}|\ \forall n > N$
+\end{lemm}
+\begin{proof}
+  Since $f(X)$ converges $\forall x \in \Bbb Z_{p}$, then we have
+  $$\forall x \in \Bbb Z_{p} : \lim_{n \to \infty}|a_{n}x^{n}| = 0 = \lim_{n \to \infty}|a_{n}|\cdot|x^{n}| \implies \lim_{n \to \infty}|a_{n}| = 0$$
+\end{proof}
 \begin{thebibliography}{widest-label} % References are listed here
 
 	\bibitem[Gou]{Gou}%You can add more refernces by \bibitem command
