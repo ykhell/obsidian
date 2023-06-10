@@ -47,6 +47,7 @@
   $$\rho = \frac{1}{\displaystyle \limsup_{n \to \infty}\sqrt[n]{|a_{n}|}}$$
 \end{prop}
 \section{Formal Derivatives of Power Series}
+
 \begin{thm-defi}
   Let $f(X) = \sum_{n=0}^{\infty} a_{n}X^{n} $, we define its \textbf{formal derivative} as
   $$f'(X) = \sum_{n=1}^{\infty} na_{n}X^{n-1}, $$
@@ -57,6 +58,7 @@
     \item Chain Rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
   \end{itemize}
 \end{thm-defi}
+
 \begin{proof} Let $f(X) =\sum_{n=0}^{\infty} a_{n}X^{n}, g(X) = \sum_{n=0}^{\infty} b_{n}X^{n}$
   \begin{itemize}
     \item Additivity:
@@ -68,6 +70,7 @@
           $$ = \sum_{n =0}^{\infty} \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} X^{n}+ \sum_{n =0}^{\infty}\sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i} X^{n} = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} + \sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i}\right)X^{n}$$
           $$ = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)(b_{i+1}a_{n-i} + a_{i+1}b_{n-i})\right)X^{n}$$
     \item Chain Rule:
+
   \end{itemize}
 
   % TODO
@@ -75,11 +78,7 @@
 \begin{prop}
 Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ and $|b| < \rho$, then $g(x) = f(ax+b)$ is given by a power series $g(X)$ which converges for $|x| < \rho$.
 \end{prop}
->>>>>>> bbbc2e51756ec5c36ed47058650a558767b0d50f
 \section{Strassman's Theorem}
- % Let $f \in \Bbb Q_{p}[[X]]$ a formal power series over $\Bbb Q_{p}$, then for $x, y \in \Bbb Z_{p}$ we have
- % $$f(x) - f(y) = (x-y)\sum_{n=1}^{\infty}\sum_{j=0}^{n-1}a_{n}x^{j}y^{n-1-j}$$
- % $$f(x) - f(y) = \sum_{n=0}^{\infty}a_{n}x^{n} - \sum_{n=0}^{\infty}a_{n}y^{n} = \sum_{n=1}^{\infty}a_{n}(x^{n}-y^{n})$$
 \begin{rem} % lemma 2.1
   Let $(R, +, \cdot)$ be a ring, $x, y \in R$, then we have $x^{n}-y^{n} = (x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j}, \forall n \in \Bbb N_{0}$
   % TODO Ask if this should be in terms of rings or what
@@ -101,10 +100,12 @@ Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ 
   Since $f(X)$ converges $\forall x \in \Bbb Z_{p}$, then we have
   $$\forall x \in \Bbb Z_{p} : \lim_{n \to \infty}|a_{n}x^{n}| = 0 = \lim_{n \to \infty}|a_{n}|\cdot|x^{n}| \implies \lim_{n \to \infty}|a_{n}| = 0$$
 \end{proof}
-\begin{thm}[Strassman] % STRASSMAN
+% STRASSMAN
+\begin{thm}[Strassman]
 Let $f(X) \in \Bbb Q_{p}[[X]]$ and suppose we have $\lim_{n \to \infty}a_{n} = 0$, so that $f(x)$ converges $\forall x \in \Bbb Z_{p}$. Define $N \in \Bbb N_{0}$ like in Lemma 2.2
 then the function $f$ has at most $N$ zeros.
 \end{thm}
+% PROOF STRASSMAN
 \begin{proof}
   induction on $N$.
   \begin{itemize}
@@ -136,20 +137,25 @@ then the function $f$ has at most $N$ zeros.
           Now we look for $\max_{j}|b_{j}|$, note that
           $$|b_{j}| \leq \max_{n}|a_{n+j+1}| \leq |a_{N}|, \forall j$$
           So we have
-          $$|b_{N-1}| = |a_{N} + a_{N_+1}\alpha + a_{N+2}\alpha^{2} + \cdots | = |a_{N}|$$
+          $$|b_{N-1}| = \left|\sum_{n = 0}^{\infty}a_{N+n}\alpha^{n}\right| = \left| a_{N}+\underbrace{\sum_{n = 1}^{\infty} a_{N+n}\alpha^{n}}_{S} \right| = \left| a_{N}+\underbrace{\sum_{n = 1}^{m} a_{N+n}\alpha^{n}}_{S_{m}} +  \underbrace{\sum_{n = m}^{\infty} a_{N+n}\alpha^{n}}_{S - S_{m}}\right|$$
+          We know from Lemma 1.2 in Talk 8, That every convergent sequence $(a_{n})$ in $\Bbb Q_{p}$ $\lim_{n \to \infty}|a_{n}| = 0$ or the sequence becomes constant, i.e. $\exists M \in \Bbb N : |a_{n}| = |a_{M}| \forall n \geq M$, so we take $M \in \Bbb N$ to be the index at which $S_{n}$ becomes constant, then we have
+          $$= |a_{N} + S_{M} + \underbrace{S - S_{M}}_{=0}| = |a_{N} + S_{M}|$$
+          Since $S_{M}$ is a finite sum we have $$S_{M} \leq \max_{n \geq 1}|a_{N+n}\alpha^{n}| \leq \max_{n \geq 1}|a_{N+n}| < a_{N}$$
+          $$|a_{N}| \neq |S_{M}| \overset{2.2.2}\implies |a_{N} + S_{N}| = a_{N} \implies b_{N-1} = a_{N}.$$
           Finnaly, if $j > N-1$, then
-          $$|b_{j}| \leq \max_{k}|a_{j+k+1}| \leq \max_{j > N}|a_{j}| < |a_{N}|$$
-      So the index at which the maximum coefficient is reached $b_{n}$ is $N-1$, if we assume that $g(X)$ has at most $N-1$ zeros in $\Bbb Z_{p}$ then $f(X)$ has at most $N$ zeros (g's zeros and $\alpha$).
+          $$|b_{j}| \leq \max_{k}|a_{j+k+1}| \leq \max_{j > N}|a_{j}| < |a_{N}| = |b_{N-1}|$$
+      So the index at which the maximum coefficient $b_{n}$ is reached is $N-1$, if we assume that $g(X)$ has at most $N-1$ zeros in $\Bbb Z_{p}$ then $f(X)$ has at most $N$ zeros (g's zeros and $\alpha$), this proves the theorem.
   \end{itemize}
 \end{proof}
-\begin{Cor} %5.6.2 in the book
+% COR 5.6.2
+\begin{Cor}
   Let $f(X) = \sum a_{n}x^{n}$ be a non-zero power series which converges on $\Bbb Z_{p}$, and let $\alpha_{1}, ..., \alpha_{m} \in \Bbb Z_{p}$ be the roots of $f(X)$ in $\Bbb Z_{p}$, then there exists another power series $g(X)$ which also converges on $\Bbb Z_{p}$ but has no zeros in $\Bbb Z_{p}$, for which
   $$f(X) = \left(\prod_{i=1}^{m}(X-\alpha_{i})\right)g(X)$$
 \end{Cor}
 \begin{proof}
   Clear from the proof of the theorem.
 \end{proof}
-
+% COR 5.6.3
 \begin{Cor}
   Let $f(X) = \sum a_{n}x^{n}$ be a non-zero power series which converges on $p^{m}\Bbb Z_{p}$, for some $m \in \Bbb Z$. Then $f(X)$ has a finite number of roots in $p^{m} \Bbb Z_{p}$.
 \end{Cor}
@@ -157,6 +163,7 @@ then the function $f$ has at most $N$ zeros.
   Define $$g(X) = f(p^{m}X) = \sum a_{n}p^{mn}X^{n},$$
   Since $f(x)$ converges for $x \in p^{m}\Bbb Z_{p}$, $g(x) = f(p^{m}x)$ converges for $x \in \Bbb Z_{p}$, applying the theorem to $g(X)$ gives the finiteness of its zeros.
 \end{proof}
+% COR 5.6.4
 \begin{Cor}
   Let $f(X) = \sum a_{n}x^{n}$ and $g(X) = \sum b_{n}X^{n}$ be two p-adic power series which converge in a disc $p^{m}\Bbb Z_{p}$. If there exist infinitely many numbers $\alpha \in p^{m}Z_{p}$ such that $f(\alpha) = g(\alpha)$, then $a_{n} = b_{n}, \forall n \geq 0$
 \end{Cor}
@@ -164,20 +171,24 @@ then the function $f$ has at most $N$ zeros.
   Define $$h(X) = f(X) - g(X) = \sum(a_{n}-b_{n})X^{n}$$, then $h(X)$ converges also on $p^{m}\Bbb Z_{p}$, by Corollary 2.5 $h(X)$ has to have finitely many zeros, otherwise it must be the zero power series. Which means that
   $$f(X) = g(X) \implies a_{n} = b_{n} \forall n \geq 0$$
 \end{proof}
+% COR 5.6.5
 \begin{Cor}
   Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which converges in some disc $p^{m}\Bbb Z_{p}$. If the function $p^{m}\Bbb Z_{p} \to \Bbb Q_{p}, x \mapsto f(x)$ is periodic, that is, $\exists \pi \in p^{m}\Bbb Z_{p} : f(x + \pi) = f(x), \forall \in p^{m}\Bbb Z_{p}$ then $f(X)$ is constant.
 \end{Cor}
 \begin{proof}
 The series $f(X) - f(0)$ has zeros at $n\pi$ for all $n \in \Bbb Z$, since $\pi \in p^{m}\Bbb Z_{p}$ implies $n\pi \in p^{m}\Bbb Z_{p}$, this gives infinitely many zeros, and hence the series $f(X) - f(0)$ must be identically zero, i.e. $f(X)$ must be constant.
 \end{proof}
+% COR 5.6.6
 \begin{Cor}
   Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which is entire, that is, $f(x)$ converges $\forall x \in \Bbb Q_{p}$. Then $f(X)$ has at most countably many zeros. Furthermore, if the set of zeros is not finite then the zeros form a sequence $\alpha_{n}$ with $|\alpha_{n}| \to \infty$.
 \end{Cor}
 \begin{proof}
   This is clear, because the number of zeros in each bounded disk $p^{m}\Bbb Z_{p}$ is finite.
 \end{proof}
+% LOG SECTION
 \section{The $p$-adic Logarithm Function}
-\begin{defi}[Formal power series for the logarithm]   $$\mathbf{log}(1+X) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {X^{n}}{n} = X - \frac{X^{2}}{2} + \frac{X^{3}}{3} \mp \cdots \in \Bbb Q_{p}[[X]]$$
+\begin{defi}[Formal power series for the logarithm]
+  $$\mathbf{log}(1+X) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {X^{n}}{n} = X - \frac{X^{2}}{2} + \frac{X^{3}}{3} \mp \cdots \in \Bbb Q_{p}[[X]]$$
   Since the coefficients are in $\Bbb Q$ we can consider it as a power series with coefficients in $\Bbb Q_{p}$
 \end{defi}
 \begin{rem}
@@ -186,6 +197,14 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
 \begin{prop} $\mathbf{log}(1+X)$ converges if and only if $|x| < 1$
 \end{prop}
 \begin{proof}
+  $\mathbf{log}(1+X)$ is given by the power series
+  $$\mathbf{log}(1+X) = f(X) = \sum_{n \geq 1}a_{n}X^{n} = \sum_{n\geq1} (-1)^{n+1}\frac {X^{n}}{n}, \quad a_{n} = \frac {(-1)^{n+1}}n $$
+  So by Prop 8.2.1 the radius of convergence is
+  $$\rho = \left(\limsup_{n \to \infty} \sqrt[n]{|a_{n}|}\right)^{-1} = \left(\limsup_{n \to \infty} \sqrt[n]{\left|\frac {(-1)^{n+1}}n\right|}\right)^{-1} = \left(\limsup_{n \to \infty} \sqrt[n]{\left| \frac 1n\right|}\right)^{-1} = \left(\limsup_{n \to \infty} \sqrt[n]{p^{-v_{p}(1/n)}}\right)^{-1}$$
+  $$ = \left(\limsup_{n \to \infty} \sqrt[n]{p^{v_{p}(n) - v_{p}(1)}}\right)^{-1} = \left( \limsup_{n \to \infty} p^{v_{p}(n) / n} \right)^{-1}$$
+  we have
+  $$\frac{v_{p}(n)}{n} \leq \frac{\log(n)}{\log(p)n} \xrightarrow{n \to \infty} 0 \implies \rho = 1$$
+  We have to check for $x=1$ to determine if $\mathbf{log}(1+X)$ converges for $|x| \leq \rho$ or for $|x| < \rho$
 % TODO
 \end{proof}
 \begin{defi}Let $U_{1} = B(1,1) = \{x \in \Bbb Z_{p} : |x-1| < 1\} = 1+p\Bbb Z_{p}$, we define the $p$-adic logarithm of $x \in U_{1}$ as:
