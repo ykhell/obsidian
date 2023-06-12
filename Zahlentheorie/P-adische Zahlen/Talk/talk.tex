@@ -94,10 +94,17 @@ Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ 
   Let $f(X) = \sum a_{n}X^{n}, f'(X) = \sum_{n \geq 1} na_{n}X^{n-1}$, then by Prop. 1.2 the radius of convergence of $f'(X)$ must be
   $$\rho' = \left( \limsup_{n \to \infty} \sqrt[n]{\|na_{n}\|} \right)^{-1} \geq \left( \limsup_{n \to \infty} \sqrt[n]{\|a_{n}\|} \right)^{-1} = \rho$$
 \end{proof}
+\begin{Cor} Suppose $f(X)$ and $g(X)$ are power series which converge for $|x| < \rho$. If $f'(x)=g'(x)$ for all $|x| < \rho$, then there exists some $c \in \Bbb Q_{p}$ with $f(X)=g(X)+c$.
+\end{Cor}
+\begin{proof}
+  Let $f(X) = \sum a_{n}X^{n}, g(X) = \sum b_{n}X^{n}$ and $f'(X), g'(X)$ their respective formal derivatives. We know that whenever $|x| < \rho$ we have
+  $$\sum_{n \geq 1}na_{n}x^{n-1} = \sum_{n \geq 1}nb_{n}x^{n-1} \implies a_{n} = b_{n} \forall n \geq 1 \implies f(X) = g(X) + c$$
+\end{proof}
 \section{Strassman's Theorem}
 % STRASSMAN
 \begin{thm}[Strassman]
-Let $f(X) \in \Bbb Q_{p}[[X]]$ and suppose we have $\lim_{n \to \infty}a_{n} = 0$, so that $f(x)$ converges $\forall x \in \Bbb Z_{p}$. Define $N \in \Bbb N_{0}$ like in Lemma 2.2
+  Let $f(X) \in \Bbb Q_{p}[[X]]$ and suppose we have $\lim_{n \to \infty}a_{n} = 0$, so that $f(x)$ converges $\forall x \in \Bbb Z_{p}$. Define $N \in \Bbb N_{0}$ by the following conditions
+  $$|a_{N}| = \max_{n \in \Bbb N_{0}}|a_{n}| \text{ and }|a_{n}| < |a_{N}|, \forall n > N$$
 then the function $f$ has at most $N$ zeros.
 \end{thm}
 % PROOF STRASSMAN
@@ -167,7 +174,7 @@ then the function $f$ has at most $N$ zeros.
   Let $f(X) = \sum a_{n}x^{n}$ and $g(X) = \sum b_{n}X^{n}$ be two p-adic power series which converge in a disc $p^{m}\Bbb Z_{p}$. If there exist infinitely many numbers $\alpha \in p^{m}Z_{p}$ such that $f(\alpha) = g(\alpha)$, then $a_{n} = b_{n}, \forall n \geq 0$
 \end{Cor}
 \begin{proof}
-  Define $$h(X) = f(X) - g(X) = \sum(a_{n}-b_{n})X^{n}$$, then $h(X)$ converges also on $p^{m}\Bbb Z_{p}$, by Corollary 2.5 $h(X)$ has to have finitely many zeros, otherwise it must be the zero power series. Which means that
+  Define $$h(X) = f(X) - g(X) = \sum(a_{n}-b_{n})X^{n}$$, then $h(X)$ converges also on $p^{m}\Bbb Z_{p}$, by Corollary 3.3 $h(X)$ has to have finitely many zeros, otherwise it must be the zero power series. Which means that
   $$f(X) = g(X) \implies a_{n} = b_{n} \forall n \geq 0$$
 \end{proof}
 % COR 5.6.5
@@ -184,12 +191,6 @@ The series $f(X) - f(0)$ has zeros at $n\pi$ for all $n \in \Bbb Z$, since $\pi 
 \begin{proof}
   This is clear, because the number of zeros in each bounded disk $p^{m}\Bbb Z_{p}$ is finite.
 \end{proof}
-\begin{Cor} Suppose $f(X)$ and $g(X)$ are power series which converge for $|x| < \rho$. If $f'(x)=g'(x)$ for all $|x| < \rho$, then there exists some $c \in \Bbb Q_{p}$ with $f(X)=g(X)+c$.
-\end{Cor}
-\begin{proof}
-  Let $f(X) = \sum a_{n}X^{n}, g(X) = \sum b_{n}X^{n}$ and $f'(X), g'(X)$ their respective formal derivatives. By 5.5.5 we know that whenever $|x| < \rho$ we have
-  $$\sum_{n \geq 1}na_{n}x^{n-1} = \sum_{n \geq 1}nb_{n}x^{n-1}$$
-\end{proof}
 % LOG SECTION
 \section{The $p$-adic Logarithm Function}
 \begin{defi}[Formal power series for the logarithm]
@@ -199,7 +200,7 @@ The series $f(X) - f(0)$ has zeros at $n\pi$ for all $n \in \Bbb Z$, since $\pi 
 \begin{rem}
 We use $\mathbf{log}$ when referring to the formal power series, not the logarithm function itself.
 \end{rem}
-\begin{prop} $\mathbf{log}(1+X)$ converges if and only if $|x| < 1$
+\begin{prop} $\mathbf{log}(1+X)$ converges if and only if $|x| < 1 \iff x \in p\Bbb Z_{p}$
 \end{prop}
 \begin{proof}
   $\mathbf{log}(1+X)$ is given by the power series
@@ -211,9 +212,7 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
   $$\frac{v_{p}(n)}{n} \leq \frac{\log(n)}{\log(p)n} \xrightarrow{n \to \infty} 0 \implies \rho = 1$$
   This doesn't tell us the entire story however, we have to determine if $\mathbf{log}(1+X)$ converges for $|x| \leq \rho$ or for $|x| < \rho$, so we check if $\lim_{n \to \infty}|a_{n}|\rho^{n}$, by Prop. 2.1 - Talk 8, we have
   $$\lim_{n \to \infty}|a_{n}|\rho^{n} = \lim_{n \to \infty}|a_{n}| = \lim_{n \to \infty}p^{v_{p}(n)} \neq 0$$
-  Since $v_{p}(n) = 0$ whenever $n$ doesn't divide $p$
-
-% TODO
+  Since $v_{p}(n) = 0$ whenever $n$ doesn't divide $p$.
 \end{proof}
 \begin{defi}Let $U_{1} = B(1,1) = \{x \in \Bbb Z_{p} : |x-1| < 1\} = 1+p\Bbb Z_{p}$, we define the $p$-adic logarithm of $x \in U_{1}$ as:
   $$\log_{p}(x) = \mathbf{log}(1+(x-1)) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {(x-1)^{n}}{n}$$
@@ -230,7 +229,7 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
   $$g(x) = \log_{p}((1+x)(1+y)) = \log_{p}(1+y + (1+y)x) = f(y + (1+y)x)$$
   By 165, $g(x)$ converges $\iff f(x)$ converges $\iff |x| < 1$, now we use the Chain Rule from Theorem 2.1 to compute the derivative of $g$:
   $$g'(x) = (1+y)f'(y+(1+y)x) = \frac{1+y}{1+y+(1+y)x} = \frac{1}{1+x} = f'(x)$$
-  Since both $f(x), g(x)$ are defined by power series that converge for $|x| < 1$, by 5.5.6 it follows that
+  Since both $f(x), g(x)$ are defined by power series that converge for $|x| < 1$, by Corollary 2.5 it follows that
   $g(x) = f(x) + c$, for $|x| < 1$, to find $c$, we plug $x=0$ and see that
   $$c = g(0) = \log_{p}((1+0)(1+y)) = \log_{p}(1+y) = f(y)$$
   $$ \implies g(x) = f(x) + f(y) \implies \log_{p}((1+x)(1+y)) = \log_{p}(1+x) + \log_{p}(1+y) \iff \log_{p}(ab) = \log_{p}(a) + \log_{p}(b).$$
@@ -241,25 +240,27 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
   For $p \neq 2$ we have $\log_{p}(x)=0 \iff x=1$ and for $p = 2$, we have $\log_{p}(x)=0 \iff x= \pm 1$.
 \end{prop}
 \begin{proof}
-  We know that $\log_{p}(x)$ converges only for $x \in p\Bbb Z_{p}$, not in $\Bbb Z_{p}$, but we can do a change of variables like in Corollary 2.5
+  We know that $\log_{p}(x)$ converges only for $x \in p\Bbb Z_{p}$, not in $\Bbb Z_{p}$, but we can do a change of variables like in Corollary 3.3,
+
   % TODO
 \end{proof}
 \begin{prop}
   Let $p \neq 2, x \in \Bbb Q_{p}$ and $x^{p}=1$, then $x=1$.
 \end{prop}
 \begin{proof}
-% TODO
-\end{proof}
-\begin{Cor}
-  (Remark 4.5 in Talk 6) There are no $p$-th and hence no $p^{n}$-th roots of unity in $\Bbb Q_{p}$.
-\end{Cor}
-\begin{proof}
-% TODO
+  $$x^{p} = 1 \implies x \in \Bbb Z_{p} \implies \bar x^{p} = 1 \text{ in } \Bbb Z_{p}/p\Bbb Z_{p}$$
+  $$\implies \bar x^{p} = 1 \text{ in } \Bbb Z/p\Bbb Z$$
+  Now by Fermat's little theorem we know that
+  $$\bar x^{p-1} \equiv 1 \mod p \iff \bar x^{p} \equiv x \mod p.$$
+  and since $\bar x^{p} \equiv 1 \mod p$ we have $x \equiv 1 \mod p$, so $x \in 1+p\Bbb Z_{p}$.
+  $$x \in 1+p\Bbb Z_{p}, x^{p} = 0 \iff \log_{p}(x) = 0 \iff x = 1.$$
+  So there are no nontrivial $p$-th roots of unity in $\Bbb Q_{p}$, for $p \neq 2$.
 \end{proof}
 \begin{prop} If $p = 2, x \in \Bbb Q_{2}$ and $x^{4} = 1$ then $x = \pm 1$, which means that there are no fourth roots of unity in $\Bbb Q_{2}$
 \end{prop}
 \begin{proof}
 % TODO
+  Hence there are no $p$-th or $p^{n}$-th roots of unity in $\Bbb Q_{p}$, touching back to Talk 6, remark 4.5.
 \end{proof}
 \begin{rem}
   We now summarize what we know so far about the roots of unity in $\Bbb Q_{p}$:
@@ -296,8 +297,6 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
 	\bibitem[Gou]{Gou}%You can add more refernces by \bibitem command
 	Fernando Q. Gouv\^{e}a:
 	\emph{p-adic Numbers}.
-
-
 \end{thebibliography}
 \end{document}
 

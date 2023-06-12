@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8ae28d93083a0bf3",
+        "id": "4d335f214ce9af53",
         "type": "tabs",
         "children": [
           {
-            "id": "f832b4626078c3de",
+            "id": "262278119b4ecf0d",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "aa4d6578252677bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Ringtheorie/Ringhomomorphismus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 213.50260543823242
   },
   "right": {
     "id": "e1498401de033fdc",
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Ringtheorie/Ringhomomorphismus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Ringtheorie/Ringhomomorphismus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algebra/Ringtheorie/Ringhomomorphismus.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,9 +138,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa4d6578252677bc",
+  "active": "262278119b4ecf0d",
   "lastOpenFiles": [
+    "Analysis/Abbildungen/Exponentialfunktion.md",
+    "Zahlentheorie/P-adische Zahlen/p-adische Ganze Zahlen.md",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf",
+    "Zahlentheorie/P-adische Zahlen/p-adische Zahlen.md",
+    "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
+    "Zahlentheorie/P-adische Zahlen/p-adische Bewertung.md",
+    "Zahlentheorie/P-adische Zahlen/p-adische Metrik.md",
+    "Algebra/Ringtheorie/Quotientenkörper.md",
+    "Algebra/Ringtheorie/Faktorring.md",
+    "Algebra/Ringtheorie/Ringhomomorphismus.md",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.aux",
     "Zahlentheorie/P-adische Zahlen/Talk/talk.log",
     "Algebra/Distributivität.md",
