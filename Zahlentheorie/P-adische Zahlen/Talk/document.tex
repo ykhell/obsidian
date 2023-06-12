@@ -59,104 +59,110 @@ anchorcolor = blue]{hyperref}
 \begin{center}
 	\Huge{\textbf{Talk 9: Strassman's theorem and the Logarithm function}}%Title spot
 \end{center}
-	\begin{minipage}[t]{0.49\textwidth}%This helps you write on one half of a page and may be helps you conserve some space
+\begin{minipage}[t]{0.49\textwidth}%This helps you write on one half of a page and may be helps you conserve some space
 		\section{Revision}
-		\begin{rem}\cite[Prop. 5.4.1]{Gou}
-		Let $f(X) \in \Bbb Q_{p}[[X]]$ be a power series, then the radius of convergence is
-		$\rho = \frac 1{(\limsup_{n \to \infty}\sqrt[n]{|a_{n}|})}$
-		\end{rem}
-		\begin{prop}{\cite[Prop. 5.1.4]{Gou}}
-		Let $b_{ij} \in \Bbb Q_{p}$ and suppose $\forall i: \lim_{j \to \infty}b_{ij} = 0$ and $lim_{i \to \infty}b_{ij} = 0$ uniformly in $j$, then both series
-		$\sum_{i=0}^{\infty}\left(\sum_{j=0}^{\infty} b_{ij} \right) \text{ and } \sum_{j=0}^{\infty}\left(\sum_{i=0}^{\infty} b_{ij} \right)$
-		converge and have equal sum.
-		\end{prop}
-		\section{Strassman's Theorem}
-		% Let $f \in \Bbb Q_{p}[[X]]$ a formal power series over $\Bbb Q_{p}$, then for $x, y \in \Bbb Z_{p}$ we have
-		% $$f(x) - f(y) = (x-y)\sum_{n=1}^{\infty}\sum_{j=0}^{n-1}a_{n}x^{j}y^{n-1-j}$$
-		% $$f(x) - f(y) = \sum_{n=0}^{\infty}a_{n}x^{n} - \sum_{n=0}^{\infty}a_{n}y^{n} = \sum_{n=1}^{\infty}a_{n}(x^{n}-y^{n})$$
-		\begin{rem}
-		Let $(R, +, \cdot)$ be a ring, $x, y \in R$, then we have $x^{n}-y^{n} = (x-y)\sum_{j=0}^{n-1}x^{j}y^{n-1-j}, \forall n \in \Bbb N_{0}$
-		% TODO Ask if this should be in terms of rings or what
-		\end{rem}
-		\begin{lemm}
-		Let $f(X) \in \Bbb Q_{p}[[X]]$ be a non-zero power series which converges $\forall x \in \Bbb Z_{p}$, then $\exists N \in \Bbb N_{0}$ such that $|a_{N}| = \max_{n \in \Bbb N_{0}}|a_{n}| \text{ and } |a_{n}| < |a_{N}|\ \forall n > N$
-		\end{lemm}
-		\begin{thm}[Strassman]
-		Let $f(X) \in \Bbb Q_{p}[[X]]$ and suppose we have $\lim_{n \to \infty}a_{n} = 0$, so that $f(x)$ converges $\forall x \in \Bbb Z_{p}$. Define $N \in \Bbb N_{0}$ like in Lemma 2.2
-		then the function $f$ has at most $N$ zeros.
+			\begin{prop}[Cor. 1.4 in Talk 8]
+			If $a_{n} \in \Bbb Q_{p}$, then the series $\sum a_{n}$ is convergent if and only if $\lim_{n \to \infty}a_{n} = 0$, which implies $\left | \sum a_{n} \right| \leq \max_{n}|a_{n}|$.
+			\end{prop}
+			\begin{prop}[Prop. 1.5 in Talk 8]
+			%Let $b_{ij} \in \Bbb Q_{p}$ and suppose $\forall i: \lim_{j \to \infty}b_{ij} = 0$ and $lim_{i \to \infty}b_{ij} = 0$ uniformly in $j$, then both series
+			Let $b_{ij} \in \Bbb Q_{p}$ and suppose that $\forall \varepsilon > 0\ \exists N = N(\varepsilon) : \max\{i,j\} \geq N \implies |b_{ij}| < \varepsilon$, then both series
+			$\sum_{i \geq 0}\left(\sum_{j \geq 0} b_{ij} \right) \text{ and } \sum_{j \geq 0}\left(\sum_{i\geq 0} b_{ij} \right)$
+			converge and have equal sum.
+			\end{prop}
+			\begin{prop}[Prop. 2.1 in Talk 8]
+			Let $f(X) \in \Bbb Q_{p}[[X]]$ be a power series, then the radius of convergence is
+			$\rho = \left(\limsup_{n \to \infty}\sqrt[n]{|a_{n}|}\right)^{-1}$.
+		      \end{prop}
+		\section{Formal Derivatives of Power Series}
+		\begin{defi}
+		Let $f(X) = \sum_{n=0}^{\infty} a_{n}X^{n} $, we define its \textbf{formal derivative} as
+		$$f'(X) = \sum_{n\geq 1} na_{n}X^{n-1}, $$
+		\end{defi}
+		\begin{thm} Let $f(X) = \sum a_{n}X^{n}$, $f'(X)$ its formal power series,then $f'(X)$ has the properties of the derivative:
+		\begin{itemize}
+		\item Additivity: $(f+g)'(X) = f'(X) + g'(X)$
+		\item Product Rule: $(fg)'(X) = f(X)g'(X) + f'(X)g(x)$
+		\item Chain Rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
+		\end{itemize}
 		\end{thm}
-		\begin{Cor} %5.6.2 in the book
-		Let $f(X) = \sum a_{n}x^{n}$ be a non-zero power series which converges on $\Bbb Z_{p}$, and let $\alpha_{1}, ..., \alpha_{m} \in \Bbb Z_{p}$ be the roots of $f(X)$ in $\Bbb Z_{p}$, then there exists another power series $g(X)$ which also converges on $\Bbb Z_{p}$ but has no zeros in $\Bbb Z_{p}$, for which
-		$$f(X) = \left(\prod_{i=1}^{m}(X-\alpha_{i})\right)g(X)$$
-		\end{Cor}
+		\begin{prop} % 165
+		Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ and $|b| < \rho$, then $g(x) = f(ax+b)$ is given by a power series $g(X)$ which converges for $|x| < \rho$.
+		\end{prop}
 	\end{minipage}%
 	\hfill
 	\begin{minipage}[t]{0.48\textwidth}
+		\begin{prop}
+		Let $f(X)$ be a power series with radius of convergence $\rho$, $f'(X)$ its formal derivative, and $\rho'$ its radius of convergence, then $\rho' \geq \rho$.
+		\end{prop}
+		\begin{Cor} Suppose $f(X)$ and $g(X)$ are power series which converge for $|x| < \rho$. If $f'(x)=g'(x)$ for all $|x| < \rho$, then there exists some $c \in \Bbb Q_{p}$ with $f(X)=g(X)+c$.
+		\end{Cor}
+	\section{Strassman's Theorem}
+		% STRASSMAN
+		\begin{thm}[Strassman]
+		Let $f(X) \in \Bbb Q_{p}[[X]]$ and suppose we have $\lim_{n \to \infty}a_{n} = 0$, so that $f(x)$ converges $\forall x \in \Bbb Z_{p}$. Define $N \in \Bbb N_{0}$ by the following conditions
+		$$|a_{N}| = \max_{n \in \Bbb N_{0}}|a_{n}| \text{ and }|a_{n}| < |a_{N}|, \forall n > N$$
+		then the function $f:\Bbb Z_{p} \to \Bbb Q_{p}, x \mapsto f(x)$ has at most $N$ zeros.
+		\end{thm}
+		% COR 5.6.2
+		\begin{Cor}
+		Let $f(X) = \sum a_{n}x^{n}$ be a non-zero power series which converges on $\Bbb Z_{p}$, and let $\alpha_{1}, ..., \alpha_{m} \in \Bbb Z_{p}$ be the roots of $f(X)$ in $\Bbb Z_{p}$, then there exists another power series $g(X)$ which also converges on $\Bbb Z_{p}$ but has no zeros in $\Bbb Z_{p}$, for which
+		$$f(X) = \left(\prod_{i=1}^{m}(X-\alpha_{i})\right)g(X)$$
+		\end{Cor}
+		% COR 5.6.3
 		\begin{Cor}
 		Let $f(X) = \sum a_{n}x^{n}$ be a non-zero power series which converges on $p^{m}\Bbb Z_{p}$, for some $m \in \Bbb Z$. Then $f(X)$ has a finite number of roots in $p^{m} \Bbb Z_{p}$.
 		\end{Cor}
+		% COR 5.6.4
 		\begin{Cor}
 		Let $f(X) = \sum a_{n}x^{n}$ and $g(X) = \sum b_{n}X^{n}$ be two p-adic power series which converge in a disc $p^{m}\Bbb Z_{p}$. If there exist infinitely many numbers $\alpha \in p^{m}Z_{p}$ such that $f(\alpha) = g(\alpha)$, then $a_{n} = b_{n}, \forall n \geq 0$
 		\end{Cor}
-		\begin{Cor}
-		Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which converges in some disc $p^{m}\Bbb Z_{p}$. If the function $p^{m}\Bbb Z_{p} \to \Bbb Q_{p}, x \mapsto f(x)$ is periodic, that is, $\exists \pi \in p^{m}\Bbb Z_{p} : f(x + \pi) = f(x), \forall \in p^{m}\Bbb Z_{p}$ then $f(X)$ is constant.
-		\end{Cor}
-		\begin{Cor}
-		Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which is entire, that is, $f(x)$ converges $\forall x \in \Bbb Q_{p}$. Then $f(X)$ has at most countably many zeros. Furthermore, if the set of zeros is not finite then the zeros form a sequence $\alpha_{n}$ with $|\alpha_{n}| \to \infty$.
-		\end{Cor}
-		\section{Formal Derivatives}
-		\begin{thm-defi}
-		Let $f(X) = \sum_{n=0}^{\infty} a_{n}X^{n} $, we define its \textbf{formal derivative} as
-		$$f'(X) = \sum_{n=1}^{\infty} na_{n}X^{n-1}, $$
-		Then $f'(X)$ has the properties of the derivative:
-		\begin{itemize}
-			\item Additivity: $(f+g)'(X) = f'(X) + g'(X)$
-			\item Product rule: $(fg)'(X) = f(X)g'(X) + f'(X)g(x)$
-			\item Chain rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
-		\end{itemize}
-		\end{thm-defi}
-	\end{minipage}
-	\begin{minipage}[t]{0.45\textwidth}
-		\begin{prop}
-		Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ and $|b| < \rho$, then $g(x) = f(ax+b)$ is given by a power series $g(X)$ which converges for $|x| < \rho$.
-		\end{prop}
-		\section{The $p$-adic Logarithm Function}
-		\begin{defi}[Formal power series for the logarithm]   $$\mathbf{log}(1+X) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {X^{n}}{n} = X - \frac{X^{2}}{2} + \frac{X^{3}}{3} \mp \cdots$$
-		Since the coefficients are in $\Bbb Q$ we can consider it as a power series with coefficients in $\Bbb Q_{p}$
-		\end{defi}
-		\begin{rem}
-		We use $\mathbf{log}$ when referring to the formal power series, not the logarithm function itself.
-		\end{rem}
-		\begin{prop} $\mathbf{log}(1+X)$ converges if and only if $|x| < 1$
-		\end{prop}
-		\begin{defi}Let $U_{1} = B(1,1) = \{x \in \Bbb Z_{p} : |x-1| < 1\} = 1+p\Bbb Z_{p}$, we define the $p$-adic logarithm of $x \in U_{1}$ as:
-		$$\log_{p}(x) = \mathbf{log}(1+(x-1)) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {(x-1)^{n}}{n}$$
-		In order to be able to call it a logarithm, it has to fill the usual logarithmic property:
-		\end{defi}
-		\begin{prop}
-		Let $a, b \in 1+p\Bbb Z_{p}$, then we have
-		$$\log_{p}(ab) = \log_{p}(a) + \log_{p}(b)$$
-		\end{prop}
-		\section{Roots of Unity}
-		\begin{prop}
-		For $p \neq 2$ we have $\log_{p}(x)=0 \iff x=1$ and for $p = 2$, we have $\log_{p}(x)=0 \iff x= \pm 1$.
-		\end{prop}
 	\end{minipage}%
 	\hfill
 	\begin{minipage}[t]{0.45\textwidth}
+		% COR 5.6.5
+		\begin{Cor}
+		Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which converges in some disc $p^{m}\Bbb Z_{p}$. If the function $p^{m}\Bbb Z_{p} \to \Bbb Q_{p}, x \mapsto f(x)$ is periodic, that is, $\exists \pi \in p^{m}\Bbb Z_{p} : f(x + \pi) = f(x), \forall \in p^{m}\Bbb Z_{p}$ then $f(X)$ is constant.
+		\end{Cor}
+		% COR 5.6.6
+		\begin{Cor}
+		Let $f(X) = \sum a_{n}x^{n}$ be a p-adic power series which is entire, that is, $f(x)$ converges $\forall x \in \Bbb Q_{p}$. Then $f(X)$ has at most countably many zeros. %Furthermore, if the set of zeros is not finite then the zeros form a sequence $\alpha_{n}$ with $|\alpha_{n}| \to \infty$.
+		\end{Cor}
+	\section{The $p$-adic Logarithm Function}
+			\begin{defi}[Formal power series for the logarithm]
+			$$\mathbf{log}(1+X) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {X^{n}}{n} = X - \frac{X^{2}}{2} + \frac{X^{3}}{3} \mp \cdots $$
+			\end{defi}
+			\begin{rem}
+			We use $\mathbf{log}$ when referring to the formal power series, not the logarithm function itself.
+			\end{rem}
+			\begin{prop} $\mathbf{log}(1+X)$ converges if and only if $|x| < 1 \iff x \in p\Bbb Z_{p}$
+			\end{prop}
+			\begin{defi}Let $U_{1} = B(1,1) = \{x \in \Bbb Z_{p} : |x-1| < 1\} = 1+p\Bbb Z_{p}$, we define the $p$-adic logarithm of $x \in U_{1}$ as:
+			$$\log_{p}(x) = \mathbf{log}(1+(x-1)) = \sum_{n=1}^{\infty} (-1)^{n+1}\frac {(x-1)^{n}}{n}$$
+			In order to be able to call it a logarithm, it has to fill the usual logarithmic property:
+			\end{defi}
+			\begin{prop}
+			Let $a, b \in 1+p\Bbb Z_{p}$, then we have
+			$$\log_{p}(ab) = \log_{p}(a) + \log_{p}(b)$$
+			\end{prop}
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{0.45\textwidth}
+	  \section{Roots of Unity in $\Bbb Q_{p}$}
+
+		\begin{prop}
+		For $p \neq 2$ we have $\log_{p}(x)=0 \iff x=1$ and for $p = 2$, we have $\log_{p}(x)=0 \iff x= \pm 1$.
+		\end{prop}
 		\begin{prop}
 		Let $p \neq 2, x \in \Bbb Q_{p}$ and $x^{p}=1$, then $x=1$.
 		\end{prop}
-		\begin{Cor}
-		(Remark 4.5 in Talk 6) There are no $p$-th and hence no $p^{n}$-th roots of unity in $\Bbb Q_{p}$.
-		\end{Cor}
 		\begin{prop} If $p = 2, x \in \Bbb Q_{2}$ and $x^{4} = 1$ then $x = \pm 1$, which means that there are no fourth roots of unity in $\Bbb Q_{2}$
 		\end{prop}
 		\begin{rem}
 		We now summarize what we know so far about the roots of unity in $\Bbb Q_{p}$:
 		\begin{itemize}
-			\item If $p=2$, then the only roots of unity are $\pm 1$
-			\item If $p \neq 2$, then $\Bbb Q_{p}$ contains all the $p-1$-st roots of unity and none other. (their existence was shown in Talk 6)
+		\item If $p=2$, then the only roots of unity are $\pm 1$
+		\item If $p \neq 2$, then $\Bbb Q_{p}$ contains all the $p-1$-st roots of unity and none other. (their existence was shown in Talk 6)
 		\end{itemize}
 
 		\end{rem}

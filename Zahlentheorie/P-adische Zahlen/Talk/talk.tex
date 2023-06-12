@@ -91,7 +91,7 @@ Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ 
   Let $f(X)$ be a power series with radius of convergence $\rho$, $f'(X)$ its formal derivative, and $\rho'$ its radius of convergence, then $\rho' \geq \rho$.
 \end{prop}
 \begin{proof}
-  Let $f(X) = \sum a_{n}X^{n}, f'(X) = \sum_{n \geq 1} na_{n}X^{n-1}$, then by Prop. 1.2 the radius of convergence of $f'(X)$ must be
+  Let $f(X) = \sum a_{n}X^{n}, f'(X) = \sum_{n \geq 1} na_{n}X^{n-1}$, then by Prop. 1.3 the radius of convergence of $f'(X)$ must be
   $$\rho' = \left( \limsup_{n \to \infty} \sqrt[n]{\|na_{n}\|} \right)^{-1} \geq \left( \limsup_{n \to \infty} \sqrt[n]{\|a_{n}\|} \right)^{-1} = \rho$$
 \end{proof}
 \begin{Cor} Suppose $f(X)$ and $g(X)$ are power series which converge for $|x| < \rho$. If $f'(x)=g'(x)$ for all $|x| < \rho$, then there exists some $c \in \Bbb Q_{p}$ with $f(X)=g(X)+c$.
@@ -119,7 +119,7 @@ then the function $f$ has at most $N$ zeros.
           Suppose $N$ was defined like before, and $\exists \alpha \in \Bbb Z_{p} : f(\alpha) = 0$, then we have for any $x \in \Bbb Z_{p}$
           $$f(x) = f(x) - f(\alpha) = \sum_{n=0}^{\infty}a_{n}x^{n} - \sum_{n=0}^{\infty}a_{n}\alpha^{n} = \sum_{n=0}^{\infty}a_{n}(x^{n} - \alpha^{n}) \overset{2.1}= (x-\alpha)\sum_{n=0}^{\infty}\sum_{j = 0}^{n-1} a_{n}x^{j}\alpha^{n-1-j}$$
           $$ = (x-\alpha) \sum_{n=0}^{\infty} \sum_{j=0}^{\infty} c_{nj}, \quad c_{nj}:= \begin{cases}a_{n}x^{j}\alpha^{n-1-j} & j < n, \\ 0 & j \geq n.\end{cases}$$
-          We can use prop 1.1 to change the order of the summation but first we have to show the conditions of the proposition:
+          We can use Proposition 1.2 to change the order of the summation but first we have to show the conditions of the proposition:
           \begin{enumerate}
             \item $\forall n \in \Bbb N_{0}, \lim_{j \to \infty} c_{nj} = 0$:
                   Clear, since we have $c_{nj} = 0, \forall j \geq n$.
@@ -235,7 +235,7 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
   $$ \implies g(x) = f(x) + f(y) \implies \log_{p}((1+x)(1+y)) = \log_{p}(1+x) + \log_{p}(1+y) \iff \log_{p}(ab) = \log_{p}(a) + \log_{p}(b).$$
   % TODO
 \end{proof}
-\section{Roots of Unity}
+\section{Roots of Unity in $\Bbb Q_{p}$}
 \begin{prop}
   For $p \neq 2$ we have $\log_{p}(x)=0 \iff x=1$ and for $p = 2$, we have $\log_{p}(x)=0 \iff x= \pm 1$.
 \end{prop}
