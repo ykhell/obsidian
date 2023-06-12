@@ -84,8 +84,11 @@ Let $f(X)$ be a power series which converges for all $|x| < \rho$, if $|a| < 1$ 
   $$|ax + b| \leq \max\{|x|, |b|\} < \rho \iff |x| \leq b < \rho.$$
   Now let $f(X) = \sum_{n \geq 0}c_{n}X^{n}$, we want to write $g(X)$ as a power series
   $$g(x) = f(ax+b) = \sum_{n \geq 0}c_{n}(ax+b)^{n} = \sum_{n = 0}^{\infty} \sum _{k=0}^{n}c_{n}\binom nk a^{k}b^{n-k}x^{k}$$
-  Define $\alpha_{kn} = \begin{cases}\binom nk a^{k}b^{n-k}x^{k}, & k \leq n \\ 0 & k > n\end{cases}$
-  Using Prop. 1.2 we get $$= g(X) = \sum_{k \geq 0}\left( \sum_{n \geq k} \binom nk c_{n}a^{k}b^{n-k}\right)X^{k}$$
+  Define
+  $$\alpha_{kn} = \begin{cases}\binom nk c_{n}a^{k}b^{n-k}x^{k}, & k \leq n \\ 0 & k > n\end{cases} \implies \lim_{k \to \infty}|\alpha_{kn}| = 0$$
+  $$|\alpha_{kn}| = \left|\binom nk c_{n}a^{k}b^{n-k}x^{k}\right| \leq \left| c_{n}b^{n} \left(\frac{x}{b}\right)^{k}\right| = \left| c_{n}b^{n}\right| \cdot\left| \left(\frac{x}{b}\right)^{k}\right| \leq |c_{n}b^{n}|\max(1, \left|\frac{x}{b}\right|^{n}) \leq \max(|c_{n}b^{n}|, |c_{n}x^{n}|)$$
+  Since $|x| < \rho, |b| < \rho$ we know that $\sum c_{n}x^{n}$ and $\sum c_{n}b^{n}$ converge $\iff \lim_{n \to \infty}|c_{n}x^{n}| = \lim_{n \to \infty}|c_{n}b^{n}| = 0 \implies \lim_{n \to \infty}\alpha_{kn} = 0$. So using Proposition 1.2 we get
+$$\sum_{n = 0}^{\infty} \sum _{k=0}^{n}c_{n}\binom nk a^{k}b^{n-k}x^{k} = \sum_{k = 0}^{\infty} \sum _{n=k}^{\infty}c_{n}\binom nk a^{k}b^{n-k}x^{k} = \sum_{k \geq 0}\left( \sum_{n \geq k} \binom nk c_{n}a^{k}b^{n-k}\right)x^{k} =: g(x).$$
 \end{proof}
 \begin{prop}
   Let $f(X)$ be a power series with radius of convergence $\rho$, $f'(X)$ its formal derivative, and $\rho'$ its radius of convergence, then $\rho' \geq \rho$.
@@ -205,7 +208,7 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
 \begin{proof}
   $\mathbf{log}(1+X)$ is given by the power series
   $$\mathbf{log}(1+X) = f(X) = \sum_{n \geq 1}a_{n}X^{n} = \sum_{n\geq1} (-1)^{n+1}\frac {X^{n}}{n}, \quad a_{n} = \frac {(-1)^{n+1}}n $$
-  So by Prop 8.2.1 the radius of convergence is
+  So by Proposition 1.3 the radius of convergence is
   $$\rho = \left(\limsup_{n \to \infty} \sqrt[n]{|a_{n}|}\right)^{-1} = \left(\limsup_{n \to \infty} \sqrt[n]{\left|\frac {(-1)^{n+1}}n\right|}\right)^{-1} = \left(\limsup_{n \to \infty} \sqrt[n]{\left| \frac 1n\right|}\right)^{-1} = \left(\limsup_{n \to \infty} \sqrt[n]{p^{-v_{p}(1/n)}}\right)^{-1}$$
   $$ = \left(\limsup_{n \to \infty} \sqrt[n]{p^{v_{p}(n) - v_{p}(1)}}\right)^{-1} = \left( \limsup_{n \to \infty} p^{v_{p}(n) / n} \right)^{-1}$$
   we have
@@ -240,9 +243,25 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
   For $p \neq 2$ we have $\log_{p}(x)=0 \iff x=1$ and for $p = 2$, we have $\log_{p}(x)=0 \iff x= \pm 1$.
 \end{prop}
 \begin{proof}
-  We know that $\log_{p}(x)$ converges only for $x \in p\Bbb Z_{p}$, not in $\Bbb Z_{p}$, but we can do a change of variables like in Corollary 3.3,
-
-  % TODO
+  We know that $\log_{p}(x)$ converges only for $x \in p\Bbb Z_{p}$, not in $\Bbb Z_{p}$, but we can do a change of variables like in Corollary 3.3, so define $f(X) = \mathbf{log}(1+px)$, this converges now for all $x \in \Bbb Z_{p}$ and we have
+  $$f(X) = \sum_{n \geq 1} (-1)^{n+1}\frac{p^{n}X^{n}}n = \sum_{n \geq 1}a_{n}X^{n},\quad a_{n} = (-1)^{n+1}\frac{p^{n}}n$$
+  Now we have to look for the $N$ like in Strassman's Theorem.
+  $$|a_{n}| = \left|(-1)^{n+1}\frac{p^{n}}n \right| = \left|\frac{p^{n}}n \right| = p^{-v_{p}(p^{n}/n)} = p^{v_{p}(n) - v_{p}(p^{n})} = p^{v_{p}(n) - n}$$
+  Now by the definition of $v_{p}$, we can say that
+  $$ v_{p}(n) = \lfloor \log_{p}(n) \rfloor \approx \log_{p}(n)$$
+  So we can approximate $p^{v_{p}(n) - n}$ as
+  $$p^{v_{p}(n) - n} \approx p^{\log_{p}(n) - n} = np^{-n} =:g(n)$$
+  And now we just have a problem in real analysis, and we need to find the maxima of $g$, so consider
+  $$g'(x) = p^{-x}(1-x\log(p)) = 0 \iff x\log(p) = 1 \iff x = \frac{1}{\log(p)}$$
+  Now we know that $\log(p) < 1 \iff p < e, \log(p) > 1 \iff p > e$, since $2$ is the only prime which is less than $e$, we have
+  $$x = \frac{1}{\log(p)} > 1 \iff p < e \iff p = 2$$
+  And otherwise
+  $$x < 1 \iff p > e \iff p \neq 2$$
+  So we know for sure, that the maximum index is $1$ for $p \neq 2$, and $2$ for $p = 2$, applying Strassman's Theorem, we get that $\log_{p}$ has 2 zeros in $\Bbb Z_{2}$, and 1 in $\Bbb Z_{p \neq 2}$, we can confirm this by checking
+  $$\log_{p}(1+(1-1)) = \sum_{n \geq 1} (-1)^{n+1}(1-1)^{n}/n = 0$$
+  And for $p = 2$, we have to check if $-1$ is in $B(1,1)$,
+  $$|-1-1|_{2} = |-2|_{2} = p^{-v_{2}(-2)} = 1/2 < 1 \implies -1 \in B(1,1)$$
+  $$\log_{p}(1) = \log_{p}((-1)^{2}) = 2 \log_{p}(-1)= 0.$$
 \end{proof}
 \begin{prop}
   Let $p \neq 2, x \in \Bbb Q_{p}$ and $x^{p}=1$, then $x=1$.
@@ -253,7 +272,7 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
   Now by Fermat's little theorem we know that
   $$\bar x^{p-1} \equiv 1 \mod p \iff \bar x^{p} \equiv x \mod p.$$
   and since $\bar x^{p} \equiv 1 \mod p$ we have $x \equiv 1 \mod p$, so $x \in 1+p\Bbb Z_{p}$.
-  $$x \in 1+p\Bbb Z_{p}, x^{p} = 0 \iff \log_{p}(x) = 0 \iff x = 1.$$
+  $$x \in 1+p\Bbb Z_{p}, x^{p} = 1 \iff \log_{p}(x^{p}) = \log_{p}(1) \iff \log_{p}(x) = 0 \iff x = 1.$$
   So there are no nontrivial $p$-th roots of unity in $\Bbb Q_{p}$, for $p \neq 2$.
 \end{proof}
 \begin{prop} If $p = 2, x \in \Bbb Q_{2}$ and $x^{4} = 1$ then $x = \pm 1$, which means that there are no fourth roots of unity in $\Bbb Q_{2}$
