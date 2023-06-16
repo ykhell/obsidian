@@ -59,21 +59,8 @@
 \begin{thm} Let $f(X) = \sum a_{n}X^{n}$, $f'(X)$ its formal power series,then $f'(X)$ has the properties of the derivative:
   \begin{itemize}
     \item Additivity: $(f+g)'(X) = f'(X) + g'(X)$
-          \begin{proof}
-            $$(f+g)'(X) = (\sum_{n=0}^{\infty} a_{n}X^{n} + \sum_{n=0}^{\infty} b_{n}X^{n})' = (\sum_{n=0}^{\infty} (a_{n}+b_{n})X^{n})' =$$
-            $$\sum_{n = 1}^{\infty} n(a_{n} + b_{n})X^{n-1} = \sum_{n=1}^{\infty}na_{n}X^{n-1} + \sum_{n=1}^{\infty}nb_{n}X^{n-1} = f'(X) + g'(X)$$
-          \end{proof}
     \item Product Rule: $(fg)'(X) = f(X)g'(X) + f'(X)g(x)$
-          \begin{proof}
-            $$f(X)g'(X) + f'(X)g(X) =\left(\sum_{n = 0}^{\infty} a_{n}X^{n}\right) \cdot \left(\sum_{n=0}^{\infty}(n+1)b_{n+1}X^{n} \right) + \left(\sum_{n=0}^{\infty}(n+1)a_{n+1}X^{n}\right)\cdot \left(\sum_{n = 0}^{\infty} b_{n}X^{n}\right)$$
-            $$ = \sum_{n =0}^{\infty}c_{n}X^{n} + \sum_{n =0}^{\infty}d_{n}X^{n},\quad c_{n} = \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i}, d_{n} = \sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i}$$
-            $$ = \sum_{n =0}^{\infty} \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} X^{n}+ \sum_{n =0}^{\infty}\sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i} X^{n} = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)b_{i+1}a_{n-i} + \sum_{i=0}^{n}(i+1)a_{i+1}b_{n-i}\right)X^{n}$$
-            $$ = \sum_{n=0}^{\infty}\left( \sum_{i=0}^{n}(i+1)(b_{i+1}a_{n-i} + a_{i+1}b_{n-i})\right)X^{n}$$
-          \end{proof}
     \item Chain Rule: $(f \circ g)'(X) = f'(g(X))g'(X)$
-          \begin{proof}
-            % TODO
-          \end{proof}
   \end{itemize}
 \end{thm}
 \begin{prop} % 165
@@ -278,8 +265,10 @@ We use $\mathbf{log}$ when referring to the formal power series, not the logarit
 \begin{prop} If $p = 2, x \in \Bbb Q_{2}$ and $x^{4} = 1$ then $x = \pm 1$, which means that there are no fourth roots of unity in $\Bbb Q_{2}$
 \end{prop}
 \begin{proof}
-% TODO
-  Hence there are no $p$-th or $p^{n}$-th roots of unity in $\Bbb Q_{p}$, touching back to Talk 6, remark 4.5.
+  % TODO
+  Let $x \neq \pm 1, x \in \Bbb Q_{2}, x^{4} = 1$, then we have
+  $$x \in \Bbb Z_{2}, x \neq \pm 1 \implies x^{2} \equiv -1 \mod 4\Bbb Z_{2} \overset {\Bbb Z_{2}/4\Bbb Z_{2} \cong \Bbb Z/4\Bbb Z}\implies x^{2} \equiv -1 \mod 4\Bbb Z$$
+  But there is no $\bar x \in \Bbb Z/4\Bbb Z$ with $\bar x^{2} = -1$.
 \end{proof}
 \begin{rem}
   We now summarize what we know so far about the roots of unity in $\Bbb Q_{p}$:
