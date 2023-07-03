@@ -1,0 +1,4 @@
+Sei $F: U_1 \times U_2 \to \Bbb R^m$ eine [[Stetigkeit|stetige]] [[Partielle Ableitung|partiell differenzierbare]] [[Abbildung]], $U_1 \subset \Bbb{R}^n$ offen, $U_2 \subset \Bbb{R}^m$ offen. Sei $(a, b) \in U_1 \times U_2$ ein Punkt mit $F(a, b) = 0$. Ist $\frac{\partial F}{\partial y}(a, b)$ invertierbar, dann $\exists$ [[Umgebung]] $V_1 \subset U_1$ von $a$ und eine [[Umgebung]] $V_2 \subset U_2$ von $b$ und ein eindeutiges $g: V_1 \to V_2$, sodass gilt:
+1. $$g(a) = b$$
+2. $$F(x, g(x)) = 0 \forall x \in V_1$$
+3. $g$ ist [[Stetigkeit|stetige]] [[Partielle Ableitung|partiell differenzierbar]].

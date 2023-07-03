@@ -1,3 +1,8 @@
+# Definition für Ringe
+Für $R$ ein [[Kommutativer Ring]] definiere
+$$GL_n(R) = M_{n \times n}(R)^\times$$
+$$ = \{A \in M_{n \times n}(R) \mid \exists B \in M_{n \times n}(R): AB = BA = 1_n\} $$
+
 # Definition
 Die allgemeine lineare Gruppe $GL_n(K) = GL(n, K)$ vom Grad $n$ über einem [[Körper]] $K$ ist die [[Gruppe]] $(G,\cdot)$ bestehend aus der [[Menge]] aller regulären $n \times n$-[[Matrix | Matrizen]] mit Koeffizienten aus $K$
 $$ G:= \{A \in M_n(K) : \det (A) \neq 0\} $$

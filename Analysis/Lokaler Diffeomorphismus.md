@@ -1,0 +1,2 @@
+$f: U \to V$ heißt lokaler Diffeomorphismus um den Punkt $p \in U$, wenn eine offene [[Umgebung]] $U' \in U$ von $p$ existiert, sodass $$f|_{U'}:U' \xrightarrow{C^1}f(U')$$
+ein $C^1$-[[Diffeomorphismus]] ist.

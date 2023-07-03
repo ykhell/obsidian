@@ -1,0 +1,1 @@
+Sei $M$ eine $n \times n$ reelle [[Matrix]], $M$ ist genau dann positiv definit, wenn $$\exists B \in GL_n(\Bbb R) : B^TB=M$$

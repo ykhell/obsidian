@@ -1,3 +1,6 @@
+---
+aliases: [selbstadjungierte Matrix]
+---
 # Definition
 Eine Hermitesche Matrix ist eine quadratische [[Matrix]] über die [[Komplexe Zahlen]], die gleich ihrer [[Adjungierte Matrix]] ist. Formal geschrieben:
 $$A = (a_{jk}) \in \Bbb C^{n \times n} \text{ ist hermitesch } \iff \forall j, k \leq n, a_{jk} = \overline{a_{kj}}$$

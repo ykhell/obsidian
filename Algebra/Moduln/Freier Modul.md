@@ -1,0 +1,1 @@
+Ein $R$-[[Modul]] heißt frei $\iff M$ besitzt eine geordnete Basis $\underline B = (b_1, ..., b_n) \in M^n: b_1, ..., b_n$ sind paarweise verschieden und $b_1, ..., b_n$ ist eine [[Basis]].

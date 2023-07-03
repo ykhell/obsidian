@@ -1,0 +1,1 @@
+in einem [[Integritätsbereich]] $R$ heißen $x, y \in R$ teilerfremd, falls $$\iff \mathrm{ggT}(x, y) = 1$$

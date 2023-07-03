@@ -1,1 +1,0 @@
-[[Orthogonalität]] mit Vektoren von Länge 1.

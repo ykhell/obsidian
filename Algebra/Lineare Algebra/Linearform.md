@@ -1,8 +1,10 @@
 ---
-aliases: [lineare Funktionale]
+aliases: [lineare Funktionale, Kovektor, Kovektoren, Dualvektor]
 ---
 # Definition
-Eine Linearform ist eine lineare Abbildung von einem Vektorraum in den zugrundeliegenden Körper. Es sei $K$ ein Körper und $V$ ein $K$-Vektorraum. Eine Abbildung $f: V \to K$ heißt Linearform, wenn $\forall x, y \in V, \lambda \in K$ gilt:
-1. $f(x+y) = f(x) + f(y)$ (Additivität)
-2. $f(\lambda x) = \lambda f(x)$ (Homogenität)
-Die Menge aller Linearformen über einem gegebenen Vektorraum $V$ bilded dessen [[Dualraum]] $V^*$ und damit selbst wieder in natürlicher Weise ein $K$-Vektorraum.
+Sei $V$ ein $K$-[[Vektorraum]], $K$ ein [[Körper]]. 
+Eine [[Abbildung]] $f: V \to K$ heißt Linearform, wenn
+$$f \in \mathrm{Hom}(V, K)$$
+Die [[Menge]] aller Linearformen $\hom(V, K)$ wird dann als [[Dualraum]] $V^*$ von $V$ bezeichnet
+$$V^* := \mathrm{Hom}(V,K)$$
+und ist selbst auch ein $K-$[[Vektorraum]].

@@ -1,3 +1,3 @@
 Eine Abbildung $\Psi:V\to W$ zwischen zwei komplexen [[Skalarproduktraum|Skalarprodukträumen]] $(V, \langle \cdot, \cdot, \rangle_V)$ und $(W, \langle \cdot, \cdot, \rangle_W)$ heißt unitär, wenn für alle [[Vektor|Vektoren]] $u, v \in V$ gilt:
 $$\langle f(u), f(v) \rangle_W = \langle u, v \rangle_V$$
-Eine unitäre Abbildung ist dadurch charakterisiert, dass sie das [[Skalarprodukt]] von Vektoren erhält. Insbesondere bildet eine unitäre Abbildung zueinander [[Orthogonalität|orthogonale]] Vektoren $v$ und $w$ (also $\langle v, w \rangle = 0$) auf zueinander orthogonale Vektoren $f(v)$ und $f(w)$ ab. 
+Eine unitäre Abbildung ist dadurch charakterisiert, dass sie das [[Skalarprodukt]] von Vektoren erhält. Insbesondere bildet eine unitäre Abbildung zueinander [[Orthogonale Vektoren|orthogonale]] Vektoren $v$ und $w$ (also $\langle v, w \rangle = 0$) auf zueinander orthogonale Vektoren $f(v)$ und $f(w)$ ab. 

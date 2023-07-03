@@ -1,0 +1,2 @@
+Eine $C^1$-Form $\omega : U \to V^*$ heißt geschlossen, wenn$$\partial_j \lambda_i = \partial_i \lambda_j \ \forall i,j$$
+Erinnerung: $\omega$ lässt sich als $\omega = \sum_i \lambda_i dx_i$ schreiben.

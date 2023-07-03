@@ -1,0 +1,1 @@
+Unter einer **Mannigfaltigkeit** versteht man in einen [[Topologischer Raum|topologischen Raum]] der lokal dem [[Euklidischer Raum|euklidischen Raum]] $\Bbb R^n$ gleicht. Global muss die Mannigfaltigkeit jedoch _nicht_ einem euklidischen Raum gleichen (nicht zu ihm [[Homöomorphismus|homöomorph]] sein).

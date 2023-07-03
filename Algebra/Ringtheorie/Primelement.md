@@ -1,3 +1,1 @@
-Für [[Kommutativer Ring|kommutative]] [[Unitärer Ring|unitäre Ringe]] definiert man: ein [[Element]] $p$ heißt prim oder Primelement, wenn es keine Einheit und ungleich $0$ ist und aus $p \mid ab$ folgt $p \mid a$ oder $p \mid b$.
-
-In einem [[Nullteiler|nullteilerfreien]] [[Ring]] ist jedes Primelement [[Irreduzibles Element|irreduzibel]]. In einem [[Faktorieller Ring|faktoriellen Ring]] ist umgekehrt auch jedes [[Irreduzibles Element|Irreduzible Element]] auch ein Primelement.
+Sei $R$ ein [[Integritätsbereich]], dann heißt $x \in R \setminus (R^\times \cup \{0\})$ ein Primelement, falls $\forall y, z \in R$ $$x \mid zy \implies x \mid z \vee x \mid y$$

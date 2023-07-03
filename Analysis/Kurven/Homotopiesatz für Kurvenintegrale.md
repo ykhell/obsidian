@@ -1,0 +1,2 @@
+Sei $U \underset{\text{offen}}{\subset} \Bbb R^n$ (aber nicht zwingend [[Sternförmige Menge|sternförmig]]), sei $\omega: U \to (\Bbb R^n)^*$ eine [[Geschlossene 1-Form]]. Sind zwei Kurven $\gamma_0, \gamma_1 : [a,b] \to U$ zueinander [[Homotopie|homotop]], dann gilt
+$$\int_{\gamma_0} \omega = \int_{\gamma_1} \omega$$

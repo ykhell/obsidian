@@ -1,0 +1,1 @@
+Sei $S$ ein [[Ring]], ein $e \in S$ heißt idempotent $\iff e^2=e$.

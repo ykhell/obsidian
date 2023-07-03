@@ -1,0 +1,5 @@
+Sei $K = \Bbb R$, 
+- Zu $Q : V \to \Bbb R$ [[Quadratische Form]] existiert eine [[Basis]] $\underline B = (b_1, ..., b_n)$, so dass $$Q(\sum \lambda_ib_i) = \lambda_1^2 + \cdots +\lambda_s^2 - \lambda_{s+1}^2 - \cdots - \lambda_{s+t}^2$$ $$\implies Q(\sum \lambda_ib_i) = \sum_{1\leq k \leq s}\lambda_ib_i - \sum_{s \leq k \leq s+t}\lambda_ib_i$$ $\forall (\lambda_i) \in K^n$ für eindeutige $s, t \in \{0, ..., n\}$ mit $s+t \leq n$
+- Zu $\beta: V \times V \to \Bbb R$ eine [[Symmetrische Bilinearform|SBF]] existiert eine [[Basis]] $\underline  B = (b_1, ..., b_n)$ mit $$\mathrm{Mat}_
+\underline B(\beta) = 2 \mathrm{diag}(1_s, -1_t, 0_{n-s-t})$$für eindeutige $s, t \geq 0 : s+t=r=\mathrm{Rang}(\beta)$ 
+- Definiere $\mathrm{Sign}(\beta) = s - t$ [[Signatur]] von $\beta$, dann $$\beta \cong \beta' \iff  \substack{\mathrm{Rang}(\beta) = \mathrm{Rang}(\beta')\\\mathrm{Sign}(\beta) = \mathrm{Sign}(\beta')}  $$

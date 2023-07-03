@@ -1,0 +1,1 @@
+Eine endlich erzeugte abelsche Gruppe ist eine [[Abelsche Gruppe|abelsche Gruppe]] $(G,+)$ die [[Endlich erzeugte Gruppe|endlich erzeugt]] ist. Sie können klassifiziert werden durch der [[Struktursatz über endlich erzeugte abelsche Gruppen]].

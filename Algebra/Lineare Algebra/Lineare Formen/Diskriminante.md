@@ -1,0 +1,1 @@
+Die Diskriminante einer [[Bilinearform]] $\beta$ ist die [[Äquivalenzklasse]] $$\det(\mathrm{Mat}_\underline B(\beta))\cdot {K^\times}^2 \in K/_{{K^\times}^2}$$

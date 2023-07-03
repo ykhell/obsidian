@@ -1,0 +1,1 @@
+Auf einer [[Sternförmige Menge|sternförmigen]], [[Offene Menge|offenen Menge]] $U \subset \Bbb R^n$ ist jede [[Geschlossene 1-Form]] exakt.

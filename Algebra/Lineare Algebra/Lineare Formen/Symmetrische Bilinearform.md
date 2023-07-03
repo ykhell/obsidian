@@ -1,7 +1,9 @@
-Wenn beide Argumente der Bilinearform aus dem gleichen Vektorraum $V$ stammen, bezeichnet man $B(x, x), x \in V$ als den Formwert des Vektors $x$. Die Bilinearform $B: V\times V \to K$ kann zusätzliche Symmetrieeigenschaften haben:
-* Eine Bilinearform $B$ heißt [[Symmetrische Funktion|symmetrisch]], wenn
-$$B(x, y) = B(y, x)$$
-
-# Beispiele
-* Ein [[Skalarprodukt]] auf einem reellen [[Vektorraum]] ist eine nicht ausgeartete, symmetrische, positiv definite [[Bilinearform]].
-* 
+---
+aliases: [SBF]
+---
+Eine [[Abbildung]] $\langle \cdot, \cdot \rangle: V \times V \to K$ heißt [[Symmetrische Bilinearform]], falls $K = \Bbb R$ und es gelten:
+- SBF1: $\forall w \in V:$ $$\langle \cdot, w \rangle : V \xrightarrow{\hom} K, v \mapsto \langle v, w \rangle$$
+- SBF2: $\forall v \in V:$ $$\langle v, \cdot \rangle : V \xrightarrow{\text{sesq.}}K, v \mapsto \langle v, w \rangle$$
+- SBF3: $\forall v, w \in V:$ $$\langle v, w \rangle = \overline{\langle w, v \rangle}$$
+## Bemerkung
+Aus HF1 und HF3 folgt HF2

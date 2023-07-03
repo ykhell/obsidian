@@ -1,0 +1,2 @@
+Sei $\beta \in \mathrm{Bil}(V), \underline B$ eine [[Basis]] von $V$, der Rang von $\beta$ ist $$\mathrm{Rang}(\beta) = \mathrm{Rang}(\mathrm{Mat}^\underline B_\underline B(\beta))$$
+Gelte $\mathrm{Rang}(\beta) = \dim V$, so heißt $\beta$ eine [[Nichtausgeartete Bilinearform]].

@@ -1,4 +1,4 @@
-Eine quadratische [[Matrix]] heißt [[Orthogonalität|orthogonal]], falls
+Eine quadratische [[Matrix]] heißt [[Orthogonale Vektoren|orthogonal]], falls
 $$AA^T = 1_n$$
 
 # Eigenschaften

@@ -1,0 +1,1 @@
+Sei $R$ ein [[Ring]], $S \subseteq R$ eine [[Teilmenge - Obermenge|Teilmenge]], $S$ heißt Unterring $\iff 0, 1 \in S$ und $\forall r, s \in S: r-s, r \cdot s \in S$

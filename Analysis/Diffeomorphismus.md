@@ -1,0 +1,1 @@
+Eine [[Bijektivität|Bijektion]] $f: U \to V$ heißt $C^r$-Diffeomorphismus, wenn $f$ und $f^{-1}$ $C^r$-Abbildungen sind. Da $r \geq 0$, verlangen wir also stets die Stetigkeit von $f$ und $f^{-1}$, d.h. $f$ ist bereits ein [[Homöomorphismus]].

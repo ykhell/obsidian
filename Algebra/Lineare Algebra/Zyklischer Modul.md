@@ -1,0 +1,1 @@
+   Ein $R$-[[Modul]] $M$ heißt zyklisch, wenn $\exists d \in R : M \simeq R/(d)$

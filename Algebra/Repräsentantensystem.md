@@ -1,0 +1,1 @@
+Sei $M$ eine [[Menge]], $\sim$ eine [[Äquivalenzrelation]] auf $M$, sei $[m]_\sim$ die [[Äquivalenzklasse]] zu $m \in M$, und $M/\sim$ die [[Menge]] aller [[Äquivalenzklasse|Äquivalenzklassen]], ein [[Repräsentantensystem]] von $M/\sim$ ist eine [[Teilmenge - Obermenge|Teilmenge]] $\mathcal R \subseteq M$, sudass $\mathcal R \to M/\sim, m \mapsto [m]_\sim$ bijektiv.

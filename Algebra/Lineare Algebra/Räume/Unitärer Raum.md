@@ -1,1 +1,0 @@
-Ein [[Skalarproduktraum]] heißt [[Unitärer Raum]], falls $K = \Bbb C$

@@ -1,0 +1,1 @@
+Eine offene nichtleere [[Wegzusammenhängend|wegzusammenhängende]] [[Teilmenge - Obermenge|Teilmenge]] $U \subset \Bbb R^n$ heißt Gebiet.

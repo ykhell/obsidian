@@ -1,0 +1,1 @@
+Zu einem gegebenen [[Statistisches Modell|statistischen Modell]] $(\mathcal{X, F}, \{\mathbf{P}_\theta : \theta \in \Theta\})$ heißt eine Funktion $t: \mathcal X \to \Theta$ derart dass $t \circ X$ eine $\Theta$-wertige [[Zufallsvariable]] ist, eine Schätzfunktion, und die Zufallsvariable $\hat \theta = t \circ X$ heißt ein [[Schätzer]] für $\theta$.

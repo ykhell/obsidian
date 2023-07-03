@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4d335f214ce9af53",
+        "id": "243deeb10e495260",
         "type": "tabs",
         "children": [
           {
-            "id": "262278119b4ecf0d",
+            "id": "8ebffd23a26b3118",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Lineare Algebra/Lineare Algebra 2/§19 Moduln über Hauptidealringen.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -34,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.50260543823242
+    "width": 200
   },
   "right": {
     "id": "e1498401de033fdc",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algebra/Lineare Algebra/Lineare Algebra 2/§19 Moduln über Hauptidealringen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algebra/Lineare Algebra/Lineare Algebra 2/§19 Moduln über Hauptidealringen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algebra/Lineare Algebra/Lineare Algebra 2/§19 Moduln über Hauptidealringen.md"
+              }
             }
           }
         ]
@@ -138,22 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "262278119b4ecf0d",
+  "active": "8ebffd23a26b3118",
   "lastOpenFiles": [
-    "Analysis/Abbildungen/Exponentialfunktion.md",
-    "Zahlentheorie/P-adische Zahlen/p-adische Ganze Zahlen.md",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.pdf",
-    "Zahlentheorie/P-adische Zahlen/p-adische Zahlen.md",
-    "Zahlentheorie/P-adische Zahlen/p-adischer Betrag.md",
-    "Zahlentheorie/P-adische Zahlen/p-adische Bewertung.md",
-    "Zahlentheorie/P-adische Zahlen/p-adische Metrik.md",
-    "Algebra/Ringtheorie/Quotientenkörper.md",
-    "Algebra/Ringtheorie/Faktorring.md",
-    "Algebra/Ringtheorie/Ringhomomorphismus.md",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.aux",
-    "Zahlentheorie/P-adische Zahlen/Talk/talk.log",
-    "Algebra/Distributivität.md",
-    "Algebra/Ringtheorie/Ring.md",
-    "Algebra/Gruppentheorie/Halbgruppe.md"
+    "Algebra/Lineare Algebra/Minimalpolynom.md",
+    "Algebra/Lineare Algebra/Lineare Algebra 2/§19 Moduln über Hauptidealringen.md",
+    "Annulatorideal.md",
+    "Algebra/Lineare Algebra/Lineare Algebra 2/§18 Moduln.md",
+    "Algebra/Lineare Algebra/Erzeugendensystem.md",
+    "Algebra/Lineare Algebra/Lineare Hülle.md",
+    "Algebra/Lineare Algebra/Lineare Algebra 2/§17 Hauptidealringe.md",
+    "Algebra/Ringtheorie/Teilbarkeitslehre/Chinesischer Restsatz.md",
+    "Algebra/Ringtheorie/Produktring.md",
+    "Algebra/Lineare Algebra/Vektorräume/Direkte Summe.md",
+    "Algebra/Ringtheorie/Teilbarkeitslehre/Teilerkettenbedingung.md",
+    "Algebra/Ringtheorie/Teilbarkeitslehre/Faktorieller Ring.md",
+    "Algebra/Ringtheorie/Primideal.md",
+    "Algebra/Ringtheorie/Reduzibles Element.md",
+    "Algebra/Ringtheorie/Irreduzibles Element.md",
+    "Algebra/Ringtheorie/Primelement.md",
+    "Algebra/Ringtheorie/Teilbarkeitslehre/Sätze über Hauptidealringe.md",
+    "Algebra/Ringtheorie/Sätze über Primideale und Primelemente.md",
+    "Algebra/Lineare Algebra/Lineare Algebra 2/§16 Ringe.md",
+    "Algebra/Ringtheorie/Euklidischer Ring.md",
+    "Algebra/Ringtheorie/Euklidische Funktion.md",
+    "Algebra/Ringtheorie/Teilbarkeitslehre/Teilerfremdheit.md",
+    "Algebra/Ringtheorie/Teilbarkeitslehre/Kleinstes gemeinsames Vielfaches.md",
+    "Algebra/Ringtheorie/Teilbarkeitslehre/Größter gemeinsamer Teiler.md",
+    "Algebra/Ringtheorie/Assoziiertheit.md",
+    "Algebra/Repräsentantensystem.md",
+    "Algebra/Lineare Algebra/Lineare Algebra 1/Bosch Lineare Algebra.pdf",
+    "Algebra/Plaumann-Algebra.pdf",
+    "Algebra/Lineare Algebra/Lineare Algebra 2/XXLA2.pdf",
+    "Algebra/Lineare Algebra/Lineare Algebra 2/LA2.pdf",
+    "Algebra/Ringtheorie/Polynome",
+    "Algebra/Lineare Algebra/Lineare Gleichungssysteme",
+    "Algebra/Lineare Algebra/untitled folder",
+    "Algebra/Lineare Algebra/Determinanten",
+    "Algebra/Lineare Algebra/Eigentheorie",
+    "Wahrscheinlichkeitstheorie/Literatur/Norbert Henze - Stochastik für Einsteiger_ Eine Einführung in die faszinierende Welt des Zufalls (German Edition)-Springer Spektrum (2018).pdf"
   ]
 }

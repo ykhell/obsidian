@@ -1,0 +1,4 @@
+Seien $p, q \in U \underset{\text{offen}}\subset \Bbb R^n$, seien $\gamma_0, \gamma_1 : [a,b] \to U$ Kurven von $p$ nach $q$. Eine **Homotopie** zwischen $gamma_0$ und $\gamma_1$ ist eine [[Stetigkeit|stetige Funktion]] $$H: [0,1] \times [a,b] \to U$$
+Sei $H_s(t) := H(s,t)$. Wir fordern die Eigenschaften $H_0 = \gamma_0, H_1 = \gamma_1, H_s(0), H_s(1)$ ist konstant in $s$. Wir sagen auch $\gamma_0, \gamma_1$ sind **homotop** zueinander. $H$ heißt [[Stückweise Cr-Kurve|stückweise]] $C^1$, wenn $t \mapsto H(s,t)$ und $s \mapsto H(s,t)$ stückweise $C^1$ sind.
+
+Anschaulich können wir und vorstellen, dass $H$ durch Verformung $\gamma_0$ stetig in $\gamma_1$ überführt.

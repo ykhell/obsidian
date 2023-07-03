@@ -1,3 +1,6 @@
+# Definition
+Eine [[Bilinearform]] $\beta$ heißt nicht-ausgeartet, falls $\mathrm{Rang}(\beta) = \dim V$
+
 Jede [[Bilinearform]] $B$ definiert zwei [[Lineare Abbildung|lineare Abbildungen]] 
 $$B_l\colon V\to W^*,\quad v\mapsto\left(w\mapsto B(v,w)\right)$$
 $$B_r\colon W\to V^*,\quad w\mapsto\left(v\mapsto B(v,w)\right)$$

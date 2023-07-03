@@ -1,1 +1,1 @@
-Sei $R$ ein [[Integritätsbereich]], dann heißt $R$ ein Hauptidealring wenn alle [[Ideal|Ideale]] [[Hauptideal|Hauptideale]] sind.
+Sei $R$ ein [[Integritätsbereich]], dann heißt $R$ ein Hauptidealring wenn alle [[Ideal|Ideale]] auch [[Hauptideal|Hauptideale]] sind.

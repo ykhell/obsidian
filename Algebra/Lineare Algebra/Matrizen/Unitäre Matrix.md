@@ -1,4 +1,4 @@
-Eine unitäre Matrix ist eine komplexe quadratische Matrix, deren Zeilen- und Spaltenvektoren [[Orthonormalität|orthonormal]] bezüglich des [[Standardskalarprodukt]] sind. Damit ist die Inverse einer unitären Matrix gleichzeitig ihre Adjungierte. 
+Eine unitäre Matrix ist eine komplexe quadratische Matrix, deren Zeilen- und Spaltenvektoren [[Orthonormale Vektoren|orthonormal]] bezüglich des [[Standardskalarprodukt]] sind. Damit ist die Inverse einer unitären Matrix gleichzeitig ihre Adjungierte. 
 
 Eine unitäre Matrix ist eine quadratische [[Matrix]], deren [[Adjungierte Matrix]] gleich ihre [[Inverse Matrix]] ist.
 

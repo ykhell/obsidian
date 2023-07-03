@@ -1,0 +1,1 @@
+Sei $V$ ein $K$-[[Vektorraum]], $\varphi \in \mathrm{End}_K(V)$, dann heißt ein [[Untervektorraum|Unterraum]] $U \subseteq V$ $\varphi$-invariant $\iff \varphi(U) \subseteq U$.

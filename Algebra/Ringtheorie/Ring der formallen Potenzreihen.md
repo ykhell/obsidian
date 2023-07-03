@@ -1,2 +1,0 @@
-Für einen [[Kommutativer Ring|kommutativen Ring]] $R$ mit eins bezeichnet $R[[X]]$ den [[Ring]] der formalen Potenzreihen über $R$ in der Unbestimmten $X$. Er ist [[Isomorphismus|isomorph]] zum [[Ring]] $R^{\Bbb{N}_0}$ der [[Folge|Folgen]] $(a_0, a_1, \dots)$, sodass
-$$\sum^{\infty}_{n=0}a_nX^n$$

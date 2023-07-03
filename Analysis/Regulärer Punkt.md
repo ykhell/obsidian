@@ -1,0 +1,2 @@
+Sei $U \subset \Bbb R^n, V \subset \Bbb R^n$ offen, $p \in U$ ein Punkt im Definitionsbereich von $f: U \xrightarrow{C^1}V$. Wir bezeichnen $p$ als regulären Punkt der [[Abbildung]] $f$, wenn $(Df)(p)$ invertierbar ist, d.h. vollen [[Rang]] hat, also
+$$p \text{ ist regulärer Punkt} \iff \det (Df(p)) \neq 0$$

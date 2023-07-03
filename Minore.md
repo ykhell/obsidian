@@ -1,0 +1,1 @@
+Eine $\scr k$-Minore von $A$ ist die [[Determinante]] einer $\scr k \times k$-[[Untermatrix]] von $A$.
