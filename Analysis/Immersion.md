@@ -10,5 +10,3 @@ $$\mathrm{Rang}((Df)(t)) = k, \forall t \in T$$
 4. Sei speziell $k = 1$ und $T \subset \Bbb R$ offen, in diesem Fall ist eine Immersion $\varphi: T \to \Bbb R^n$ nichts anderes als eine nicht-singuläre [[Kurve]].
 5. Ist $k = n$, also $T$ offen in $Bbb R^n$, so ist eine Immersion eine lokal umkehrbare Abbildung.
 
-## Satz 2.2
-Sei $T \subset \Bbb R^k$ offen und $\varphi : T \to \Bbb R^n$ eine $C^1$-Immersion, dann existiert zu jedem $t_0 \in T$ eine [[Umgebung]] $V \subset T$, sodass $\varphi|_V: V \to \varphi(V)$ ein [[Homöomorphismus]] ist.

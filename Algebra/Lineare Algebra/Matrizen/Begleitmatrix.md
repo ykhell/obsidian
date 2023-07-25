@@ -1,4 +1,4 @@
-Die Begleitmatrix zu einem [[Normiertes Polynom|normierten Polynom]] $$f = T^n + \sum_{j=0}^{n-1} c_j T^j \in K[T] \setminus K$$
+Die Begleitmatrix zu einem [[Normiertes Polynom|normierten Polynom]] $n$-ten Grades $$f = \sum_{j=0}^{n} c_j T^j \in K[T] \setminus K$$
 ist $$B_f = \begin{pmatrix}
 0 & \cdots &  0 & - c_0 \\
 1 & \ddots & \vdots & \vdots\\

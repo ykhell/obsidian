@@ -12,7 +12,10 @@ $$f(x+\xi) = f(x) + A\xi + r(\xi),\quad \lim_{\xi \to 0}\frac{r(\xi)}{\|\xi\|} =
 Dies führt uns zu folgender Definition
 # Definition
 Sei $f: U \to \Bbb{R}^m, U \underset{\text{offen}}{\subset}\Bbb{R}^n, x \in U$, wir sagen $f$ ist total differenzierbar in $x$, wenn eine [[Lineare Abbildung]] $A: \Bbb{R}^n \to \Bbb R^m$ existiert, sodass
-$$f(x + \xi) = f(x) + A \cdot \xi + r(\xi), \lim_{\xi \to 0}\frac{r(\xi)}{\|\xi\|}$$
+$$f(x + \xi) = f(x) + A \cdot \xi + r(\xi), \lim_{\xi \to 0}\frac{r(\xi)}{\|\xi\|} = 0$$
+$$\implies \frac{f(x+\xi)-f(x)-A\xi}{\|\xi\|} = \frac{r(\xi)}{\|\xi\|}$$
+also wenn
+$$\lim_{\xi\to 0}\frac{\|f(x+\xi)-f(x)-A\xi\|}{\|\xi\|} = 0$$
 Wir können $\xi$ und $f$ als $\xi=(\xi_1, ..., \xi_n)^T$ und $f=(f_1, ..., f_n)^T$ auffassen.
 
 ## Satz 3.4.4

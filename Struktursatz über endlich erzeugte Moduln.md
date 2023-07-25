@@ -1,3 +1,0 @@
-Sei $R$ ein [[Hauptidealring]] und $M$ ein [[Endlich erzeugter Modul]]
-1. Es gilt $$M \simeq R^r \oplus \bigoplus_{i=1}^\ell R/_{(d_i)}$$für geeignete $r, \ell \in \Bbb N_0$ und $d_1 \mid \cdots \mid d_\ell$ in $R$ wobei $$d_1 \neq 1, d_\ell \neq 0$$alternativ $$R \supsetneq (d_1) \supseteq d_r \supseteq \cdots \supseteq (d_\ell) \supsetneq (0)$$
-2. $r, \ell \in \Bbb N_0$ und die [[Ideal|Ideale]] $(d_1) \supseteq \cdots \supseteq (d_\ell)$ sind eindeutig (dabei $R \supsetneq (d_1)$ und $(d_\ell) \supsetneq (0)$)

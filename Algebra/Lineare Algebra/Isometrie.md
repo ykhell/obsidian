@@ -1,0 +1,3 @@
+Sine $V, W$ zwei [[Normierter Raum|normierte Räume]] mit [[Norm]] $\|\cdot \|_V$ bzw. $\| \cdot\|_W$ und ist $\Psi: V \to W$ ein [[Lineare Abbildung|Vektorraumhomomorphismus]], so ist diese [[Abbildung]] genau dann eine lineare Isometrie, wenn sie die [[Norm]] erhält, wenn also für alle $v \in V$
+$$\|\Psi(v)\|_W = \|v\|_V$$
+Oder wenn die [[Darstellungsmatrix]] eine [[Orthogonale Matrix]] ist. D.h. wenn $$A^* = A^{-1}$$

@@ -1,8 +1,11 @@
-Sei $V$ ein [[Hilbertraum]] mit einem [[Skalarprodukt]] und [[Vollständiger Raum|vollständig]], 
-Eine [[Projektion]] $P: V \to V$ auf $V$ heißt orthogonal, wenn
-$$\langle Px, y \rangle = \langle x, Py \rangle, \forall x , y \in V$$
+# Definition
+Sei $U \subseteq U$ ein [[Untervektorraum]], sei $u_1, ..., u_r$ eine [[Orthonormalbasis]] von $U$, definiere
+$$P_U: V \to U, v \mapsto \sum_{i=1}^r \langle v, u_i \rangle u_i$$ dann gelten:
+- $P_U$ ist [[Lineare Abbildung|linear]] 
+- $\forall u \in U : P_U (u) = u$
+- $\mathrm{Kern}(P_u) = U^\perp$
+- $P_U^2 = P_U$  und $P_{U^\perp} = \mathrm{id}_V - P_U$ 
+$P_U$ heißt [[Orthogonale Projektion]] von $V$ auf $U$.
 
-Eine quadratische [[Matrix]] $P$ heißt orthogonale Projektion wenn 
-$$P^2 = P = P^T, P \in M_{n \times n} (\Bbb R)$$
-$$P^2 = P = P^*, P \in M_{n \times n} (\Bbb C)$$
-Wobei $P^T$ ist die [[Transponierte Matrix]], $P^*$ die [[Adjungierte Matrix]].
+# [[Darstellungsmatrix]]
+$$\mathrm{Mat}^\underline B_\underline B (P_U) = (P_U(e_i))_{1 \leq i \leq n}$$

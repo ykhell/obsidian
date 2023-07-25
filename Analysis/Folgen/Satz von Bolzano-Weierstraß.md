@@ -1,1 +1,2 @@
-Sei $X$ ein [[Kompakter Raum|kompakter]] [[Metrischer Raum]]. dann besitzt jede [[Folge]] $(x_n) \subset X$ eine konvergente [[Teilfolge]].
+Sei $X$ ein [[Kompakter Raum|kompakter]] [[Metrischer Raum]]. dann besitzt jede [[Folge]] $(x_n) \subset X$ eine konvergente [[Teilfolge]]. Die Umkehrung gilt auch für metrischen Räumen, also gilt:
+Ein metrischer Raum $X$ ist genau dann kompakt, wenn jede Folge $(x_n)\subset X$ eine konvergente Teilfolge besitzt.

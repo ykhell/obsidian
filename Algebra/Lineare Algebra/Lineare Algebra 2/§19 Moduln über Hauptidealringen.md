@@ -4,6 +4,7 @@
 	1. $A_{i,j}^{\lambda, \ell}$ Addition von $j$-ten Zeile zu $i$
 	2. $S_{i,j}^\ell$ Vertauschung von $i$ und $j$
 	3. $M_i^\lambda$ Skalarmultiplikation von $i$ mit $\lambda$
+
 #LA2-16 
 # Lemma 19.1 (über [[Elementarmatrix|Elementarmatrizen]])
 Für $A \in M_{n \times n}(R)$ gelten
@@ -45,7 +46,7 @@ d_1 & \cdots & 0 \\
 \end{pmatrix}\in M_{m \times n}(R), n \leq m$$
 Für geeignete $d_1, ..., d_\ell \in R$, so dass
 $$d_1 \mid d_2 \mid \cdots \mid d_\ell, \quad \ell = \min(m,n)$$
-Dabei gilt $$d_1 \simeq \mathrm{ggT}(a_ij)_{\substack{1 \leq i \leq m, \\ 1 \leq j \leq n.}}$$
+Dabei gilt $$d_1 \simeq \mathrm{ggT}(a_{ij})_{\substack{1 \leq i \leq m, \\ 1 \leq j \leq n.}}$$
 2. Ist $R$ ein [[Hauptidealring]], so lässt sich jedes $A \in M_{m \times n}(R)$ durch E1 - E4 und E1' - E4' über führen in eine [[Diagonalmatrix]] $D$ wie oben.
 3. Jede [[Matrix]] in $GL_n(R)$ ist das Produkt von Elementarmatrizen, falls $R$ ein [[Euklidischer Ring]] und von Elementaren Matrizen zusammen mit den Matrizen $L_i^{\delta, n}$, falls $R$ ein [[Hauptidealring]].
 4. Die Diagonaleinträge $d_1, ..., d_\ell$ sind eindeutig bis auf [[Assoziiertheit]] und heißen [[Elementarteiler]] von $A$.
@@ -84,8 +85,8 @@ M & n > m \\ M \oplus R^{m-n} & n \leq m
 # Satz 19.8 [[Struktursatz über endlich erzeugte Moduln]]
 
 # Definition 19.9
-- $r$ heißt freier Rang von $M$
-- Die $d_1, ..., d_\ell$ aus dem [[Struktursatz über endlich erzeugte Moduln|19.8]] heißen Elementarteiler zu $M$, die $d_i$ sind eindeutig bis auf [[Assoziiertheit]].
+- $r$ heißt [[freier Rang]] von $M$
+- Die $d_1, ..., d_\ell$ aus dem [[Struktursatz über endlich erzeugte Moduln|19.8]] heißen [[Elementarteiler]] zu $M$, die $d_i$ sind eindeutig bis auf [[Assoziiertheit]].
 - Für $R = \Bbb Z$ wähle die Elementarteiler stets in $\Bbb N \setminus \{1\}$, für $R = K[T]$ stets normiert in $K[T] \setminus K$ $\implies$ für $R \in (K[T], \Bbb Z)$ sind die Elementarteiler eindeutig.
 
 # Lemma 19.10
@@ -134,7 +135,6 @@ Sei $V$ ein [[Endlich erzeugter Vektorraum]] und $\varphi \in \mathrm{End}_K(V)$
 Sei $V$ ein endlichdimensionaler [[Vektorraum]] über $K$ einem [[Körper]], $\varphi \in \mathrm{End}_K(V)$, seien $f_1, ..., f_\ell \in K[T] \setminus K$ die normierten [[Elementarteiler]] von $M_{(V, \varphi)}$. Dann existiert eine [[Basis]] $\underline B$ von $\varphi$, so dass $$\mathrm{Mat}^\underline B_\underline B (\varphi) = \mathrm{diag}(B_{f_1}, ..., B_{f_\ell})$$ eine [[Blockmatrix]]. Die Matrix heißt rationale kanonische Form oder [[Frobeniusnormalform]] zu $\varphi$. 
 Bezeichnung: $f_1, ..., f_\ell$ heißen auch die [[Elementarteiler]] von $\varphi$.
 
-
 # Definition 19.19
 1. [[Zyklischer Modul]]
 2. [[Zyklischer Vektor]]
@@ -182,7 +182,48 @@ Sei $R$ ein [[Integritätsbereich]], $M$ ein $R$-[[Modul]], $r \in R \setminus \
 # Proposition 19.28
 Sei $M \neq 0$ ein endlich erzeugter $R$-[[Torsionsmodul]], sei $d$ ein Erzeuger von $\mathrm{Ann}(M) \supsetneq (0)$, schreibe $d \simeq \prod^{t}_{i=1}p_i^{s_i}$ mit $p_1 \in \Bbb P$ paarweise verschieden und $s_1, ..., s_t \in \Bbb N$, dann gelten:
 1. $M$ ist ein $R/(d)$-[[Modul]]
-2. Sei $(e_1, ...,e_t)$ die [[Idempotente Zerlegung der eins]] $ \in R/(d)$ zum [[Isomorphismus]] $$\psi: {}^R/_{(d)} \xrightarrow{\sim}\bigtimes_{i=1}^t \huge{}^R/_{(p_i^{s_t})}\normalsize, e_i \mapsto (\bar 0, ..., \bar 0, \bar 1_i, \bar 0, ..., \bar 0)$$ dann gelten:
+2. Sei $(e_1, ...,e_t)$ die [[Idempotente Zerlegung der eins]] $\in R/(d)$ zum [[Isomorphismus]] $$\psi: {}^R/_{(d)} \xrightarrow{\sim}\bigtimes_{i=1}^t \huge{}^R/_{(p_i^{s_t})}\normalsize, e_i \mapsto (\bar 0, ..., \bar 0, \bar 1_i, \bar 0, ..., \bar 0)$$ dann gelten:
 	   1. $\psi : \bigoplus_{i=1}^t e_i M \to M, (m_i) \mapsto \sum m_i$ ist ein $R$[[Modulhomomorphismus|Modulisomorphismus]]
 	   2. $e_iM = M[p_i^{s_i}] = M(p_i), i = 1, ..., t$
 	   3. (Primärzerlegung von $M$) $$M \cong \bigoplus_{i=1}^tM(p_i) \simeq \bigoplus_{p \in \Bbb P} M(p)$$
+
+#LA2-21 
+# Übung 19.29
+Für $r, r' \in R \setminus \{0\}$ und $M$ ein $R$-[[Modul]] gelten:
+1. $(M[r])[r'] = M[\mathrm{ggT}(r,r')]$
+2. $$\left({}^R/_{(r)}\right)[r'] = {}^{\left({}^r/_{\mathrm{ggT}(r,r')}\right)R}\big/_{Rr} \cong {}^R/_{(\mathrm{ggT}(r,r'))R}$$
+# Korollar 19.30
+$R$ ein [[Hauptidealring]], $M$ ein [[Endlich erzeugter Modul]], dann
+1. $M \simeq \mathrm{Tors}(M) \oplus {}^M/_{\mathrm{Tors}(M)}$ und ${}^M/_{\mathrm{Tors}(M)}$ ist ein [[Freier Modul]].
+2. $\mathrm{Tors}(M) \simeq \bigoplus_{p \in \Bbb P}M(p)$
+
+# Korollar 19.31
+Sei $R$ ein [[Hauptidealring]], $M$ ein endlich erzeugter $R$-[[Torsionsmodul]] mit [[Elementarteiler]] $d_1 \mid \cdots \mid d_\ell, d_i \in R \setminus (\{0\} \cup R^\times)$, sei $\Bbb P_M = \{p \in \Bbb P : p \mid d_\ell\}$, schreibe $$d_i = \prod_{p \in \Bbb P_M}p^{e_{p,i}}, e_{p,i}:={v_p(d_i)} \text{ (Vielfachheit von }p )$$
+sodass $0 \leq e_{p,1} \leq e_{p,2} \leq \cdots \leq e_{p, \ell}$ (wegen $d_1 \mid \cdots \mid d_\ell$), dann gilt $$M(p) \cong \bigoplus_{i=1}^\ell {}^R/_{(p^{e_{p,i}})}, \ p \in \Bbb P_M$$und $M(p) = 0$ für $p \in \Bbb P \setminus \Bbb P_m$, und 
+$$M = \bigoplus_{p \in \Bbb P} M(p) = \bigoplus_{p \in \Bbb P_M} \left(\bigoplus_{i=1}^\ell {}^R/_{(p^{e_{p,i}})} \right)$$
+(die p-primärzerlegte Normalform von $M$), dabei sind $\Bbb P_M, \ell, e_{p,i}$ eindeutig bestimmt.
+
+# Korollar 19.32
+Sei $M$ eine endliche [[Abelsche Gruppe|abelsche Gruppe]] (ein endlicher $\Bbb Z$-[[Modul]]), seien $p_1, ..., p_s$ die paarweise verschiedenen Primteiler von $M$, dann existieren eindeutige $t_j \in \Bbb N$, für $j = 1, ..., s$ und eindeutige $e_{j,1} \leq \cdots \leq e_{j,t_j} \in \Bbb N$, sodass 
+$$M \simeq \bigoplus_{j=1}^s \left(\bigoplus_{i=1}^{t_j} {}^{\Bbb Z}/_{(p_j^{e_{j,i}})}\right)$$($j$ beschreibt Primzahl $p_j$)
+
+# Korollar 19.33
+Sei $M$ ein endlich erzeugter $K[T]$-[[Torsionsmodul]] mit [[Elementarteiler]] $f_1 \mid \cdots \mid f_\ell$ ($f_i \in K[T] \setminus K$ normiert), seien $p_1, ..., p_s$ die irreduziblen normierten paarweise verschiedenen Primteiler von $f_\ell$, sei für $j = 1, ..., s$ $$t_j = \# \{i \in \{1, ..., \ell\} : p_j \mid f_i\}$$und sei $e_{j,i} = v_{p_j}(f_{\ell - t_j + i})$ für $i \in \{1, ..., j\}$, dann gilt
+$$M \cong \bigoplus_{j=1}^s \left(\bigoplus_{i=1}^{t_j} {}^{K[T]}/_{(p_j^{e_{j,i}})}\right)$$
+
+#LA2-22
+# Korollar 19.34
+Sei $0 \neq V$ ein endlichdimensionaler [[Vektorraum]] über $K$, und $\varphi \in \mathrm{End}_{K}(V)$, dann lässt sich $V$ schreiben als direkte Summe $$V = \bigoplus_{u=1}^{t}V_{u}$$
+von $\varphi$-invarianter Unverräumen $V_{u}$, so dass $\varphi_{u} = \varphi|_{V_{u}}$ eine [[Darstellungsmatrix]] der Form $B_{q_{u}}e_{u}$ oder alternativ $B_{q_{u},e_{u}}$ hat für $q_{u} \in K[T]$ irreduzibel und normiert und $e_{u} \in \mathbb{N}$.
+Dabei dürfen sich in der Liste $(q_{u})_{u \in \{1, ..., t\}}$ Polynome wiederholen. Die sich für $\varphi$ ergebenden blockdiagonalen Darstellungsmatrizen
+$$\mathrm{diag}((B_{q_{i}}e_{i})_{1 \leq i \leq t})$$oder
+$$\mathrm{diag}((B_{q_{i},e_{i}})_{1 \leq i \leq t})$$
+heißen [[Weierstraßnormalform]]  bzw. verallgemeinerte [[Jordannormalform]] von $\varphi$. Sind alle $q_{u}$ linear von der Form $T - \lambda_{u}$ für ein $\lambda_{u} \in K$, so heißt die Matrix rechts die Jordannormalform zu $\varphi$ und wir schreiben
+$$\mathrm{diag}((J_{\lambda_{i}, e_{i}})_{1 \leq i \leq t})$$
+Dabei gelten:
+1. $\prod_{u=1}^t q_{u}^{e_{u}} = P_{\varphi}$
+2. Gilt $$M_{(V, \varphi)} \cong \bigoplus_{j=1}^{s} \underbrace{\left(\bigoplus_{i=1}^{t_{j}} {}^{K[T]}/_{(p_{j}^{e_{j,i}})}\right)}_{M_{(V, \varphi)}(p_{j})}$$
+wie in Korollar 19.33.
+$(p_{1, ..., p_{s}})$ die paarweise verschiedene Primteiler normiert von $P_{\varphi}$, so gilt: Die listen
+$$(q_{u}^{e_{u}})_{u \in \{1, ..., t\}} = ((p_{i}^{e_{ij}})_{i \in 1, ..., t})_{j \in \{1, ..., s\}}$$
+sind bis auf Permutation dieselben.

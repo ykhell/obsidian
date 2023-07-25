@@ -1,0 +1,1 @@
+Menge aller [[Normalenvektor|Normalenvektoren]] auf einer [[Untermannigfaltigkeit]].

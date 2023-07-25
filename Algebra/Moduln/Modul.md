@@ -6,3 +6,7 @@ so dass gelten
 3. [[Normierung]]:m $\forall m \in M:$ $$1 \cdot m = m$$
 # Bemerkungen
 - Ist $R$ ein [[Körper]], so sind $R$-Moduln $R$-[[Vektorraum|Vektorräume]] (und umgekehrt) und $R$-Linearität hat dieselbe Bedeutung.
+
+
+
+

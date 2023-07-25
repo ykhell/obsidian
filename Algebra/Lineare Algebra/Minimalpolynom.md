@@ -5,3 +5,4 @@ Das Minimalpolynom $p$ einer quadratischen $n \times n$-[[Matrix]] $A$ über ein
 - $\mu_A(\lambda) = 0$
 - $\chi_A(\lambda) = 0$
 - $\lambda$ ist ein [[Eigenwert]] von $A$.
+

@@ -1,4 +1,4 @@
-#LA2-03 
+LA2-03 
 # Definition 15.1 
 - [[Bilinearform]]
 - $\mathrm{Bil}(V) = \{\beta : V \times V \to K \mid \beta \text{ bilinear}\}$

@@ -1,6 +1,8 @@
 #LA2-01
 # Definition 14.1 
-- [[Sesquilineare Abbildung]]
+- [[Sesquilineare Abbildung]]:
+	Eine [[Abbildung]] $f: V \to W$ heißt c-linear oder sesquilinear wenn $\forall \lambda \in K, v, v' \in V :$
+$$f(\lambda v+v') = \bar \lambda f(v) + f(v')$$
 # Definition 14.2 
 - [[Symmetrische Bilinearform]]
 - [[Hermitesche Form]]
@@ -18,7 +20,7 @@
 - [[Symmetrische Matrix]]
 - [[Hermitesche Matrix]]
 
-# Satz 14.6
+# Satz 14.6 ([[Hauptminorenkriterium]])
 Sei $\langle \cdot , \cdot \rangle$ eine [[Symmetrische Bilinearform]]/[[Hermitesche Form]] auf $V$ mit [[Darstellungsmatrix]] $(a_{ij})_{\substack{1 \leq i \leq n \\ 1 \leq j \leq n}} = \mathbf{Mat}_\underline B (\langle \cdot , \cdot \rangle)$, dann ist $\langle \cdot, \cdot \rangle$ genau dann ein [[Skalarprodukt]], wenn $$\forall \ell \in \{1, ..., n\} : \det((a_{ij})_{1 \leq i,j \leq \ell}) \in \Bbb R_{>0}$$
 
 # Definition 14.7
@@ -42,7 +44,7 @@ $\forall v, w \in V$ gelten
 - [[Orthogonale Untervektorräume]]
 - [[Orthogonale Zerlegung]]
 
-# Definition 14.12
+# Definition 14.12 ([[Orthogonale Projektion]])
 Sei $U \subseteq U$ ein [[Untervektorraum]], sei $u_1, ..., u_r$ eine [[Orthonormalbasis]] von $U$, definiere
 $$P_U: V \to U, v \mapsto \sum_{i=1}^r \langle v, u_i \rangle u_i$$ dann gelten:
 - $P_U$ ist [[Lineare Abbildung|linear]] 
@@ -81,7 +83,7 @@ $f \in  \mathrm{End}(V)$ heißt
 Sei $f \in  \mathrm{End}(V)$, $\underline B$ eine [[Orthonormalbasis]] von $V$, $A = \mathrm{Mat}^\underline B_\underline B(f)$ , dann
 - $f$ ist [[Selbstadjungierter Endomorphismus|selbstadjungiert]] $\iff A$ ist [[Selbstadjungierte Matrix]].
 - $f$ orthog/unit $\iff A^* A = A A^* = \mathbf 1_n$ 
-- $f$ normal $\iff A^*A = AA*$.
+- $f$ normal $\iff A^*A = AA^*$.
 
 # Proposition 14.18
 Sei $f \in \mathrm{End(V)}$ mit [[Charakteristische Polynom]] $P_f$, dann \exists
@@ -100,7 +102,7 @@ Sei $f \in \mathrm{End}(V)$ normal und $\lambda, \lambda' \in \Bbb C$, dann
 
 # Satz 14.20 [[Spektralsatz (Komplex)]]
  Sei $V$ ein $\Bbb C$-[[Vektorraum]], $f \in \mathrm{End}(V)$, 
-- $f$ normal und $\exists$ [[Orthonormalbasis]] $\underline B$ von $V$ aus [[Eigenvektor|Eigenvektoren]] zu $f$. $(*)$
+- $f$ normal $\iff \exists$ [[Orthonormalbasis]] $\underline B$ von $V$ aus [[Eigenvektor|Eigenvektoren]] zu $f$. $(*)$
 - $f$ unitär $\iff (*)$ und alle Eigenwerte $|\lambda_i| = 1, \forall i$
 - $f$ selbstadjungiert $\iff (*)$ und alle $\lambda_i \in \Bbb R$.
 

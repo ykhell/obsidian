@@ -8,3 +8,4 @@ $$(m, m') \mapsto (m_i)_{i \in \{1, ..., \ell\}} \cdot (m'_i)_{i \in \{1, ..., \
 
 # Beispiel Schreibweise
 $$R^n := \bigoplus_{1 \leq i \leq n} R_i$$
+$$V_n(R) = \bigoplus_{i=1}^nR = R^n$$

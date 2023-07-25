@@ -130,7 +130,7 @@ Dann gelten:
 2. Gilt $x_{i+1} = 0$, so ist $x_i \simeq \mathrm{ggT}(x_0, x_1)$
 3. $\exists a, b \in R: x_i = ax_0 + bx_1$ ([[Bézout Eigenschaft]])
 
-# Korollat 16.31
+# Korollar 16.31
 In einem [[Euklidischer Ring|euklidischen Ring]] $R$ existieren zu je 2 Elementen $x, y \in R$ ein [[Größter gemeinsamer Teiler|ggT]] und ein [[Kleinstes gemeinsames Vielfaches|kgV]].
 
 #LA2-10 

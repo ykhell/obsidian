@@ -1,0 +1,1 @@
+Ein $v \in \Bbb R^n$ heißt Normalenvektor auf $M \subset \Bbb R^n$ in $p$, wenn $v$ [[Orthogonale Vektoren|orthogonal]] zu allen Elementen von $T_pM$ ist, d.h. $\forall w \in T_pM : \langle v, w \rangle = 0$. Wir bezeichnen die Menge aller Normalenvektoren auf $M$ in $p$ mit $N_pM$ ([[Normalenraum]])
