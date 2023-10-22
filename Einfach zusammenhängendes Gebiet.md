@@ -1,0 +1,1 @@
+Ein [[Gebiet]] heißt einfach zusammenhängend, wenn jede [[Geschlossene Kurve]] [[nullhomotop]] ist.

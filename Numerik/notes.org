@@ -1,0 +1,5 @@
+#+title: Notes
+
+Einführung in Python Donnerstag 16:15-18:00 Mathematikon SR C
+
+Worum es geht/motivation

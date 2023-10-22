@@ -11,21 +11,21 @@
       "query": "path:Analysis",
       "color": {
         "a": 1,
-        "rgb": 7921746
+        "rgb": 7935
       }
     },
     {
       "query": "path:\"Algebra/Lineare Algebra\"",
       "color": {
         "a": 1,
-        "rgb": 14715730
+        "rgb": 16724736
       }
     },
     {
       "query": "path:Algebra",
       "color": {
         "a": 1,
-        "rgb": 16078422
+        "rgb": 16711680
       }
     },
     {
@@ -39,7 +39,14 @@
       "query": "path:Maßtheorie",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 28415
+      }
+    },
+    {
+      "query": "path:Engineering",
+      "color": {
+        "a": 1,
+        "rgb": 16514816
       }
     }
   ],
@@ -53,6 +60,6 @@
   "repelStrength": 9.25374348958333,
   "linkStrength": 1,
   "linkDistance": 234,
-  "scale": 0.10465468092002252,
+  "scale": 0.18091803314187527,
   "close": true
 }

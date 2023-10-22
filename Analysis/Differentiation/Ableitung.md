@@ -3,7 +3,7 @@ Die Differentiation ist ein Verfahren, das die Änderungsrate einer [[Abbildung|
 $$f'(x_0) = \lim_{x \to x_0} \frac{f(x) -f(x_0)}{x-x_0}$$
 wobei der Ausdruck auf der rechten Seite als Differenzenquotient bezeichnet wird.
 
-# Techniques
+# Regeln und Eigenschaften
 * Additivität: Für alle Funktionen $f(x)$ und $g(x)$ und einen Skalar $c$ gilt: $f'(x) + g'(x) = (f(x) + g(x))'$ und $cf'(x) = (cf(x))'$
 * Potenzregel: Für eine Funktion $f(x)$ und eine natürliche Zahl $n$ gilt: $(x^n)' = nx^{n-1}$
 * Produktregel: Für zwei Funktionen $f(x)$ und $g(x)$ gilt: $(f(x)g(x))' = f'(x)g(x) + f(x)g'(x)$

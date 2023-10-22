@@ -1,0 +1,1 @@
+Sei $\Omega$ eine beliebige [[Grundmenge]] und $\mathcal F$ eine [[Sigma-Algebra]] auf $\Omega$, dann heißt das Tupel $(\Omega, \mathcal F)$ ein Messraum oder messbarer Raum.

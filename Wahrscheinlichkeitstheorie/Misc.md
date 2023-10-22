@@ -1,0 +1,12 @@
+- $X \sim \mathrm{Pois}(\lambda),$
+	- $\Bbb EX = \lambda$
+	- $\mathbf{Var}(X) = \lambda$
+- $X \sim \mathrm{Bin}(n,p),$
+	-  $\Bbb EX =np$
+- $X \sim \mathrm{Exp}(\lambda),$
+	 - $\Bbb EX = \frac{1}{\lambda}$
+	 - $\mathbf{Var}(X) = \frac 1{\lambda^2}$
+- $X \sim \mathcal N(\mu, \sigma^2),$
+	- $\Bbb EX = \mu$
+	- $\mathbf{Var}(X) = \sigma^2$
+- 

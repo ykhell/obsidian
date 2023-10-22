@@ -1,5 +1,9 @@
-Ein Metrischer Raum ist ein [[Geordnetes Paar|Paar]] $(X, d)$ bestehent aus einer [[Menge]] $X$ und einer [[Metrik]] $d$ auf $X$. Man nennt $d(x,y)$ den Abstand oder die Distanz der Punkte $x$ und $y$ bzgl. der Metrik $d$.
+# Definition
+Ein Metrischer Raum ist ein [[Geordnetes Paar]] $(X, d)$, bestehend aus einer [[Menge]] $X$ und einer [[Metrik]] auf $X$.
 
 # Beispiele
-Die Menge $\Bbb R$ der [[Reelle Zahlen|reellen Zahlen]] und die Menge $\Bbb C$ der [[Komplexe Zahlen]] werden zu metrischen Räumen, wenn man als Abstand definiert
-$$d(x,y) := |x-y|, x,y \in \Bbb R \cup \Bbb C$$
+- $\Bbb R$ zusammen mit der [[Euklidische Metrik|euklidischen Metrik]]
+- Ein [[Skalarproduktraum]] $(V, \langle \cdot , \cdot \rangle)$ induziert eine [[Norm]] durch
+  $$\|\cdot\| : V \to \Bbb R_{\geq 0} : x \mapsto \langle x,x\rangle^{1/2}$$ und
+- Ein [[Normierter Raum]] $(V, \| \cdot \|)$ induziert eine [[Metrik]] durch 
+  $$d : V \times V \to \Bbb R_{\geq 0} : d(x, y) = \|x-y\|$$

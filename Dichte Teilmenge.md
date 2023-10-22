@@ -1,0 +1,2 @@
+Sei $X$ ein [[Metrischer Raum]], eine [[Teilmenge - Obermenge|Teilmenge]] $M \subset X$ heißt **dicht** in $X$, wenn eine der folgenden äquivalenten Aussagen gilt:
+- Die [[Abgeschlossene Hülle]] von $M$ ist $X$, also $$\overline M = X$$

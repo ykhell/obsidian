@@ -1,3 +1,6 @@
+---
+aliases: [Nabla, Nablaoperator]
+---
 Sei $f: U \to \Bbb R$ eine [[Abbildung|Funktion]], $U \subset \Bbb R^n$ offen, Sei $f$ [[Partielle Ableitung|partiell differenzierbar]] auf $U$ dann definiert
 $$V:U \to \Bbb R^n, u \mapsto (\partial_1f, ..., \partial_nf)(u)$$
 ein [[Vektorfeld]] auf $U$. Dabei wird 

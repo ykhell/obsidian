@@ -1,4 +1,5 @@
-Sei $X$ eine beliebige Menge, eine [[Abbildung]] $d: X\times X \to \Bbb R$ heißt [[Metrik]] auf $X$, wenn für beliebiege Elemente $x, y, z \in X$ die folgenden Eigenschaften gelten:
+Sei $X$ eine [[Menge]], eine Metrik ist eine [[Abbildung]] $$d : X \times X \to \Bbb R_{\geq 0}=[0, \infty)$$
+Sodass für alle $x, y, z \in X$ gilt
 1. Positiv Definitheit: $$d(x, y) \geq 0 \wedge d(x,y)=0 \iff x =y$$
 2. Symmetrie: $$d(x, y) = d(y,x)$$
 3. Dreiecksungleichung: $$d(x,y) \leq d(x,z) + d(z,y)$$

@@ -1,1 +1,1 @@
-Sei $f: U \xrightarrow{C^1} V$ eine [[Abbildung]] mit $U, V \subset \Bbb R^n$ offen. Sei $p \in U$ ein [[Regulärer Punkt]] in $f$, dann ist $f$ ein [[lokaler Diffeomorphismus]] um den Punkt $p$.
+Sei $f: U \xrightarrow{C^1} V$ eine [[Abbildung]] mit $U, V \subset \Bbb R^n$ offen. Sei $p \in U$ ein [[Regulärer Punkt]] in $f$, d.h. $\det Df(p) \neq 0$, dann ist $f$ ein [[lokaler Diffeomorphismus]] um den Punkt $p$.

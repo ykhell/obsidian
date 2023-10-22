@@ -1,0 +1,3 @@
+- [[Poissonverteilung]]
+- $X, Y$ unabhängig $X+Y \sim \mathrm{Pois}(\lambda_1 + \lambda_2)$
+- [[Poissonapproximation]]

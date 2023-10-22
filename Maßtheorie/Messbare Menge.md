@@ -1,1 +1,1 @@
-Sei $(\Omega, \mathcal A)$ ein [[Messraum]], eine [[Menge]] $A$ heißt messbare Menge, wenn $A \in \mathcal A$ ist.
+Sei $(\Omega, \mathcal A)$ ein [[Messbarer Raum]], eine [[Menge]] $A$ heißt messbare Menge, wenn $A \in \mathcal A$ ist.

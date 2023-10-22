@@ -1,3 +1,6 @@
-Sei $(X, d)$ ein [[Vollständiger Raum]] und $T: X \to X$ eine [[Kontraktion]].
-1. $T$ hat genau einen [[Fixpunkt]] $p$.
-2. Sei $x_0 \in X$ beliebig und die [[Folge]] $(x_n)$ definiert durch $x_{n+1} = Tx_n$ für alle $n \in \Bbb N$. Dann gilt $$\lim_{n \to \infty} x_n = p$$
+# Satz 6.2
+Sei $(V, \|\cdot\|)$ ein [[Banachraum]] und $\emptyset \neq A \underset{\text{abg.}}{\subset} V, \phi : A \to A$ eine [[Kontraktion]], d.h. $\exists 0 < \lambda < 1$ mit
+$$\|\phi(f)-\phi(g)\| < \lambda \|f-g\|, \forall f, g \in A$$
+Dann hat $\phi$ einen Fixpunkt in $A$, also einen Punkt $f_{0}$ mit $\phi(f_{0}) = f_{0}$.
+
+# Anwendungen

@@ -1,1 +1,0 @@
-If the total force $\mathbf F$, is zero, then $\dot{\mathbf p} = 0$ and the [[Linear Momentum]] $\mathbf p$ is conserved.
