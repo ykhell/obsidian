@@ -94,8 +94,8 @@ Sei $G$ eine Gruppe, $g  \in G, S \le G$, dann:
 Sei $G$ eine Gruppe und $S \subseteq G$ eine [[Teilmenge]], dann $\exists$ Kleinste Untergruppe $\langle S \rangle \subseteq G$, die $S$ umfasst.
 ## Beweis
 Definiere $$\langle S \rangle := \bigcap \{H \leq G \mid S \subseteq H\}. \ \square$$
-# Übung 14
-Sei $M$ ein Monoid, $S \subseteq M$ eine [[Teilmenge]], ein Wort aus $S$ ist ein Ausdruck $$s_{1} \cdot \cdots \cdot s_{n}, s_{i} \in S, n\in N$$
+# Übung 14 
+Sei $M$ ein [[Monoid]], $S \subseteq M$ eine [[Teilmenge]], ein Wort aus $S$ ist ein Ausdruck $$s_{1} \cdot \cdots \cdot s_{n}, s_{i} \in S, n\in N$$
 Dann gilt: $\{\text{Worte in } S \cup \{e\}\} = \langle S \rangle \le M$ ist das kleinste UM von M, das $S$ umfasst.
 Und ist $G$ eine Gruppe, so gilt $\{\text{Worte in } S \cup S^{-1} \cup \{e\}\} = \langle S \rangle \le G$ ist die kleinste UG von G, die $S$ umfasst.
 # Definition 15 ([[Erzeugendensystem]])
@@ -245,3 +245,4 @@ Sei $G$ eine endliche abelsche Gruppe, dann ist $G$ genau dann zyklisch, wenn $\
 - $\implies$: Sei $g \in G$ Erzeuger $\underset{19}\implies \mathrm{ord}(G) = \mathrm{ord}(g)$
 $$\mathrm{ord}(g) \mid \exp G, \exp G \mid \mathrm{ord}(G) \implies \exp G = \mathrm{ord}(G)$$
 - $\impliedby$: Wähle nach 27.3 ein $g \in G$ mit $\mathrm{ord}(g) = \exp(G)$, nach Voraussetzung ist $\exp(G) = \mathrm{ord}(g) \implies \mathrm{ord}(g) = \mathrm{ord}(G) \implies \langle g \rangle \subseteq G$ ist Gleichheit, d.h. $\langle g \rangle = G.\ \square$
+

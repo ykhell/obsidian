@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bfae37e405039646",
+        "id": "7afc75c6da7cdff5",
         "type": "tabs",
         "children": [
           {
-            "id": "06462c12bdc6b0d1",
+            "id": "20af05a7e0d1a053",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra 1/§1 Gruppen und Monoide.md",
+                "file": "Analysis/Ungleichungen/Dreiecksungleichung.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebra 1/§1 Gruppen und Monoide.md",
+                "file": "Analysis/Ungleichungen/Dreiecksungleichung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebra 1/§1 Gruppen und Monoide.md",
+                "file": "Analysis/Ungleichungen/Dreiecksungleichung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebra 1/§1 Gruppen und Monoide.md"
+                "file": "Analysis/Ungleichungen/Dreiecksungleichung.md"
               }
             }
           },
@@ -157,8 +157,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06462c12bdc6b0d1",
+  "active": "20af05a7e0d1a053",
   "lastOpenFiles": [
+    "Topologie/§1 Grundlagen der Mengentheoretische Topologie.md",
+    "Topologie/Wegzusammenhängender Raum.md",
+    "Topologie/Zusammenhangskomponent.md",
+    "Topologie/Zusammenhängender Raum.md",
+    "Analysis/Mengen/Offene Menge.md",
+    "Numerik/§1 Computerarithmetik.md",
+    "Einfach zusammenhängendes Gebiet.md",
+    "Algebra/Algebra 1/§1 Gruppen und Monoide.md",
+    "Literatur/Numerik/Skript.pdf",
+    "Literatur/Numerik",
+    "Algebra/Gruppentheorie/Ordnung eines Gruppenelements.md",
+    "Algebra/Ringtheorie/Einheitengruppe.md",
+    "Algebra/Mengenlehre/De-Morgansche Gesetze.md",
+    "Algebra/Mengenlehre/Menge.md",
+    "Algebra/Gruppentheorie/Symmetrische Gruppe.md",
+    "Algebra/Gruppentheorie/Diedergruppe.md",
+    "Untitled.md",
+    "Algebra/Gruppentheorie/Zyklische Gruppe.md",
+    "Algebra/Monoide/Monoidhomomorphismus.md",
+    "Algebra/Gruppentheorie/Gruppenexponent.md",
+    "Algebra/Vorzeichen (Permutation).md",
+    "Algebra/Lineare Algebra/Multilineare Abbildung.md",
+    "Algebra/Lineare Algebra/Tensor.md",
+    "Algebra/Lineare Algebra/Matrizen/Idempotente Matrix.md",
+    "Algebra/Gruppentheorie/Endlich erzeugte abelsche Gruppe.md",
+    "Algebra/Monoide/Monoid.md",
+    "Algebra/Monoide/Untermonoid.md",
+    "Algebra/Gruppentheorie/Ordnung einer Gruppe.md",
+    "Algebra/Monoide",
     "Literatur/Topology/Analysis 3 skript.pdf",
     "Literatur/Topology/Bredon Topology and Geometry.pdf",
     "Literatur/Number Theory/A Classical Introduction to Number Theory.pdf",
@@ -166,35 +195,6 @@
     "Literatur/Number Theory",
     "Literatur/untitled folder",
     "Literatur/Software Engineering/Ludewig, Lichter - Software Engineering.epub",
-    "Literatur/Software Engineering",
-    "Literatur/Informatik/Ludewig, Lichter - Software Engineering.epub",
-    "Literatur/Informatik",
-    "Literatur/Topology/Elements of Algebraic Topology.pdf",
-    "Algebra/Lineare Algebra/Lineare Algebra 2/§19 Moduln über Hauptidealringen.md",
-    "Algebra/Algebra 1/§1 Gruppen und Monoide.md",
-    "Algebra/Repräsentantensystem.md",
-    "Algebra/Gruppentheorie/Satz von Lagrange.md",
-    "Analysis/Metrische Räume/Offener Ball.md",
-    "Algebra/Metrik.md",
-    "Analysis/Metrische Räume/Metrischer Raum.md",
-    "Topologie/n-Sphäre.md",
-    "Topologie/Induzierte Topologie.md",
-    "Topologie/Zusammenhängender Raum.md",
-    "Analysis/Kurven/Wegzusammenhängend.md",
-    "Einfach zusammenhängendes Gebiet.md",
-    "Topologie/Topologie.md",
-    "Analysis/§1 Metrische Räume.md",
-    "Algebra/Lineare Algebra/Lineare Algebra 2/§18 Moduln.md",
-    "Torsionsmodul.md",
-    "Algebra/Lineare Algebra/Lineare Hülle.md",
-    "Algebra/Lineare Algebra/Lineare Algebra 2/§17 Hauptidealringe.md",
-    "Algebra/Lineare Algebra/Lineare Algebra 2/§16 Ringe.md",
-    "Algebra/Gruppentheorie/Zyklischer Gruppe.md",
-    "Algebra/Gruppentheorie/Endlich erzeugte Gruppe.md",
-    "Algebra/Gruppentheorie/Endlich erzeugte abelsche Gruppe.md",
-    "Algebra/Gruppentheorie/Monoid.md",
-    "Algebra/Gruppentheorie/Halbgruppe.md",
-    "Algebra/Gruppentheorie/Untergruppe.md",
     "Screenshot 2023-07-06 at 16.31.26.png",
     "Pasted image 20230201162640.png",
     "Pasted image 20230114184747.png",
